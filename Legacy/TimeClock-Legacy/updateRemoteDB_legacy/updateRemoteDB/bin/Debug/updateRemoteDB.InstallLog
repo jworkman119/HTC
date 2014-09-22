@@ -1,0 +1,110 @@
+﻿Installing assembly 'C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.InstallLog
+   assemblypath = C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe
+Installing service htcStateFair...
+Service htcStateFair has been successfully installed.
+Creating EventLog source htcStateFair in log Application...
+Committing assembly 'C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.InstallLog
+   assemblypath = C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe
+Installing assembly 'C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.InstallLog
+   assemblypath = C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe
+Installing service htcStateFair...
+Service htcStateFair has been successfully installed.
+Creating EventLog source htcStateFair in log Application...
+Committing assembly 'C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.InstallLog
+   assemblypath = C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe
+Installing assembly 'c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.InstallLog
+   assemblypath = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe
+Installing service htcStateFair...
+Service htcStateFair has been successfully installed.
+Creating EventLog source htcStateFair in log Application...
+Committing assembly 'c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.InstallLog
+   assemblypath = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe
+Uninstalling assembly 'c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.InstallLog
+   assemblypath = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe
+Removing EventLog source htcStateFair.
+Service htcStateFair is being removed from the system...
+Service htcStateFair was successfully removed from the system.
+Installing assembly 'c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.InstallLog
+   assemblypath = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe
+Installing service htcStateFair...
+Service htcStateFair has been successfully installed.
+Creating EventLog source htcStateFair in log Application...
+Committing assembly 'c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.InstallLog
+   assemblypath = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe
+Uninstalling assembly 'c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.InstallLog
+   assemblypath = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe
+Removing EventLog source htcStateFair.
+Service htcStateFair is being removed from the system...
+Service htcStateFair was successfully removed from the system.
+Installing assembly 'c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.InstallLog
+   assemblypath = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe
+Installing service htcStateFair...
+Service htcStateFair has been successfully installed.
+Creating EventLog source htcStateFair in log Application...
+Committing assembly 'c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.InstallLog
+   assemblypath = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe
+Uninstalling assembly 'c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.InstallLog
+   assemblypath = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe
+Removing EventLog source htcStateFair.
+Service htcStateFair is being removed from the system...
+Service htcStateFair was successfully removed from the system.
+Installing assembly 'c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.InstallLog
+   assemblypath = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe
+Installing service htcStateFair...
+Service htcStateFair has been successfully installed.
+Creating EventLog source htcStateFair in log Application...
+Committing assembly 'c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.InstallLog
+   assemblypath = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe
+Uninstalling assembly 'c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.InstallLog
+   assemblypath = c:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe
+Removing EventLog source htcStateFair.
+Service htcStateFair is being removed from the system...
+Service htcStateFair was successfully removed from the system.

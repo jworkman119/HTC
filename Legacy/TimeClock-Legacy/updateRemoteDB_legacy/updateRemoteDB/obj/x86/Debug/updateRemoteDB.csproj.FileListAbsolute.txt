@@ -1,0 +1,5 @@
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.pdb
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\obj\x86\Debug\updateRemoteDB.exe
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\obj\x86\Debug\updateRemoteDB.pdb

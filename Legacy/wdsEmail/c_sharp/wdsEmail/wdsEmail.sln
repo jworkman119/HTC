@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wdsEmail", "wdsEmail\wdsEmail.csproj", "{BDCD00D4-BE0C-4657-906E-2762E6176CE3}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "htcWDS_Email", "htcWDS_Email\htcWDS_Email.vdproj", "{DC01331E-2A81-476A-8612-3CD093DD6197}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDCD00D4-BE0C-4657-906E-2762E6176CE3}.Debug|x86.ActiveCfg = Debug|x86
+		{BDCD00D4-BE0C-4657-906E-2762E6176CE3}.Debug|x86.Build.0 = Debug|x86
+		{BDCD00D4-BE0C-4657-906E-2762E6176CE3}.Release|x86.ActiveCfg = Release|x86
+		{BDCD00D4-BE0C-4657-906E-2762E6176CE3}.Release|x86.Build.0 = Release|x86
+		{DC01331E-2A81-476A-8612-3CD093DD6197}.Debug|x86.ActiveCfg = Debug
+		{DC01331E-2A81-476A-8612-3CD093DD6197}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

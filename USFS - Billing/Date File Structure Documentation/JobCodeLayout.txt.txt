@@ -1,0 +1,13 @@
+Subject: Job Code (Management Code) Layout for UNAW
+By: Brian Ware
+Date: 05/28/2010
+
+Field   Length   Desc
+AddDel	a1	Add,Delete,T(Total) 'A'=Add, 'D'=Delete, 'T'=Total
+Region	A2	Region (2 Digits)
+Unit	A2	Unit
+JobCode	A6	JobCode(AlphaNumeric - always 6 chars)
+
+Last Record is a 'T' record that gives the count(6 digits) EG 'T000005'  
+
+These Job codes should be used in the Uniform Vendor application in Unit Purchases to verify validity.

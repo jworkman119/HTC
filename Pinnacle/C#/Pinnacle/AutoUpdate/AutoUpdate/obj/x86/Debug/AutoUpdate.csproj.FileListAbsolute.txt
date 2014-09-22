@@ -1,0 +1,8 @@
+C:\Users\jeremyp.HTC\Documents\Development\Pinnacle\C#\Pinnacle\AutoUpdate\AutoUpdate\bin\Debug\AutoUpdate.exe
+C:\Users\jeremyp.HTC\Documents\Development\Pinnacle\C#\Pinnacle\AutoUpdate\AutoUpdate\bin\Debug\AutoUpdate.pdb
+C:\Users\jeremyp.HTC\Documents\Development\Pinnacle\C#\Pinnacle\AutoUpdate\AutoUpdate\obj\x86\Debug\Interop.WindowsInstaller.dll
+C:\Users\jeremyp.HTC\Documents\Development\Pinnacle\C#\Pinnacle\AutoUpdate\AutoUpdate\obj\x86\Debug\AutoUpdate.csproj.ResolveComReference.cache
+C:\Users\jeremyp.HTC\Documents\Development\Pinnacle\C#\Pinnacle\AutoUpdate\AutoUpdate\obj\x86\Debug\AutoUpdate.staticValues.resources
+C:\Users\jeremyp.HTC\Documents\Development\Pinnacle\C#\Pinnacle\AutoUpdate\AutoUpdate\obj\x86\Debug\AutoUpdate.exe
+C:\Users\jeremyp.HTC\Documents\Development\Pinnacle\C#\Pinnacle\AutoUpdate\AutoUpdate\obj\x86\Debug\AutoUpdate.pdb
+C:\Users\jeremyp.HTC\Documents\Development\Pinnacle\C#\Pinnacle\AutoUpdate\AutoUpdate\obj\x86\Debug\AutoUpdate.csproj.GenerateResource.Cache

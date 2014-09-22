@@ -1,0 +1,57 @@
+Current Formulas:
+
+Standard Units	UPD * WDPM
+Productivity	Units/Standard Units
+BHPD			Rick's Formula
+UPD				BHPD * 4
+AVG-UPD			Units/WDPM
+WDPM			Total Hours/7.5	- Doctors
+				Reported to me in Days in report from payroll - Staff
+NSC-Rate		Cancellations/Scheduled Visits
+
+1. BHPD - I would like to have that formula.
+		  b. Here is the current Breakdown of BHPD per employee:
+			
+			Provider			BHPD
+			Bushan, Bharat		6.50
+			Butler, Thomas		5.09
+			Fehlner, Kenton		5.20
+			Gee, Stephanie		4.92
+			Herbst, Kathy		2.70
+			Hudyncia, Stephen	4.55
+			Johnson, Nancy		5.34
+			Karwacki, Ellen		2.60
+			Lapolla, Cynthia	5.08
+			Melnick, Benedetta	5.20
+			Misiaszek, Walter	5.20
+			Omidian, Bahram		5.20
+			Patil, Vidaya		4.55
+			Petty, Angela		5.09
+			Phillips, Nancy		5.20
+			Powell, Linnea		5.20
+			Romano, Elaine		3.08
+			Veilleux, Brenda	4.99
+			Veiz, Suvada		5.09
+			Voorhees, Francis	5.09
+			Zelows, Linda		4.92
+			
+		It doesn't seem fair to grade people's productivity against one another, when you have different scales for each employee.
+		
+		I think it would be more fitting to have a 2 static numbers, 1 for staff and 1 for physicians.
+
+2. WDPM - I don't think it's giving an accurate portryal of WDPM, given the current formula. I think the WDPM for physicians
+	, should be:
+			Total Hours/BHPD - it doesn't make sense to calculate, a workday = 7.5 hours, when we conclude, that a full day for a 
+			physician is 5.2 (hours according to BHPD).
+
+3. Following up to Rick's email/spreadsheet saying my numbers were off. If you look at the excel spreadsheet, Troubleshoot - Reports_02102011.xslx.
+	I have  highlighted two specific trends:
+		1. Red - fields in Rick's numbers that I don't report on.
+		2. Blue - Cancellations.
+		
+	If you subtract cancellations from my overall numbers and the fields that I don't report on, we have the same numbers.
+	If he wants to include more fields in the report then I have to be notified.
+	
+* I will prepare a report with revisions stated in #1 & #2 for Jan. 2011. We can do a comparision with "Month Productivity Survey Jan 2011".
+Would be a good base for troubleshooting these issues.
+			

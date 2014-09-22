@@ -1,0 +1,72 @@
+Sub ScheduleTest()
+    Dim strCSV As String
+    Dim strDate As String
+    Dim blExists As Boolean
+    Dim intSheets As Integer
+    Dim J As Integer
+    Dim strFile As String
+    
+    Application.DisplayAlerts = False
+    
+    intSheets = ActiveWorkbook.Sheets.Count
+    
+    For J = 1 To intSheets
+        strFile = GetFileName(J)
+        If strFile <> "" Then
+            strCSV = "\\iomega-nas\Public1\IT Department\Jeremy\StateFair\2011\" + strFile
+            Call CreateCSV(strCSV, J)
+        End If
+        
+    Next J
+
+    ActiveWorkbook.Close
+End Sub
+Function CreateCSV(strPath As String, J As Integer)
+    Dim fs As New FileSystemObject
+    Dim objFile As File
+        
+    
+    blExists = FileFolderExists(strPath)
+    If blExists = True Then
+        fs.DeleteFile (strPath)
+    End If
+    
+    ActiveWorkbook.SaveAs Filename:=strPath, FileFormat:=xlCSV, CreateBackup:=False
+
+    
+End Function
+
+
+Function FileFolderExists(strFullPath As String) As Boolean
+
+
+    On Error GoTo EarlyExit
+    If Not Dir(strFullPath, vbDirectory) = vbNullString Then FileFolderExists = True
+    
+EarlyExit:
+    On Error GoTo 0
+
+End Function
+
+Function GetFileName(J As Integer) As String
+    Dim xlSheet As Worksheet
+    Dim strDate As String
+    Dim strSheet As String
+    Dim strActive As String
+    
+    ActiveWorkbook.Sheets(J).Select
+    Set xlSheet = ActiveWorkbook.Sheets(J)
+    strDate = Replace(CStr(Date), "/", "")
+    
+    
+    strActive = xlSheet.Name
+    If InStr(strActive, "Morning") > 0 Then
+        strSheet = strDate & "Morning.csv"
+    ElseIf InStr(strActive, "Evening") Then
+        strSheet = strDate & "Evening.csv"
+    ElseIf InStr(strActive, "Overnight") Then
+        strSheet = strDate & "Overnight.csv"
+    End If
+    
+    GetFileName = strSheet
+End Function

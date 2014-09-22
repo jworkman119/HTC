@@ -1,0 +1,16 @@
+GRANT EXECUTE ON spAddPerson TO TimeClock
+GRANT EXECUTE ON spAddSchedule TO TimeClock 
+GRANT EXECUTE ON spAddShift TO TimeClock 
+GRANT EXECUTE ON spAddTime TO TimeClock 
+GRANT EXECUTE ON spFillcmbSupervisor TO TimeClock 
+GRANT EXECUTE ON spGetSupervisors to TimeClock
+GRANT EXECUTE ON spRemoveSupervisor TO TimeClock 
+GRANT EXECUTE ON spReturnSchedule TO TimeClock 
+GRANT EXECUTE ON spReturnTimesWorked TO TimeClock 
+GRANT EXECUTE ON spReturnUserTime TO TimeClock 
+GRANT EXECUTE ON spRpt_Schedule TO TimeClock 
+GRANT EXECUTE ON spRptNoSwipeOut TO TimeClock 
+GRANT EXECUTE ON spRptTimeCard TO TimeClock 
+GRANT EXECUTE ON spUpdateRole TO TimeClock 
+GRANT EXECUTE ON spUpdateSupervisor TO TimeClock 
+GRANT EXECUTE ON spUpdateTime TO TimeClock 

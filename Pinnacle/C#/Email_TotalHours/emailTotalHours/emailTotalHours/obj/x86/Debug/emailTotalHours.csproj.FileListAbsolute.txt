@@ -1,0 +1,9 @@
+C:\Users\jeremyp.HTC\Documents\Development\Pinnacle\C#\Email_TotalHours\emailTotalHours\emailTotalHours\obj\x86\Debug\emailTotalHours.staticVariables.resources
+C:\Users\jeremyp.HTC\Documents\Development\Pinnacle\C#\Email_TotalHours\emailTotalHours\emailTotalHours\bin\Debug\emailTotalHours.exe
+C:\Users\jeremyp.HTC\Documents\Development\Pinnacle\C#\Email_TotalHours\emailTotalHours\emailTotalHours\bin\Debug\emailTotalHours.pdb
+C:\Users\jeremyp.HTC\Documents\Development\Pinnacle\C#\Email_TotalHours\emailTotalHours\emailTotalHours\bin\Debug\System.Data.SQLite.dll
+C:\Users\jeremyp.HTC\Documents\Development\Pinnacle\C#\Email_TotalHours\emailTotalHours\emailTotalHours\bin\Debug\System.Data.SQLite.pdb
+C:\Users\jeremyp.HTC\Documents\Development\Pinnacle\C#\Email_TotalHours\emailTotalHours\emailTotalHours\obj\x86\Debug\emailTotalHours.exe
+C:\Users\jeremyp.HTC\Documents\Development\Pinnacle\C#\Email_TotalHours\emailTotalHours\emailTotalHours\obj\x86\Debug\emailTotalHours.pdb
+C:\Users\jeremyp.HTC\Documents\Development\Pinnacle\C#\Email_TotalHours\emailTotalHours\emailTotalHours\obj\x86\Debug\emailTotalHours.csprojResolveAssemblyReference.cache
+C:\Users\jeremyp.HTC\Documents\Development\Pinnacle\C#\Email_TotalHours\emailTotalHours\emailTotalHours\obj\x86\Debug\emailTotalHours.csproj.GenerateResource.Cache

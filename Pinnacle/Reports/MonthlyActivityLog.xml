@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MonthlyActivityLog>
+  <Header>
+    <Month>September</Month>
+    <Year>2012</Year>
+  </Header>
+  <Body>
+    <Consumer>
+      <Name>Alex Grandmaboy</Name>
+      <SSN>123-12-1234</SSN>
+    </Consumer>
+    <Reviews>
+      <Review>
+        <Staff>Jeremy Patterson</Staff>
+        <Date>09/10/2012</Date>
+        <Employer>Brainasium</Employer>
+        <MeetingType>Face to Face</MeetingType>
+        <Note>Alex is very upset JP has stolen the code for the game "Demonic" that Alex had written.</Note>
+        <Barriers>JP</Barriers>
+      </Review>
+      <Review>
+        <Staff>Jeremy Patterson</Staff>
+        <Date>09/10/2012</Date>
+        <Employer>Brainasium</Employer>
+        <MeetingType>Phone</MeetingType>
+        <Note>Alex's grandmother was able to successfully defeat JP in a video game duel of Demonic. Her prowess solidified Alex's claim to "Demonic" and established him as a video game programmer.</Note>
+        <Barriers>JP</Barriers>
+      </Review>
+    </Reviews>
+    <Barriers>
+      <Barrier>
+        <Item>JP has stolen Alex's code for Demonic and passed it off as his own</Item>
+      </Barrier>
+      <Barrier>
+        <Item>Alex is not taken seriously at worker because of his slacker work ethic and use of marijuana.</Item>
+      </Barrier>
+    </Barriers>
+  </Body>
+  <Footer>
+    <Date>9/14/2012</Date>
+  </Footer>
+</MonthlyActivityLog>

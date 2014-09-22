@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  DatabaseSpy Project File  -->
+<Project Version="2" Expanded="Yes" Type="Root" Title="Medical">
+	<Folder FolderName="Data Sources" Expanded="Yes" Type="DataSourceFolder">
+		<datasource database_kind="MS Access" import_kind="ADO" version="04.00.0000" name="2010 MHC Statistics" Type="DataSourceItem">
+			<properties>
+				<property name="Database Kind" value="MS Access"/>
+				<property name="Import Kind" value="ADO"/>
+				<property name="Root Object" value="2010 MHC Statistics"/>
+				<property name="Data Source" value="2010 MHC Statistics.mdb"/>
+				<property name="Provider" value="Microsoft.Jet.OLEDB.4.0"/>
+				<property name="User ID"/>
+				<property name="Password"/>
+				<property name="Persist Security Info"/>
+				<property name="Jet OLEDB:System Database"/>
+				<property name="Jet OLEDB:Sandbox Mode"/>
+				<property name="Jet OLEDB:Exclusive Async Delay"/>
+				<property name="Jet OLEDB:Flush Transaction Timeout"/>
+				<property name="Jet OLEDB:Implicit Commit Sync"/>
+				<property name="Jet OLEDB:Lock Delay"/>
+				<property name="Jet OLEDB:Lock Retry"/>
+				<property name="Jet OLEDB:Max Buffer Size"/>
+				<property name="Jet OLEDB:Max Locks Per File"/>
+				<property name="Jet OLEDB:Page Locks to Table Lock"/>
+				<property name="Jet OLEDB:Page Timeout"/>
+				<property name="Jet OLEDB:Recycle Long-Valued Pages"/>
+				<property name="Jet OLEDB:Shared Async Delay"/>
+				<property name="Jet OLEDB:User Commit Sync"/>
+				<property name="Jet OLEDB:Compact Without Replica Repair"/>
+				<property name="Jet OLEDB:Create System Database"/>
+				<property name="Jet OLEDB:Database Locking Mode"/>
+				<property name="Jet OLEDB:Database Password"/>
+				<property name="Jet OLEDB:New Database Password"/>
+				<property name="Jet OLEDB:Registry Path"/>
+			</properties>
+			<LocalViewStorage/>
+			<LocalRelationsStorage/>
+		</datasource>
+		<datasource database_kind="MS SQL Server" import_kind="ADO" version="08.00.2039" name="htcMedical" active="Yes" Type="DataSourceItem">
+			<properties>
+				<property name="Database Kind" value="MS SQL Server"/>
+				<property name="Import Kind" value="ADO"/>
+				<property name="Root Object" value="htcMedical"/>
+				<property name="Data Source" value="SQLSERVER01"/>
+				<property name="Provider" value="SQLOLEDB.1"/>
+				<property name="User ID"/>
+				<property name="Password"/>
+				<property name="Persist Security Info"/>
+				<property name="Auto Translate"/>
+				<property name="Connect Timeout"/>
+				<property name="Current Language"/>
+				<property name="Extended Properties"/>
+				<property name="General Timeout"/>
+				<property name="Initial Catalog" value="htcMedical"/>
+				<property name="Initial File Name"/>
+				<property name="Integrated Security" value="SSPI"/>
+				<property name="Locale Identifier"/>
+				<property name="Network Address"/>
+				<property name="Network Library"/>
+				<property name="Packet Size"/>
+				<property name="Replication server name"/>
+				<property name="Tag with column collation"/>
+				<property name="Use Encryption for Data"/>
+				<property name="User Procedure for Prepare"/>
+				<property name="Workstation ID"/>
+			</properties>
+			<LocalViewStorage/>
+			<LocalRelationsStorage/>
+		</datasource>
+	</Folder>
+	<Folder FolderName="SQL" Expanded="Yes" Type="SQLRootFolder" database_kind="Unknown" datasource="Offline" description="Store and organize SQL files for this project." blockingstrategy="semi">
+		<Folder FolderName="Views" Type="SQLFolder" database_kind="Unknown" datasource="Offline" description="Store and organize SQL files for this project." blockingstrategy="semi">
+			<File Type="SQLFile" FilePath="vwQry2009ProviderGrandTotals.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="2010 MHC Statistics" rootobject="2010 MHC Statistics" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="vw2009PettyGrandTotals.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="2010 MHC Statistics" rootobject="2010 MHC Statistics" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="vw2009PettyTotals.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="2010 MHC Statistics" rootobject="2010 MHC Statistics" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="vw2010FebGT.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="2010 MHC Statistics" rootobject="2010 MHC Statistics" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="vwPatientMonthlyNSCqty.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="2010 MHC Statistics" rootobject="2010 MHC Statistics" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="vwRome2009.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="2010 MHC Statistics" rootobject="2010 MHC Statistics" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="vwGrandSimpleView.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="2010 MHC Statistics" rootobject="2010 MHC Statistics" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="vwGrandSimpleView_MHC.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="2010 MHC Statistics" rootobject="2010 MHC Statistics" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="vwGrandTotals.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="2010 MHC Statistics" rootobject="2010 MHC Statistics" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="vwGrandTotalsByProviderTypesql.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="2010 MHC Statistics" rootobject="2010 MHC Statistics" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="vwMonthlyData.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="2010 MHC Statistics" rootobject="2010 MHC Statistics" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="vwMonthlyGrandTotals_AllData.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="2010 MHC Statistics" rootobject="2010 MHC Statistics" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="vwMonthlyTotals.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="2010 MHC Statistics" rootobject="2010 MHC Statistics" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="vwMonthlyView.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="2010 MHC Statistics" rootobject="2010 MHC Statistics" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="spMonthlyData_Patients.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="2010 MHC Statistics" rootobject="2010 MHC Statistics" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		</Folder>
+		<Folder FolderName="Data_Dumps" Expanded="Yes" Type="SQLFolder" database_kind="Unknown" datasource="Offline" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="htcMedical\bcpOutPut_BadNames.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="C:\Documents and Settings\jeremyp\My Documents\Development\SQL\Query_Table-MetaData.sql" datasource_override="Yes" root_override="Yes" database_kind="Unknown" datasource="Offline" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<Folder FolderName="LoadData_CreateDB" Type="SQLFolder" database_kind="Unknown" datasource="Offline" description="Store and organize SQL files for this project." blockingstrategy="semi">
+			<File Type="SQLFile" FilePath="C:\Documents and Settings\jeremyp\My Documents\Development\SQL\data_2_Facilities.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="C:\Documents and Settings\jeremyp\My Documents\Development\SQL\data_2_Insurance.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="C:\Documents and Settings\jeremyp\My Documents\Development\SQL\data_2_provider.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="htcMedical\DataDumps\data_2_ProviderType.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="htcMedical\DataDumps\data_2_AllTables.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="htcMedical\DataDumps\data_2_Service.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="htcMedical\DataDumps\data_2_Visit.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="htcMedical\TotalHours_byProvider.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="htcMedical\Reports\MonthlyProductivitySummary.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="htcMedical\Updates\Update_WDPM.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="htcMedical\Reports\MonthlyProductivitySummary_qtr.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="htcMedical\Reports\MonthlyProductivitySummary_YTD.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="htcMedical\Updates\manualUpdate_WDPM2.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		</Folder>
+		<Folder FolderName="UpdateDB" Type="SQLFolder" database_kind="Unknown" datasource="Offline" description="Store and organize SQL files for this project." blockingstrategy="semi">
+			<File Type="SQLFile" FilePath="htcMedical\DataDumps\update_2_Patient.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="htcMedical\DataDumps\update_2_Address.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="htcMedical\DataDumps\data_4_NewMonth.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="htcMedical\DataDumps\data_2_DefTables.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		</Folder>
+		<File Type="SQLFile" FilePath="htcMedical\UploadData_2_tblDataDump.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<Folder FolderName="Create_DB" Type="SQLFolder" database_kind="Unknown" datasource="Offline" description="Store and organize SQL files for this project." blockingstrategy="semi">
+			<File Type="SQLFile" FilePath="htcMedical_CreateDB.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+			<File Type="SQLFile" FilePath="htcMedical\htcMedical_DropTables.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		</Folder>
+		<File Type="SQLFile" FilePath="htcMedical\spCrosstab.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="htcMedical\Reports\IndividualVisitsByType.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="C:\Documents and Settings\jeremyp\My Documents\Development\SQL\Max_SelfJoin.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="htcMedical\spCases_Provider_YTD.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="htcMedical\Reports\IndividualVisitsByType_YTD.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spFillNewMonth.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="ErrorChecking\Error-Checking.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="htcMedical\Updates\Update_WDPM.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="htcMedical\Updates\Update_WDPM-actual update.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="C:\Users\jeremyp\Documents\Development\Reports\Data\ReneBetti\ProviderHours_Year.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="htcMedical\Troubleshoot_Numbers.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="htcMedical\Troubleshoot_Numbers2.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+	</Folder>
+	<Folder FolderName="Design" Expanded="Yes" Type="DesignRootFolder" database_kind="Unknown" datasource="Offline" description="Store and organize Design files for this project.">
+		<File Type="DesignFile" FilePath="OriginalLayout.qdes" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="2010 MHC Statistics" rootobject="2010 MHC Statistics" description="Store and organize Design files for this project."/>
+		<File Type="DesignFile" FilePath="htcMedical\htcMedical.qdes" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="htcMedical" rootobject="htcMedical" schema="dbo" description="Store and organize Design files for this project."/>
+	</Folder>
+	<Folder FolderName="Data Diff" Type="DataDiffRootFolder"/>
+	<Folder FolderName="Schema Diff" Type="SchemaDiffRootFolder"/>
+	<Folder FolderName="Favorites" Expanded="Yes" Type="FavoriteFolder">
+		<Favorite>
+			<ObjectPath>
+				<PathElement Name="htcMedical" Kind="DataSource"/>
+				<PathElement Name="htcMedical" Kind="Database"/>
+				<PathElement Name="dbo" Kind="Schema"/>
+				<PathElement Name="Facility" Kind="Table"/>
+			</ObjectPath>
+		</Favorite>
+	</Folder>
+</Project>

@@ -1,0 +1,2445 @@
+﻿"DeployProject"
+{
+"VSVersion" = "3:800"
+"ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
+"IsWebType" = "8:FALSE"
+"ProjectName" = "8:HiTechnic_Setup"
+"LanguageId" = "3:1033"
+"CodePage" = "3:1252"
+"UILanguageId" = "3:1033"
+"SccProjectName" = "8:"
+"SccLocalPath" = "8:"
+"SccAuxPath" = "8:"
+"SccProvider" = "8:"
+    "Hierarchy"
+    {
+        "Entry"
+        {
+        "MsmKey" = "8:_017115E7D6FB455FBA98548511E641B1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0483E4C0AF6C40CB809B4932B0581702"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_07F5F972E34C47BAABF590CFAEE1D0C0"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0B0666394AC84670B7BFE5F11AB3F2E7"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0B2AEA4B7C1C49998B359857B79580E2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0C0DF58F82384CB7B9A4607A869F3B78"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0C6D8C92F388457586B7F14F97863A71"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0EB516B6B5834A84B17477DCAA3C4CDE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0FA91E3A6B2340C994CD6BCC7C0C8F4E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_114ABA461E7F4269973599BE81FB2950"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_13A01B6CEB4B119C12F553546A77DC96"
+        "OwnerKey" = "8:_1B836C4E436741A7BBA5976DAA05C9CC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_14F5995C0EB94C998C89D951635CBFED"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_18901B8EDE17492E8CDD12B971B0FEB7"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_195EC0B63131475296ADE106B453055D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1B836C4E436741A7BBA5976DAA05C9CC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1BFD33DBC87E476BB37998E14C8FFD11"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1C2190DC7F2540618E9677FE80192C42"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1E8771A1318147DD8E44B58B64A8250B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1EA4E614E22040118F147A918BBA45EA"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_2C6B5EDB6B864D07B4BE571418EDB7EE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_368015D6184B43BDAA0249FB5216BBD7"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3AD4B492E15A4EAC9864D60C65F4AFE8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3B3D6527123A418C883095353CE643B9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_418C736863C44B848B660BBF6B55A42B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4701639CF272430CBA6840D465F2DDD3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_47355D1CEB9F416FB9E2B5CFB14F063B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_486D8843698C4C4389883E7ADC2BFABC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_48B507C9B5FC480899F89B5DFF2E55C6"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4CDFC47653064AF4B7834B8D710F3799"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_50C3D6B0B34542BA8F2B8E919D720131"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5A8AEF620F5B4B6CB2F347E701FF8213"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_61C921276E1449E1A87B015E5A26B586"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_718F99420D954003B8E805988A3467A8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_77688986A7AB45E583840B656A16CEF9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_77D1DB34E6C144D4B963706930A06980"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7E4BDDFAC14E447ABEF7F12EE853706E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_81E674B590104EAFA66500E088736340"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_894134FA672D4A839DFBA89C2764206C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9A8C71CFB18B4576826242DA81A44B0A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9AD1E0DA64C80C3E909D24A567467FD3"
+        "OwnerKey" = "8:_1B836C4E436741A7BBA5976DAA05C9CC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9FB635C32C2A47A688ED0E95A728785D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A5289E9BA7584AB6B3E4455CC962BA62"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A93C82AA0D1F4108842EDAC1740DEEB6"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_ABDDDEB079554FB28FF834C5BB954D2A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_ABDEB82A2C0B469BAFE4D7DBD5B0EBCE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B13ECB7D334943A884242D4329AA2FAD"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B9CC5BF5E5BE4EFD80AF3E66ADC31CFC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BDE098F699AF4CE6AD9400E1988678F9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BE7B578192624969962A370BBB6D54FD"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BF1F7E172984460F99FA6B57F2A3A346"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C72F5541BB6C48919B206AA64A93E452"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CA69366C247E44B0A411BB1A2177829B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CEF35CE46C9848E5B3A84524EF76217C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CF577F96988547259D1AF4E07A712F0D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D30E522EA7D743EF857B987F753493B1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D7315E72AAD34B28A5328E0C6B4B41F4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D89B64CC6F294D9397EFAD03B73852A3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_DC7A17FA8E3349B4B25C81D07308151D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_DC7A78991878453EA477E0341D7ED608"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EDCF298C6F354C078522F3694D7D6D0D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F0E4C7E504894128BEA1084F9CAA2963"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F7F5CFAA768740F1BF69A586A895E46F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FC838BE7E6554030991E0D2CF8E7B471"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_1B836C4E436741A7BBA5976DAA05C9CC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_9AD1E0DA64C80C3E909D24A567467FD3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_13A01B6CEB4B119C12F553546A77DC96"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+    }
+    "Configurations"
+    {
+        "Debug"
+        {
+        "DisplayName" = "8:Debug"
+        "IsDebugOnly" = "11:TRUE"
+        "IsReleaseOnly" = "11:FALSE"
+        "OutputFilename" = "8:Debug\\HiTechnic_Setup.msi"
+        "PackageFilesAs" = "3:2"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "Compression" = "3:2"
+        "SignOutput" = "11:FALSE"
+        "CertificateFile" = "8:"
+        "PrivateKeyFile" = "8:"
+        "TimeStampServer" = "8:"
+        "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Visual.C++.10.0.x86"
+                    {
+                    "Name" = "8:Visual C++ 2010 Runtime Libraries (x86)"
+                    "ProductCode" = "8:Microsoft.Visual.C++.10.0.x86"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
+        }
+        "Release"
+        {
+        "DisplayName" = "8:Release"
+        "IsDebugOnly" = "11:FALSE"
+        "IsReleaseOnly" = "11:TRUE"
+        "OutputFilename" = "8:Release\\HiTechnic_Setup.msi"
+        "PackageFilesAs" = "3:2"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "Compression" = "3:2"
+        "SignOutput" = "11:FALSE"
+        "CertificateFile" = "8:"
+        "PrivateKeyFile" = "8:"
+        "TimeStampServer" = "8:"
+        "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
+        }
+    }
+    "Deployable"
+    {
+        "CustomAction"
+        {
+        }
+        "DefaultFeature"
+        {
+        "Name" = "8:DefaultFeature"
+        "Title" = "8:"
+        "Description" = "8:"
+        }
+        "ExternalPersistence"
+        {
+            "LaunchCondition"
+            {
+                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_EC1CA733DEAD41599E2E1FF9BAF50829"
+                {
+                "Name" = "8:.NET Framework"
+                "Message" = "8:[VSDNETMSG]"
+                "FrameworkVersion" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                "AllowLaterVersions" = "11:FALSE"
+                "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=131000"
+                }
+            }
+        }
+        "File"
+        {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_017115E7D6FB455FBA98548511E641B1"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\build\\fop.jar"
+            "TargetName" = "8:fop.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_680F5C43E6234A9EA690AE9038F1C2FD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0483E4C0AF6C40CB809B4932B0581702"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\barcode4j-fop-ext.jar"
+            "TargetName" = "8:barcode4j-fop-ext.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_07F5F972E34C47BAABF590CFAEE1D0C0"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\avalon-framework-4.2.0.jar"
+            "TargetName" = "8:avalon-framework-4.2.0.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0B0666394AC84670B7BFE5F11AB3F2E7"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\status.xml"
+            "TargetName" = "8:status.xml"
+            "Tag" = "8:"
+            "Folder" = "8:_BD8C6766DB6C46499E68B008C7510661"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0B2AEA4B7C1C49998B359857B79580E2"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xml-apis-ext.LICENSE.sac.html"
+            "TargetName" = "8:xml-apis-ext.LICENSE.sac.html"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0C0DF58F82384CB7B9A4607A869F3B78"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\avalon-framework.NOTICE.TXT"
+            "TargetName" = "8:avalon-framework.NOTICE.TXT"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0C6D8C92F388457586B7F14F97863A71"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\commons-io.LICENSE.txt"
+            "TargetName" = "8:commons-io.LICENSE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0EB516B6B5834A84B17477DCAA3C4CDE"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xml-apis-ext-1.3.04.jar"
+            "TargetName" = "8:xml-apis-ext-1.3.04.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0FA91E3A6B2340C994CD6BCC7C0C8F4E"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xalan.NOTICE.txt"
+            "TargetName" = "8:xalan.NOTICE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_114ABA461E7F4269973599BE81FB2950"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xml-apis-ext.README.dom.txt"
+            "TargetName" = "8:xml-apis-ext.README.dom.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_13A01B6CEB4B119C12F553546A77DC96"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:ADODB, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+                "ScatterAssemblies"
+                {
+                    "_13A01B6CEB4B119C12F553546A77DC96"
+                    {
+                    "Name" = "8:adodb.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:adodb.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_7BDDF6EC53FD40CEB257EBD7844B2B28"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_14F5995C0EB94C998C89D951635CBFED"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\PackingList.xsl"
+            "TargetName" = "8:PackingList.xsl"
+            "Tag" = "8:"
+            "Folder" = "8:_47A54160706C47058B05315C26D0BE7A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_18901B8EDE17492E8CDD12B971B0FEB7"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xerces.LICENSE.txt"
+            "TargetName" = "8:xerces.LICENSE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_195EC0B63131475296ADE106B453055D"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xalan-2.7.0.jar"
+            "TargetName" = "8:xalan-2.7.0.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1BFD33DBC87E476BB37998E14C8FFD11"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\commons-cli-1.0.jar"
+            "TargetName" = "8:commons-cli-1.0.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1C2190DC7F2540618E9677FE80192C42"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xml-apis.LICENSE.DOM-software.html"
+            "TargetName" = "8:xml-apis.LICENSE.DOM-software.html"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1E8771A1318147DD8E44B58B64A8250B"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\serializer.NOTICE.txt"
+            "TargetName" = "8:serializer.NOTICE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1EA4E614E22040118F147A918BBA45EA"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\fop.bat"
+            "TargetName" = "8:fop.bat"
+            "Tag" = "8:"
+            "Folder" = "8:_BD8C6766DB6C46499E68B008C7510661"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2C6B5EDB6B864D07B4BE571418EDB7EE"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xalan.BCEL.LICENSE.txt"
+            "TargetName" = "8:xalan.BCEL.LICENSE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_368015D6184B43BDAA0249FB5216BBD7"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\commons-logging-1.0.4.jar"
+            "TargetName" = "8:commons-logging-1.0.4.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3AD4B492E15A4EAC9864D60C65F4AFE8"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\README.txt"
+            "TargetName" = "8:README.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3B3D6527123A418C883095353CE643B9"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\KEYS"
+            "TargetName" = "8:KEYS"
+            "Tag" = "8:"
+            "Folder" = "8:_BD8C6766DB6C46499E68B008C7510661"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_418C736863C44B848B660BBF6B55A42B"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\conf\\fop.xconf"
+            "TargetName" = "8:fop.xconf"
+            "Tag" = "8:"
+            "Folder" = "8:_267865D824D1499DADC51AB15CDE6408"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4701639CF272430CBA6840D465F2DDD3"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xml-apis-ext.NOTICE.txt"
+            "TargetName" = "8:xml-apis-ext.NOTICE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_47355D1CEB9F416FB9E2B5CFB14F063B"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xmlgraphics-commons-1.4.jar"
+            "TargetName" = "8:xmlgraphics-commons-1.4.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_486D8843698C4C4389883E7ADC2BFABC"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xercesImpl.NOTICE.txt"
+            "TargetName" = "8:xercesImpl.NOTICE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_48B507C9B5FC480899F89B5DFF2E55C6"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\hitechnic_logo.jpg"
+            "TargetName" = "8:hitechnic_logo.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_47A54160706C47058B05315C26D0BE7A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4CDFC47653064AF4B7834B8D710F3799"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\barcode4j-fop-ext-complete.jar"
+            "TargetName" = "8:barcode4j-fop-ext-complete.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_50C3D6B0B34542BA8F2B8E919D720131"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\PackingListShipped.xsl"
+            "TargetName" = "8:PackingListShipped.xsl"
+            "Tag" = "8:"
+            "Folder" = "8:_47A54160706C47058B05315C26D0BE7A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5A8AEF620F5B4B6CB2F347E701FF8213"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xml-apis-ext.LICENSE.txt"
+            "TargetName" = "8:xml-apis-ext.LICENSE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_61C921276E1449E1A87B015E5A26B586"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\serializer-2.7.0.jar"
+            "TargetName" = "8:serializer-2.7.0.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_718F99420D954003B8E805988A3467A8"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xml-apis.LICENSE.txt"
+            "TargetName" = "8:xml-apis.LICENSE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_77688986A7AB45E583840B656A16CEF9"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\fop.cmd"
+            "TargetName" = "8:fop.cmd"
+            "Tag" = "8:"
+            "Folder" = "8:_BD8C6766DB6C46499E68B008C7510661"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_77D1DB34E6C144D4B963706930A06980"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\fop.js"
+            "TargetName" = "8:fop.js"
+            "Tag" = "8:"
+            "Folder" = "8:_BD8C6766DB6C46499E68B008C7510661"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7E4BDDFAC14E447ABEF7F12EE853706E"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xml-apis.NOTICE.txt"
+            "TargetName" = "8:xml-apis.NOTICE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_81E674B590104EAFA66500E088736340"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\batik.LICENSE.txt"
+            "TargetName" = "8:batik.LICENSE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_894134FA672D4A839DFBA89C2764206C"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\LICENSE"
+            "TargetName" = "8:LICENSE"
+            "Tag" = "8:"
+            "Folder" = "8:_BD8C6766DB6C46499E68B008C7510661"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9A8C71CFB18B4576826242DA81A44B0A"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\README"
+            "TargetName" = "8:README"
+            "Tag" = "8:"
+            "Folder" = "8:_BD8C6766DB6C46499E68B008C7510661"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9AD1E0DA64C80C3E909D24A567467FD3"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Data.SQLite, Version=1.0.77.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86"
+                "ScatterAssemblies"
+                {
+                    "_9AD1E0DA64C80C3E909D24A567467FD3"
+                    {
+                    "Name" = "8:System.Data.SQLite.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.Data.SQLite.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_7BDDF6EC53FD40CEB257EBD7844B2B28"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9FB635C32C2A47A688ED0E95A728785D"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xml-apis-1.3.04.jar"
+            "TargetName" = "8:xml-apis-1.3.04.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A5289E9BA7584AB6B3E4455CC962BA62"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\commons-logging.NOTICE.txt"
+            "TargetName" = "8:commons-logging.NOTICE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A93C82AA0D1F4108842EDAC1740DEEB6"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xml-apis.LICENSE.DOM-documentation.html"
+            "TargetName" = "8:xml-apis.LICENSE.DOM-documentation.html"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_ABDDDEB079554FB28FF834C5BB954D2A"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\barcode4j.jar"
+            "TargetName" = "8:barcode4j.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_ABDEB82A2C0B469BAFE4D7DBD5B0EBCE"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\fop"
+            "TargetName" = "8:fop"
+            "Tag" = "8:"
+            "Folder" = "8:_BD8C6766DB6C46499E68B008C7510661"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B13ECB7D334943A884242D4329AA2FAD"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xalan.runtime.LICENSE.txt"
+            "TargetName" = "8:xalan.runtime.LICENSE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B9CC5BF5E5BE4EFD80AF3E66ADC31CFC"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xercesImpl-2.7.1.jar"
+            "TargetName" = "8:xercesImpl-2.7.1.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BDE098F699AF4CE6AD9400E1988678F9"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\commons-logging.LICENSE.txt"
+            "TargetName" = "8:commons-logging.LICENSE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BE7B578192624969962A370BBB6D54FD"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\commons-io.NOTICE.txt"
+            "TargetName" = "8:commons-io.NOTICE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BF1F7E172984460F99FA6B57F2A3A346"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\serializer.LICENSE.txt"
+            "TargetName" = "8:serializer.LICENSE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C72F5541BB6C48919B206AA64A93E452"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xml-apis-ext.LICENSE.dom-documentation.txt"
+            "TargetName" = "8:xml-apis-ext.LICENSE.dom-documentation.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CA69366C247E44B0A411BB1A2177829B"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\batik-all-1.7.jar"
+            "TargetName" = "8:batik-all-1.7.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CEF35CE46C9848E5B3A84524EF76217C"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xml-apis.LICENSE-SAX.html"
+            "TargetName" = "8:xml-apis.LICENSE-SAX.html"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CF577F96988547259D1AF4E07A712F0D"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xmlgraphics-commons.LICENSE.txt"
+            "TargetName" = "8:xmlgraphics-commons.LICENSE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D30E522EA7D743EF857B987F753493B1"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xmlgraphics-commons.NOTICE.txt"
+            "TargetName" = "8:xmlgraphics-commons.NOTICE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D7315E72AAD34B28A5328E0C6B4B41F4"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\commons-io-1.3.1.jar"
+            "TargetName" = "8:commons-io-1.3.1.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D89B64CC6F294D9397EFAD03B73852A3"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xercesImpl.LICENSE.txt"
+            "TargetName" = "8:xercesImpl.LICENSE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DC7A17FA8E3349B4B25C81D07308151D"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\avalon-framework.LICENSE.txt"
+            "TargetName" = "8:avalon-framework.LICENSE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DC7A78991878453EA477E0341D7ED608"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xalan.regexp.LICENSE.txt"
+            "TargetName" = "8:xalan.regexp.LICENSE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EDCF298C6F354C078522F3694D7D6D0D"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xalan.LICENSE.txt"
+            "TargetName" = "8:xalan.LICENSE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F0E4C7E504894128BEA1084F9CAA2963"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\batik.NOTICE.txt"
+            "TargetName" = "8:batik.NOTICE.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F7F5CFAA768740F1BF69A586A895E46F"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\lib\\xml-apis-ext.LICENSE.dom-software.txt"
+            "TargetName" = "8:xml-apis-ext.LICENSE.dom-software.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_23DF5AFE97D44D389B08F367B4CA3CEA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FC838BE7E6554030991E0D2CF8E7B471"
+            {
+            "SourcePath" = "8:C:\\Program Files\\HTC\\HiTechnic\\PackingList\\fop\\NOTICE"
+            "TargetName" = "8:NOTICE"
+            "Tag" = "8:"
+            "Folder" = "8:_BD8C6766DB6C46499E68B008C7510661"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+        }
+        "FileType"
+        {
+        }
+        "Folder"
+        {
+            "{1525181F-901A-416C-8A58-119130FE478E}:_54BE5B2065B94FCBB7CA67063FBD6B89"
+            {
+            "Name" = "8:#1916"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:DesktopFolder"
+                "Folders"
+                {
+                }
+            }
+            "{3C67513D-01DD-4637-8A68-80971EB9504F}:_7BDDF6EC53FD40CEB257EBD7844B2B28"
+            {
+            "DefaultLocation" = "8:[ProgramFilesFolder]\\HTC\\HiTechnic"
+            "Name" = "8:#1925"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:TARGETDIR"
+                "Folders"
+                {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_47A54160706C47058B05315C26D0BE7A"
+                    {
+                    "Name" = "8:PackingList"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_A2ACD15718B643EA98638FF74D739423"
+                        "Folders"
+                        {
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_BD8C6766DB6C46499E68B008C7510661"
+                            {
+                            "Name" = "8:fop"
+                            "AlwaysCreate" = "11:TRUE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_13EEA17C482644FA92442020532C37C3"
+                                "Folders"
+                                {
+                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_23DF5AFE97D44D389B08F367B4CA3CEA"
+                                    {
+                                    "Name" = "8:lib"
+                                    "AlwaysCreate" = "11:FALSE"
+                                    "Condition" = "8:"
+                                    "Transitive" = "11:FALSE"
+                                    "Property" = "8:_5E8C6AEF2D3B4B879870C81FC8EE63E8"
+                                        "Folders"
+                                        {
+                                        }
+                                    }
+                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_267865D824D1499DADC51AB15CDE6408"
+                                    {
+                                    "Name" = "8:conf"
+                                    "AlwaysCreate" = "11:FALSE"
+                                    "Condition" = "8:"
+                                    "Transitive" = "11:FALSE"
+                                    "Property" = "8:_02ACDEE20C67441C9CCCECE47A081475"
+                                        "Folders"
+                                        {
+                                        }
+                                    }
+                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_680F5C43E6234A9EA690AE9038F1C2FD"
+                                    {
+                                    "Name" = "8:build"
+                                    "AlwaysCreate" = "11:FALSE"
+                                    "Condition" = "8:"
+                                    "Transitive" = "11:FALSE"
+                                    "Property" = "8:_47D54D63E2ED4AF6BD3A7542E5BE6CAC"
+                                        "Folders"
+                                        {
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            "{1525181F-901A-416C-8A58-119130FE478E}:_A39C3C06F2254FC1858CE37A988BFE6A"
+            {
+            "Name" = "8:#1919"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:ProgramMenuFolder"
+                "Folders"
+                {
+                }
+            }
+        }
+        "LaunchCondition"
+        {
+        }
+        "Locator"
+        {
+        }
+        "MsiBootstrapper"
+        {
+        "LangId" = "3:1033"
+        "RequiresElevation" = "11:FALSE"
+        }
+        "Product"
+        {
+        "Name" = "8:Microsoft Visual Studio"
+        "ProductName" = "8:HiTechnic"
+        "ProductCode" = "8:{58959779-B5A6-4D45-80A6-E21170F476AA}"
+        "PackageCode" = "8:{DAB0CD06-29FF-4FBD-B1A1-0F83511E3746}"
+        "UpgradeCode" = "8:{E69701E5-6B0E-42C8-A5B0-E490B38FDADF}"
+        "AspNetVersion" = "8:4.0.30319.0"
+        "RestartWWWService" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
+        "DetectNewerInstalledVersion" = "11:TRUE"
+        "InstallAllUsers" = "11:TRUE"
+        "ProductVersion" = "8:1.0.0"
+        "Manufacturer" = "8:HTC"
+        "ARPHELPTELEPHONE" = "8:"
+        "ARPHELPLINK" = "8:"
+        "Title" = "8:HiTechnic_Setup"
+        "Subject" = "8:"
+        "ARPCONTACT" = "8:Microsoft"
+        "Keywords" = "8:"
+        "ARPCOMMENTS" = "8:"
+        "ARPURLINFOABOUT" = "8:"
+        "ARPPRODUCTICON" = "8:"
+        "ARPIconIndex" = "3:0"
+        "SearchPath" = "8:"
+        "UseSystemSearchPath" = "11:TRUE"
+        "TargetPlatform" = "3:0"
+        "PreBuildEvent" = "8:"
+        "PostBuildEvent" = "8:"
+        "RunPostBuildEvent" = "3:0"
+        }
+        "Registry"
+        {
+            "HKLM"
+            {
+                "Keys"
+                {
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_10C954A52A8B41AC88B79434D22B50D2"
+                    {
+                    "Name" = "8:Software"
+                    "Condition" = "8:"
+                    "AlwaysCreate" = "11:FALSE"
+                    "DeleteAtUninstall" = "11:FALSE"
+                    "Transitive" = "11:FALSE"
+                        "Keys"
+                        {
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_3986C65A24D24442BF18B5B72D83F3EB"
+                            {
+                            "Name" = "8:[Manufacturer]"
+                            "Condition" = "8:"
+                            "AlwaysCreate" = "11:FALSE"
+                            "DeleteAtUninstall" = "11:FALSE"
+                            "Transitive" = "11:FALSE"
+                                "Keys"
+                                {
+                                }
+                                "Values"
+                                {
+                                }
+                            }
+                        }
+                        "Values"
+                        {
+                        }
+                    }
+                }
+            }
+            "HKCU"
+            {
+                "Keys"
+                {
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_BFDACA3527F5433BB79A4BE143C0C648"
+                    {
+                    "Name" = "8:Software"
+                    "Condition" = "8:"
+                    "AlwaysCreate" = "11:FALSE"
+                    "DeleteAtUninstall" = "11:FALSE"
+                    "Transitive" = "11:FALSE"
+                        "Keys"
+                        {
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_2F8720F8190A4A54A67E504D4209F07F"
+                            {
+                            "Name" = "8:[Manufacturer]"
+                            "Condition" = "8:"
+                            "AlwaysCreate" = "11:FALSE"
+                            "DeleteAtUninstall" = "11:FALSE"
+                            "Transitive" = "11:FALSE"
+                                "Keys"
+                                {
+                                }
+                                "Values"
+                                {
+                                }
+                            }
+                        }
+                        "Values"
+                        {
+                        }
+                    }
+                }
+            }
+            "HKCR"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKU"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKPU"
+            {
+                "Keys"
+                {
+                }
+            }
+        }
+        "Sequences"
+        {
+        }
+        "Shortcut"
+        {
+        }
+        "UserInterface"
+        {
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_56B2D51608D14068B0A46E363EA1DEE8"
+            {
+            "Name" = "8:#1901"
+            "Sequence" = "3:1"
+            "Attributes" = "3:2"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_AC73048CFEA6454A80CA6BC79EC05FEF"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Progress"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdProgressDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "ShowProgress"
+                            {
+                            "Name" = "8:ShowProgress"
+                            "DisplayName" = "8:#1009"
+                            "Description" = "8:#1109"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;True=1;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_5BEFFFAEAA6B4292A2F804846DAAB41E"
+            {
+            "Name" = "8:#1901"
+            "Sequence" = "3:2"
+            "Attributes" = "3:2"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_7238457CF35C475089828647E999C434"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Progress"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminProgressDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "ShowProgress"
+                            {
+                            "Name" = "8:ShowProgress"
+                            "DisplayName" = "8:#1009"
+                            "Description" = "8:#1109"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;True=1;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_7B5AB4EFFC264916ABEAC64764B0CFFE"
+            {
+            "Name" = "8:#1900"
+            "Sequence" = "3:1"
+            "Attributes" = "3:1"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_32D25C668AB945ADB7EA3199D5CF0BC5"
+                    {
+                    "Sequence" = "3:300"
+                    "DisplayName" = "8:Confirm Installation"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdConfirmDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_3A2878FD61484C4EB9B13A483A0DE4A9"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Welcome"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdWelcomeDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "CopyrightWarning"
+                            {
+                            "Name" = "8:CopyrightWarning"
+                            "DisplayName" = "8:#1002"
+                            "Description" = "8:#1102"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1202"
+                            "DefaultValue" = "8:#1202"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Welcome"
+                            {
+                            "Name" = "8:Welcome"
+                            "DisplayName" = "8:#1003"
+                            "Description" = "8:#1103"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1203"
+                            "DefaultValue" = "8:#1203"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_CB73C265D78C4D9AB52AE50D56312608"
+                    {
+                    "Sequence" = "3:200"
+                    "DisplayName" = "8:Installation Folder"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "InstallAllUsersVisible"
+                            {
+                            "Name" = "8:InstallAllUsersVisible"
+                            "DisplayName" = "8:#1059"
+                            "Description" = "8:#1159"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;True=1;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_81D78B264D1B41DFAF7279C4E17D8D55"
+            {
+            "UseDynamicProperties" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "SourcePath" = "8:<VsdDialogDir>\\VsdBasicDialogs.wim"
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_D6BD0750CAEA4BF7A6A91562FC4A1AD3"
+            {
+            "Name" = "8:#1902"
+            "Sequence" = "3:1"
+            "Attributes" = "3:3"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_7F0048BF937B4FD7A14239C09647E4B1"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Finished"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdFinishedDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "UpdateText"
+                            {
+                            "Name" = "8:UpdateText"
+                            "DisplayName" = "8:#1058"
+                            "Description" = "8:#1158"
+                            "Type" = "3:15"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1258"
+                            "DefaultValue" = "8:#1258"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_DB284EDC129946048977B6A619FC49F0"
+            {
+            "UseDynamicProperties" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "SourcePath" = "8:<VsdDialogDir>\\VsdUserInterface.wim"
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_EC7F1A05ED9C4AA089823B485388E662"
+            {
+            "Name" = "8:#1900"
+            "Sequence" = "3:2"
+            "Attributes" = "3:1"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_42D585F89F8A4426B30370EEAC869245"
+                    {
+                    "Sequence" = "3:300"
+                    "DisplayName" = "8:Confirm Installation"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminConfirmDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_83C47B7AD4524DA4A3C096BF4F77DBC9"
+                    {
+                    "Sequence" = "3:200"
+                    "DisplayName" = "8:Installation Folder"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFolderDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_A91A6359A7A24DA9B499334FC9EFD7F3"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Welcome"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminWelcomeDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "CopyrightWarning"
+                            {
+                            "Name" = "8:CopyrightWarning"
+                            "DisplayName" = "8:#1002"
+                            "Description" = "8:#1102"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1202"
+                            "DefaultValue" = "8:#1202"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Welcome"
+                            {
+                            "Name" = "8:Welcome"
+                            "DisplayName" = "8:#1003"
+                            "Description" = "8:#1103"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1203"
+                            "DefaultValue" = "8:#1203"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_FBBD28FCDE824811A30369DCCCE7EF20"
+            {
+            "Name" = "8:#1902"
+            "Sequence" = "3:2"
+            "Attributes" = "3:3"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_9EF801633C3B40E2A8B70F836A8A73D7"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Finished"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        "MergeModule"
+        {
+        }
+        "ProjectOutput"
+        {
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_1B836C4E436741A7BBA5976DAA05C9CC"
+            {
+            "SourcePath" = "8:..\\HiTechnic\\obj\\x86\\Debug\\HiTechnic.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_7BDDF6EC53FD40CEB257EBD7844B2B28"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{404F6CA0-6E14-4F8A-9D74-098F959EF948}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+        }
+    }
+}

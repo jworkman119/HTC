@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Design version="1" datasource="2010 MHC Statistics" kind="MS Access" root="2010 MHC Statistics">
+	<Table left="20" top="20" right="245" bottom="565" id="1" expanded="1">
+		<ColumnWidths col0="22.000000" col1="79.000000" col2="60.000000" col3="44.000000" col4="20.000000"/>
+		<CollapsedCompartments Indexes="1" Keys="2" CheckConstraints="3"/>
+		<ObjectPath>
+			<PathElement Name="data" Kind="Table"/>
+		</ObjectPath>
+	</Table>
+	<Table left="750" top="-50" right="948" bottom="223" id="2" expanded="1">
+		<ColumnWidths col0="22.000000" col1="57.000000" col2="55.000000" col3="44.000000" col4="20.000000"/>
+		<CollapsedCompartments Indexes="1" Keys="2" CheckConstraints="3"/>
+		<ObjectPath>
+			<PathElement Name="Providers2" Kind="Table"/>
+		</ObjectPath>
+	</Table>
+	<Table left="480" top="-50" right="674" bottom="79" id="3" expanded="1">
+		<ColumnWidths col0="22.000000" col1="54.000000" col2="54.000000" col3="44.000000" col4="20.000000"/>
+		<CollapsedCompartments Indexes="1" Keys="2" CheckConstraints="3"/>
+		<ObjectPath>
+			<PathElement Name="PROC" Kind="Table"/>
+		</ObjectPath>
+	</Table>
+	<Table left="760" top="280" right="959" bottom="441" id="4" expanded="1">
+		<ColumnWidths col0="22.000000" col1="38.000000" col2="75.000000" col3="44.000000" col4="20.000000"/>
+		<CollapsedCompartments Indexes="1" Keys="2" CheckConstraints="3"/>
+		<ObjectPath>
+			<PathElement Name="Medical Hours" Kind="Table"/>
+		</ObjectPath>
+	</Table>
+	<Table left="490" top="140" right="687" bottom="381" id="5" expanded="1">
+		<ColumnWidths col0="22.000000" col1="57.000000" col2="54.000000" col3="44.000000" col4="20.000000"/>
+		<CollapsedCompartments Indexes="1" Keys="2" CheckConstraints="3"/>
+		<ObjectPath>
+			<PathElement Name="Providers" Kind="Table"/>
+		</ObjectPath>
+	</Table>
+</Design>

@@ -1,0 +1,9 @@
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.exe
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\bin\Debug\updateRemoteDB.pdb
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\obj\x86\Debug\updateRemoteDB.ProjectInstaller.resources
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\obj\x86\Debug\updateRemoteDB.serviceUpdateDB.resources
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\obj\x86\Debug\updateRemoteDB.exe
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\updateRemoteDB\updateRemoteDB\obj\x86\Debug\updateRemoteDB.pdb

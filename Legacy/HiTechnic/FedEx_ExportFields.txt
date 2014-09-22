@@ -1,0 +1,339 @@
+Actual Weight
+Additional Handling Charges
+AES/FTSR Exemption Number
+Citation Type
+AES Citation
+Brazilian resident indicator
+Notification Format Type
+Sender Language
+Recipient Notification Language
+Other 1 Notification Language
+Other 2 Notification Language
+Sender Notification Exception Indi
+Recipient Exception Notification I
+Other 1 Exception Notification Ind
+Other 2 Exception Notification Ind
+Broker Notification Language
+Broker Exception Notification Indi
+Shipment Notify Email Broker
+Alaska Surcharge Indicator
+Alaska Surcharge
+Alcohol Indicator
+Alcohol Packages - Obsolete
+Alcohol Packaging - Obsolete
+Alcohol Type - Obsolete
+Alcohol Volume - Obsolete
+FedEx Bill D/T/F Acct #
+B13A filing option
+Bill D/T/Fees payor
+BILL TO ACCT #
+Billed Weight
+Block Shipment Data Indicator
+C.I. Additional Charge Type
+C.I. Additional Charges
+C.I. Invoice Number
+C.I. Printed Indicator
+C.I. Reference
+Carriage Declared Value
+Carrier
+COD Base Amount
+COD Cashier Check
+COD Collection Type
+COD Service Flag
+COD Freight Charges In Amt
+COD Return Tracking #
+COD Surcharge
+Commodity ID 1
+COMMODITY DESCRIPTION 1
+Commodity Harmonized Code 1
+Commodity Total Customs Value 1
+Commodity ID 2
+COMMODITY DESCRIPTION 2
+Commodity Harmonized Code 2
+Commodity Total Customs Value 2
+Commodity ID 3
+COMMODITY DESCRIPTION 3
+Commodity Harmonized Code 3
+Commodity Total Customs Value 3
+Commodity ID 4
+COMMODITY DESCRIPTION 4
+Commodity Harmonized Code 4
+Commodity Total Customs Value 4
+Courtesy Net Freight Charge 
+Package Custom Field 01
+Package Custom Field 02
+Package Custom Field 03
+Package Custom Field 04
+Package Custom Field 05
+Package Custom Field 06
+Package Custom Field 07
+Package Custom Field 08
+Package Custom Field 09
+Package Custom Field 10
+Package Custom Field 11
+Package Custom Field 12
+Package Custom Field 13
+Package Custom Field 14
+Package Custom Field 15
+Package Custom Field 16
+Package Custom Field 17
+Package Custom Field 18
+Package Custom Field 19
+Package Custom Field 20
+Shipment Custom Field 1
+Shipment Custom Field 2
+Shipment Custom Field 3
+Shipment Custom Field 4
+Shipment Custom Field 5
+DANGEROUS GOODS SURCHARGE 
+Dangerous Goods Indicator
+Declared Value Surcharge
+Declared Value
+Deleted Indicator
+Delivery Area Surcharge
+Delivery Area Indicator
+Delivery By Date
+Delivery Day
+Department Notes
+Recipient Country
+Destination Station Id
+Dim Weight Used Flag
+Dry Ice Indicator
+Dry Ice Weight
+Entry Number
+Export Permit #
+B13A Export Statement Data
+Extra Hours Surcharge
+FedEx 3rd Party Acct #
+FICE License Type
+FICE License Number
+FICE Expiration Date
+FICE Foreign Trade Zone
+FICE Surcharge
+Freight
+GST Charge
+Gross Charge
+HAL Indicator
+HAL City
+HAL Phone #
+HAL State
+HAL Station Address 1
+HAL Zip Code
+HST Charge
+Hawaii Surcharge
+Hawaii Surcharge Indicator
+IMPORTER ACCT #
+Importer address 1
+Importer address 2
+Importer city
+Importer company
+Importer Code
+Importer contact
+Importer Country
+Importer extension
+Importer Tax ID
+Importer phone
+Importer postal
+Importer st/prov
+Intl. Freight Skids/Pallets
+Intl package type
+Inside Delivery Surcharge
+Inside P/U Area Indicator
+Inside P/U Area Surcharge
+Insurance
+Invoice Number
+List Alaska Surcharge
+List AOD Surcharge
+List Appoint Del Surcharge
+List Auto POD Surcharge
+List COD Surcharge
+List Courtesy Effective Discount
+List Accessible DG Surcharge
+List Inaccessible DG Surcharge
+List Hazardous Materials Surcharge
+List Date Certain Del Surcharge
+List Declared Value Surcharge
+List Delivery Area Surcharge
+List Evening Del Surcharge
+List Fuel Surcharge
+List Gross Charge
+List Hawaii Surcharge
+List Inside Delivery Surcharge
+List Inside Pickup Surcharge
+List Net Charge
+List ODA/Freight Delivery Area Sur
+OPA/List Freight Pickup Area Surch
+List Priority Alert Surcharge
+List Surcharge
+List Rate Indicator
+List Rural Residential Surcharge
+List Residential Surcharge
+List Return Code
+List Saturday Delivery Surcharge
+List Saturday Pickup Surcharge
+List Shipment Notify Surcharge
+List Signature Service Surcharge
+List Oversize Surcharge
+List Total Customer Charge
+Recipient Location #
+Master Tracking #
+Print NAFTA Certificate of Origin
+NAFTA Certificate of Origin Produc
+NAFTA Certificate of Origin Produc
+NAFTA Certificate of Origin Produc
+NAFTA Certificate of Origin Produc
+NAFTA Certificate of Origin Produc
+NAFTA Certificate of Origin Produc
+NAFTA Certificate of Origin Produc
+NAFTA Certificate of Origin Export
+NAFTA Certificate of Origin Produc
+NAFTA Certificate of Origin Produc
+NAFTA Certificate of Origin Author
+NAFTA Certificate of Origin Author
+NAFTA Certificate of Origin Author
+NAFTA Certificate of Origin Author
+NAFTA Certificate of Origin Author
+NAFTA Certificate of Origin Export
+NAFTA Certificate of Origin Export
+NAFTA Certificate of Origin Export
+NAFTA Certificate of Origin Export
+NAFTA Certificate of Origin Export
+NAFTA Certificate of Origin Export
+NAFTA Certificate of Origin Export
+NAFTA Certificate of Origin Export
+NAFTA Certificate of Origin Export
+Net Charge
+Net Freight Charge 
+Nonstandard Container Indicator
+Number of Packages
+ODA/Freight Delivery Area Surcharg
+Freight Delivery Area Indicator
+Offshore Surcharge
+Freight Pickup Area Indicator
+OPA/Freight Pickup Area Surcharge
+Oversize I Indicator
+Oversize II Indicator
+Oversize III Indicator
+Courtesy Oversize Surcharge
+Package Additional Charges
+Package Content (1)
+Package Content (2)
+Package Type
+Package Height
+Package Length
+Package Width
+Package/Shipment Weight
+Payment Type
+IDS_PIB_FLAG
+PO Number
+Priority Alert Flag
+Priority Alert Surcharge
+PST/QST Charge
+Purpose of Shipment
+Recipient FedEx Acct #
+Recipient Address 1
+Recipient Address 2
+Recipient Code
+Recipient City
+Recipient Company
+Recipient Contact
+Recipient Phone Number
+Recipient Tax ID
+Recipient State/Province
+Recipient Zip Code
+References
+Residential Indicator
+Residential Surcharge
+FedEx Ground Customer Reference Nu
+FedEx Ground Invoice #
+FedEx Ground P.O. #
+FedEx Ground Shipment ID
+Sat. Delivery Indicator
+Sat. Delivery Surcharge
+Sat. Pickup Indicator
+Sat. Pickup Surcharge
+SCAC
+SED legend
+Sender Address 1
+Sender Address 2
+Sender Code
+Sender City
+Sender Company
+Sender Contact
+Sender Country
+Sender Phone Number
+Sender Tax ID/EIN
+Sender Postal Code
+ZIP
+IDS_SERVICE_AREA
+Service Type
+Shipment Notify Email Address
+Shipment Notify Email Other 1
+Shipment Notify Email Other 2
+Ship Notify Fax Number
+Ship Notify Surcharge
+Personal Message
+Shipment Date
+Shipment Time
+Shipper Contact
+Shipper Country
+Shipper Phone
+Shipper/Recipient Related
+Shipping Contents Indicator
+Shipping Contents Description
+Shipping Contents Part Number
+Shipping Contents Quantity
+Shipping Contents SKU/Item/UPC
+FedEx Express Sig Release #
+Special Services
+INCO Terms
+TD Master Shipment ID
+Total Customer Charge
+Total Customs Value
+Total Discount
+Total Surcharge
+Tracking #
+Ultimate Destination Country
+URSA Code
+User ID
+Weight Source
+Weight type (lbs/kgs)
+Zone
+RMA Number
+Item description
+Email Label To
+Email Label Expiration Date
+Email Label Return Message
+Return contact telephone
+Ground Call Tag Pickup Date
+Ground Call Tag Ready Time
+Groung Call Tag Close Time
+Ground Call Tag Pickup Instruction
+Return Shipment Type
+Ground Call Tag Status
+Ground Call Tag Confirmation Numbe
+Signature Options
+Signature Options Fee
+List Signature Options Fee
+Third Party Consignee
+Temporary Export Flag
+Export cargo control number
+Electronic Signature
+Origin Service Area
+Import License Number 
+Import License Date
+DCS Type
+DOS Destination Country(ies)
+DOS Destination Recipient
+Earned Discount
+FedEx Acct #
+Dimension ID
+Dimension Description
+Ground ORM-D Indicator
+Additional handling surcharge
+List additional handling surcharge
+Additional handling surcharge type
+List additional handling surcharge
+Dry ice surcharge
+List dry ice surcharge
+FILLER

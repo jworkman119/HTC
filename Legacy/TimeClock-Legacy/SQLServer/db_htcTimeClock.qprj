@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  DatabaseSpy Project File  -->
+<Project Version="2" Expanded="Yes" Type="Root" Title="db_htcTimeClock">
+	<Folder FolderName="Data Sources" Expanded="Yes" Type="DataSourceFolder">
+		<datasource database_kind="MS SQL Server" import_kind="ADO" version="08.00.2039" name="TimeClock" active="Yes" Type="DataSourceItem">
+			<properties>
+				<property name="Database Kind" value="MS SQL Server"/>
+				<property name="Import Kind" value="ADO"/>
+				<property name="Root Object" value="TimeClock"/>
+				<property name="Data Source" value="sqlserver01"/>
+				<property name="Provider" value="SQLNCLI10.1"/>
+				<property name="User ID" value="TimeClock"/>
+				<property name="Password"/>
+				<property name="Persist Security Info"/>
+				<property name="Auto Translate"/>
+				<property name="Connect Timeout"/>
+				<property name="Current Language"/>
+				<property name="Extended Properties"/>
+				<property name="General Timeout"/>
+				<property name="Initial Catalog" value="TimeClock"/>
+				<property name="Initial File Name" value="&quot;&quot;"/>
+				<property name="Integrated Security" value="&quot;&quot;"/>
+				<property name="Locale Identifier"/>
+				<property name="Network Address"/>
+				<property name="Network Library"/>
+				<property name="Packet Size"/>
+				<property name="Replication server name"/>
+				<property name="Tag with column collation"/>
+				<property name="Use Encryption for Data"/>
+				<property name="User Procedure for Prepare"/>
+				<property name="Workstation ID"/>
+			</properties>
+			<LocalViewStorage/>
+			<LocalRelationsStorage/>
+		</datasource>
+	</Folder>
+	<Folder FolderName="SQL" Expanded="Yes" Type="SQLRootFolder" database_kind="Unknown" datasource="Offline" description="Store and organize SQL files for this project." blockingstrategy="semi">
+		<File Type="SQLFile" FilePath="CreateDB.sql" database_kind="Unknown" datasource="Offline" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="InsertRoles.sql" database_kind="Unknown" datasource="Offline" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spAddPerson.sql" database_kind="Unknown" datasource="Offline" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spAddSchedule.sql" database_kind="Unknown" datasource="Offline" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spAddShift.sql" database_kind="Unknown" datasource="Offline" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spReturnSchedule.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="TimeClock" rootobject="TimeClock" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="trgAddTime.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="TimeClock" rootobject="TimeClock" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spReturnTimesWorked.sql" datasource_override="Yes" root_override="Yes" database_kind="Unknown" datasource="htcTimeClock" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spUpdateTime.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="TimeClock" rootobject="TimeClock" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="CardQueries.sql" datasource_override="Yes" root_override="Yes" database_kind="Unknown" datasource="htcTimeClock" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="C:\Users\jeremyp\Documents\Development\SQL\spReport_DailyTimeSheet.sql" datasource_override="Yes" root_override="Yes" database_kind="Unknown" datasource="htcTimeClock" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spRpt-Schedule.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="TimeClock" rootobject="TimeClock" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spRpt-TimeCard.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="TimeClock" rootobject="TimeClock" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spRpt-NoSwipeOut.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="TimeClock" rootobject="TimeClock" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spReturnUserTime.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="TimeClock" rootobject="TimeClock" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spUpdateTime_In.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="TimeClock" rootobject="TimeClock" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spUpdateTime_Out.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="TimeClock" rootobject="TimeClock" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spRpt-TimeCard2.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="TimeClock" rootobject="TimeClock" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spRpt-TimeCard_Original.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="TimeClock" rootobject="TimeClock" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+	</Folder>
+	<Folder FolderName="Design" Type="DesignRootFolder" database_kind="Unknown" datasource="Offline" description="Store and organize Design files for this project."/>
+	<Folder FolderName="Data Diff" Type="DataDiffRootFolder"/>
+	<Folder FolderName="Schema Diff" Type="SchemaDiffRootFolder"/>
+	<Folder FolderName="Favorites" Type="FavoriteFolder"/>
+</Project>

@@ -1,0 +1,21 @@
+{
+    "contents" : "",
+    "created" : 1360255656828.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1818419",
+    "lastKnownWriteTime" : 1768302149,
+    "path" : null,
+    "properties" : {
+        "caption" : "JanFTE",
+        "contentUrl" : "content?title=JanFTE&file=16b36d56238a4c80a38268b46f44da27.htm",
+        "displayedObservations" : 1000,
+        "displayedVariables" : 6,
+        "totalObservations" : 4153,
+        "variables" : 6
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

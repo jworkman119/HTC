@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frmPinnacle", "frmPinnacle\frmPinnacle.csproj", "{28357756-DFF2-4F38-8FC5-5FFEEAAB3A3F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PinnacleSetup", "..\..\Setup\PinnacleSetup\PinnacleSetup.vdproj", "{F6647D50-563A-4EF3-BDB7-14E0FDD484ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoUpdate", "AutoUpdate\AutoUpdate\AutoUpdate.csproj", "{D6A703CB-A33C-4E40-AC8D-2D8A06F95974}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28357756-DFF2-4F38-8FC5-5FFEEAAB3A3F}.Debug|x86.ActiveCfg = Debug|x86
+		{28357756-DFF2-4F38-8FC5-5FFEEAAB3A3F}.Debug|x86.Build.0 = Debug|x86
+		{28357756-DFF2-4F38-8FC5-5FFEEAAB3A3F}.Release|x86.ActiveCfg = Release|x86
+		{28357756-DFF2-4F38-8FC5-5FFEEAAB3A3F}.Release|x86.Build.0 = Release|x86
+		{F6647D50-563A-4EF3-BDB7-14E0FDD484ED}.Debug|x86.ActiveCfg = Debug
+		{F6647D50-563A-4EF3-BDB7-14E0FDD484ED}.Release|x86.ActiveCfg = Release
+		{D6A703CB-A33C-4E40-AC8D-2D8A06F95974}.Debug|x86.ActiveCfg = Debug|x86
+		{D6A703CB-A33C-4E40-AC8D-2D8A06F95974}.Debug|x86.Build.0 = Debug|x86
+		{D6A703CB-A33C-4E40-AC8D-2D8A06F95974}.Release|x86.ActiveCfg = Release|x86
+		{D6A703CB-A33C-4E40-AC8D-2D8A06F95974}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

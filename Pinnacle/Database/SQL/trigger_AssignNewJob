@@ -1,0 +1,20 @@
+/*
+Highlight and execute the following statement to drop the trigger
+before executing the create statement.
+
+DROP TRIGGER AssignNew_Job;
+
+*/
+
+CREATE TRIGGER AssignNew_Job
+Before Insert
+
+ON Job
+
+BEGIN
+	Update Job 
+	Set EndDate = strftime('%Y-%m-%d','now')
+	Where Consumer_ID = NEW.Consumer_ID
+	and EndDate is null;
+END
+

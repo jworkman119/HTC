@@ -1,0 +1,16 @@
+{
+    "contents" : "StartDay=\"6/23/2013\"\nEndDay=\"9/14/2013\"\n\n# Retrieving sql\nlibrary(stringr)\nsetwd(\"C:/Users/jeremyp.HTC/Documents/Development/R/Earnings\")\nSQL<-paste(readLines(\"Earnings.sql\",encoding=\"UTF-8\"),collapse=' ')\nSQL<-str_replace_all(SQL[1],'\\t','')\nSQL<-str_replace(SQL[1],'@StartDay',paste(\"\\'\",StartDay,\"\\'\",sep=\"\"))\nSQL<-str_replace(SQL[1],'@EndDay',paste(\"\\'\",EndDay,\"\\'\",sep=\"\"))\n\n#Returning data set to \nlibrary(\"RODBC\", lib.loc=\"C:/Program Files/R/R-2.15.2/library\")\nodbc<-odbcConnect(\"Vertex\",uid=\"sysdba\",pwd=\"masterkey\")\nEarnings<-data.frame(sqlQuery(odbc,SQL[1]))\n\nodbcCloseAll()\nrm(odbc)\n\ncolnames(Earnings)<- c(\"Employee\",\"EmployeeNumber\",\"JobNumber\", \"JobDescription\", \"Productivity\", \"Hours\")\nEarnings$Productivity<-round(Earnings$Productivity,digits=2)\nEarnings$Hours<-round(Earnings$Hours,digits=2)\n\nlibrary(\"rJava\", lib.loc=\"C:/Program Files/R/R-2.15.2/library\")\nlibrary(\"xlsxjars\", lib.loc=\"C:/Program Files/R/R-2.15.2/library\")\nlibrary(\"xlsx\", lib.loc=\"C:/Program Files/R/R-2.15.2/library\")\n\nsetwd(\"C:/Users/jeremyp.HTC/Documents/Temp\")\n\nSheet<-paste(StartDay,EndDay,sep=\"_\")\nWorkBook<-<-paste(Earnings,StartDay,EndDay,sep=\"_\")\nwrite.xlsx(dfFinalReport,\"Earnings.xlsx\",sheetName=Sheet ,col.names=TRUE,row.names=FALSE,append=FALSE)",
+    "created" : 1379605046097.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3114604995",
+    "id" : "DEEB6BDA",
+    "lastKnownWriteTime" : 1379605128,
+    "path" : "~/Development/Vertex/R/HealthWelfare_Hours/Earnings.r",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

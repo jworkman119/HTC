@@ -1,0 +1,8 @@
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\mailLogFile\consoleMailLogFile\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\mailLogFile\consoleMailLogFile\obj\x86\Debug\consoleMailLogFile.staticSettings.resources
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\mailLogFile\consoleMailLogFile\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\mailLogFile\consoleMailLogFile\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\mailLogFile\consoleMailLogFile\bin\Debug\consoleMailLogFile.exe
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\mailLogFile\consoleMailLogFile\bin\Debug\consoleMailLogFile.pdb
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\mailLogFile\consoleMailLogFile\obj\x86\Debug\consoleMailLogFile.exe
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\mailLogFile\consoleMailLogFile\obj\x86\Debug\consoleMailLogFile.pdb

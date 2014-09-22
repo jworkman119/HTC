@@ -1,0 +1,17 @@
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\htcTimeClock\UpdateRemoteDB_Console\bin\Debug\UpdateRemoteDB_Console.exe.config
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\htcTimeClock\UpdateRemoteDB_Console\bin\Debug\UpdateRemoteDB_Console.exe.manifest
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\htcTimeClock\UpdateRemoteDB_Console\bin\Debug\UpdateRemoteDB_Console.application
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\htcTimeClock\UpdateRemoteDB_Console\bin\Debug\UpdateRemoteDB_Console.exe
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\htcTimeClock\UpdateRemoteDB_Console\bin\Debug\UpdateRemoteDB_Console.pdb
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\htcTimeClock\UpdateRemoteDB_Console\obj\x86\Debug\UpdateRemoteDB_Console.exe.manifest
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\htcTimeClock\UpdateRemoteDB_Console\obj\x86\Debug\UpdateRemoteDB_Console.application
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\htcTimeClock\UpdateRemoteDB_Console\obj\x86\Debug\UpdateRemoteDB_Console.exe
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\htcTimeClock\UpdateRemoteDB_Console\obj\x86\Debug\UpdateRemoteDB_Console.pdb
+C:\Users\jeremyp.HTC\Documents\Development\Legacy\TimeClock\htcTimeClock\UpdateRemoteDB_Console\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jeremyp.HTC\Documents\Development\Legacy\TimeClock\htcTimeClock\UpdateRemoteDB_Console\obj\x86\Debug\UpdateRemoteDB_Console.exe
+C:\Users\jeremyp.HTC\Documents\Development\Legacy\TimeClock\htcTimeClock\UpdateRemoteDB_Console\obj\x86\Debug\UpdateRemoteDB_Console.pdb
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\htcTimeClock\UpdateRemoteDB_Console\bin\Debug\System.Data.SQLite.dll
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\htcTimeClock\UpdateRemoteDB_Console\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\htcTimeClock\UpdateRemoteDB_Console\bin\Debug\System.Data.SQLite.pdb
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\htcTimeClock\UpdateRemoteDB_Console\bin\Debug\System.Data.SQLite.Linq.pdb
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\htcTimeClock\UpdateRemoteDB_Console\obj\x86\Debug\UpdateRemoteDB_Console.csprojResolveAssemblyReference.cache

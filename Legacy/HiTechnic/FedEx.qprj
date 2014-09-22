@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  DatabaseSpy Project File  -->
+<Project Version="3" Expanded="Yes" Type="Root" Title="FedEx">
+	<Folder FolderName="Data Sources" Expanded="Yes" Type="DataSourceFolder">
+		<datasource database_kind="MS Access" import_kind="ADO" version="04.00.0000" name="Lego_Live" active="Yes" use_driver_for_retrieval="Yes" Type="DataSourceItem">
+			<properties>
+				<property name="Database Kind" value="MS Access"/>
+				<property name="Import Kind" value="ADO"/>
+				<property name="Root Object" value="LegoOrd"/>
+				<property name="Data Source" value="\\Iomega-nas\public1\IT Department\Mark Production\Lego\LegoOrd.mdb"/>
+				<property name="Provider" value="Microsoft.Jet.OLEDB.4.0"/>
+				<property name="User ID"/>
+				<property name="Password"/>
+				<property name="Persist Security Info"/>
+				<property name="Jet OLEDB:System Database"/>
+				<property name="Jet OLEDB:Sandbox Mode"/>
+				<property name="Jet OLEDB:Exclusive Async Delay"/>
+				<property name="Jet OLEDB:Flush Transaction Timeout"/>
+				<property name="Jet OLEDB:Implicit Commit Sync"/>
+				<property name="Jet OLEDB:Lock Delay"/>
+				<property name="Jet OLEDB:Lock Retry"/>
+				<property name="Jet OLEDB:Max Buffer Size"/>
+				<property name="Jet OLEDB:Max Locks Per File"/>
+				<property name="Jet OLEDB:Page Locks to Table Lock"/>
+				<property name="Jet OLEDB:Page Timeout"/>
+				<property name="Jet OLEDB:Recycle Long-Valued Pages"/>
+				<property name="Jet OLEDB:Shared Async Delay"/>
+				<property name="Jet OLEDB:User Commit Sync"/>
+				<property name="Jet OLEDB:Compact Without Replica Repair"/>
+				<property name="Jet OLEDB:Create System Database"/>
+				<property name="Jet OLEDB:Database Locking Mode"/>
+				<property name="Jet OLEDB:Database Password"/>
+				<property name="Jet OLEDB:New Database Password"/>
+				<property name="Jet OLEDB:Registry Path"/>
+			</properties>
+			<LocalViewStorage/>
+			<LocalRelationsStorage/>
+		</datasource>
+		<datasource database_kind="MS SQL Server" import_kind="ADO" version="08.00.2039" name="mecola" Type="DataSourceItem">
+			<properties>
+				<property name="Database Kind" value="MS SQL Server"/>
+				<property name="Import Kind" value="ADO"/>
+				<property name="Root Object" value="001"/>
+				<property name="Data Source" value="SQLSERVER01"/>
+				<property name="Provider" value="SQLOLEDB.1"/>
+				<property name="User ID"/>
+				<property name="Password"/>
+				<property name="Persist Security Info"/>
+				<property name="Auto Translate"/>
+				<property name="Connect Timeout"/>
+				<property name="Current Language"/>
+				<property name="Extended Properties"/>
+				<property name="General Timeout"/>
+				<property name="Initial Catalog" value="001"/>
+				<property name="Initial File Name"/>
+				<property name="Integrated Security" value="SSPI"/>
+				<property name="Locale Identifier"/>
+				<property name="Network Address"/>
+				<property name="Network Library"/>
+				<property name="Packet Size"/>
+				<property name="Replication server name"/>
+				<property name="Tag with column collation"/>
+				<property name="Use Encryption for Data"/>
+				<property name="User Procedure for Prepare"/>
+				<property name="Workstation ID"/>
+			</properties>
+			<LocalViewStorage/>
+			<LocalRelationsStorage/>
+		</datasource>
+		<datasource database_kind="MS Access" import_kind="ADO" version="04.00.0000" name="LegoOrd" use_driver_for_retrieval="Yes" Type="DataSourceItem">
+			<properties>
+				<property name="Database Kind" value="MS Access"/>
+				<property name="Import Kind" value="ADO"/>
+				<property name="Root Object" value="LegoOrd"/>
+				<property name="Data Source" value="LegoOrd.mdb"/>
+				<property name="Provider" value="Microsoft.Jet.OLEDB.4.0"/>
+				<property name="User ID"/>
+				<property name="Password"/>
+				<property name="Persist Security Info"/>
+				<property name="Jet OLEDB:System Database"/>
+				<property name="Jet OLEDB:Sandbox Mode"/>
+				<property name="Jet OLEDB:Exclusive Async Delay"/>
+				<property name="Jet OLEDB:Flush Transaction Timeout"/>
+				<property name="Jet OLEDB:Implicit Commit Sync"/>
+				<property name="Jet OLEDB:Lock Delay"/>
+				<property name="Jet OLEDB:Lock Retry"/>
+				<property name="Jet OLEDB:Max Buffer Size"/>
+				<property name="Jet OLEDB:Max Locks Per File"/>
+				<property name="Jet OLEDB:Page Locks to Table Lock"/>
+				<property name="Jet OLEDB:Page Timeout"/>
+				<property name="Jet OLEDB:Recycle Long-Valued Pages"/>
+				<property name="Jet OLEDB:Shared Async Delay"/>
+				<property name="Jet OLEDB:User Commit Sync"/>
+				<property name="Jet OLEDB:Compact Without Replica Repair"/>
+				<property name="Jet OLEDB:Create System Database"/>
+				<property name="Jet OLEDB:Database Locking Mode"/>
+				<property name="Jet OLEDB:Database Password"/>
+				<property name="Jet OLEDB:New Database Password"/>
+				<property name="Jet OLEDB:Registry Path"/>
+			</properties>
+			<LocalViewStorage/>
+			<LocalRelationsStorage/>
+		</datasource>
+		<datasource import_kind="ODBC" version="05.00.0000" name="FedEx_PC" active="Yes" Type="DataSourceItem">
+			<properties>
+				<property name="Database Kind" value="Unknown"/>
+				<property name="Import Kind" value="ODBC"/>
+				<property name="Root Object" value="Z:\"/>
+				<property name="FileDsn"/>
+				<property name="Dsn" value="FedEx_PC"/>
+				<property name="Driver"/>
+				<property name="Trusted_Connection"/>
+				<property name="App"/>
+				<property name="Server"/>
+				<property name="Database"/>
+				<property name="Regional"/>
+				<property name="Languages"/>
+				<property name="Wsid"/>
+				<property name="Uid"/>
+				<property name="Pwd"/>
+				<property name="Port"/>
+				<property name="Option"/>
+				<property name="Stmt"/>
+				<property name="Driver Name" value="Microsoft ODBC Desktop Driver Pack 3.5"/>
+				<property name="Driver Version" value="6.1.7601.17632"/>
+				<property name="Driver Company" value="Microsoft Corporation"/>
+				<property name="Driver File Name" value="odbcjt32.dll"/>
+				<property name="Driver Full Path" value="C:\Windows\system32\odbcjt32.dll"/>
+				<property name="Driver Date" value="8/9/2011"/>
+			</properties>
+			<LocalViewStorage/>
+			<LocalRelationsStorage/>
+		</datasource>
+	</Folder>
+	<Folder FolderName="SQL" Expanded="Yes" Type="SQLRootFolder" database_kind="Unknown" datasource="Offline" description="Store and organize SQL files for this project." blockingstrategy="semi">
+		<File Type="SQLFile" FilePath="vwDailyFinal3.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="Lego_Live" rootobject="LegoOrd" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spUpdateDailyFinal2.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="Lego_Live" rootobject="LegoOrd" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="C:\Documents and Settings\jeremyp\My Documents\Development\HiTechnicHTC\spAppendDailyFinal.sql" datasource_override="Yes" root_override="Yes" database_kind="Unknown" datasource="HiTechnicHTCFile" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="rptMonthlyBilling.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="LegoOrd" rootobject="LegoOrd" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spPickTicket1.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="Lego_Live" rootobject="LegoOrd" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spFedExRpt.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="Lego_Live" rootobject="LegoOrd" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spHTCGetFedEx.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="mecola" rootobject="001" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spUpdateMasterNotes.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="LegoOrd" rootobject="LegoOrd" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="vwPickTicketSpecial.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="Lego_Live" rootobject="LegoOrd" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spJCP_EpostReport.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="mecola" rootobject="001" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spJCP_FedEx_Mecolat.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS SQL Server" datasource="mecola" rootobject="001" schema="dbo" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="ShippingCost_Access.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="Lego_Live" rootobject="LegoOrd" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spUpdatePickNotes.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="LegoOrd" rootobject="LegoOrd" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spUpdatePrintMarker.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="Lego_Live" rootobject="LegoOrd" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="Reports\ItemsSold_byMonth.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="Lego_Live" rootobject="LegoOrd" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="Reports\ItemsSold_byMonth_troubleshoot.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="Lego_Live" rootobject="LegoOrd" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="ShippingCost_Access2.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="Lego_Live" rootobject="LegoOrd" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="ShippingCost_UPS-FedExAccts.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="Lego_Live" rootobject="LegoOrd" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="ShippingCost_Year.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="Lego_Live" rootobject="LegoOrd" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spIncompleteOrders.sql" datasource_override="Yes" root_override="Yes" database_kind="Unknown" datasource="Test" rootobject="LegoOrd_Test" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="spCompetedOrders.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="LegoOrd" rootobject="LegoOrd" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="Reports\ShippingCost_Access3.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="Lego_Live" rootobject="LegoOrd" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+		<File Type="SQLFile" FilePath="vwMonthlyBill.sql" datasource_override="Yes" root_override="Yes" databasekind_override="Yes" database_kind="MS Access" datasource="Lego_Live" rootobject="LegoOrd" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+	</Folder>
+	<Folder FolderName="Design" Type="DesignRootFolder" database_kind="Unknown" datasource="Offline" description="Store and organize Design files for this project."/>
+	<Folder FolderName="Data Diff" Type="DataDiffRootFolder"/>
+	<Folder FolderName="Schema Diff" Type="SchemaDiffRootFolder"/>
+	<Folder FolderName="Favorites" Expanded="Yes" Type="FavoriteFolder">
+		<Favorite>
+			<ObjectPath>
+				<PathElement Name="LegoOrd" Kind="DataSource"/>
+				<PathElement Name="LegoOrd" Kind="Database"/>
+				<PathElement Name="DailyFINAL2" Kind="Table"/>
+				<PathElement Name="TxnLine Other1" Kind="Column"/>
+			</ObjectPath>
+		</Favorite>
+	</Folder>
+</Project>

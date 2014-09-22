@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ActivityLog>
+  <Header />
+  <Body>
+    <Consumer>Alex Grandmaboy</Consumer>
+    <Employer>
+      <Name>Brainasium</Name>
+      <Location>
+        <Address>420 Genesee St.</Address>
+        <CityStateZip>Utica, NY 13501</CityStateZip>
+      </Location>
+    </Employer>
+    <Review>
+      <Info>
+        <Date>09/19/2012</Date>
+        <MeetingType>Phone</MeetingType>
+      </Info>
+      <ValuedOutcome>to become a video game programmer</ValuedOutcome>
+      <Barriers>Alex's slacker lifestyle and his addiction to marijuana</Barriers>
+      <Notes>I met with Alex today at the Pinnacle Office. He continues to be out of work due to a recent auto/pedestrian accident on 8/1/2012.
+
+Alex stated that his C-3 vertebrae is pinching a nerve in his neck and an orthopedic specialist stated that Alex might need to have surgery on his knee as a result of the accident. Alex Will be returning to work on 10/2/2012 with a lifting restriction of of 5lbs. Alex stated that he is ready to look for a job with more hours.
+
+Alex has a BS degree in Finance and is interested in looking for something where he can better utilize his education. I asked my supervisor, Kristen Looman, to talk to Mary about agencies in the community that would benefit from Alex's education. Alex and I went online and looked at positions available at the Neighborhood Center, House of Good Shepard, and Catholic Charities.</Notes>
+    </Review>
+  </Body>
+  <Footer>
+    <Date>9/24/2012</Date>
+  </Footer>
+</ActivityLog>

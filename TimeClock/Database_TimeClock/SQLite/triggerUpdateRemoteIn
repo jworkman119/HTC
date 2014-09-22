@@ -1,0 +1,11 @@
+drop trigger updateRemoteTime_In 
+
+CREATE TRIGGER updateRemoteTime_In
+
+After Insert
+ON localTime
+When(New.Status='In')
+BEGIN
+	Insert Into remoteTime(localTimeIn_ID, PersonID, TimeIn)
+	Values(New.ID,New.PersonID,New.Time);
+END

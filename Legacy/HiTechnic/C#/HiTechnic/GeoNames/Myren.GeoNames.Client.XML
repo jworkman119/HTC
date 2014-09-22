@@ -1,0 +1,2866 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Myren.GeoNames.Client</name>
+    </assembly>
+    <members>
+        <member name="T:Myren.GeoNames.Client.GeoWeatherObservation">
+            <summary>
+            Defines a GeoNames weather observation data contract.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoWeatherObservation.#ctor">
+            <summary>
+            Creates a new instance of GeoWeatherObservation.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWeatherObservation.Clouds">
+            <summary>
+            Gets the cloud information.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWeatherObservation.WeatherCondition">
+            <summary>
+            Gets the weather conditions.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWeatherObservation.Observation">
+            <summary>
+            Gets the observation details.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWeatherObservation.Icao">
+            <summary>
+            Gets the International Civil Aviation Organization (ICAO) code.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWeatherObservation.Elevation">
+            <summary>
+            Gets the elevation of this location.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWeatherObservation.CountryCode">
+            <summary>
+            Gets the country code.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWeatherObservation.Latitude">
+            <summary>
+            Gets the latitude for this weather observation.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWeatherObservation.Longitude">
+            <summary>
+            Gets the longitude for this weather observation.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWeatherObservation.Temperature">
+            <summary>
+            Gets the reported temperature.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWeatherObservation.DewPoint">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWeatherObservation.WindSpeed">
+            <summary>
+            Gets the reported wind speed.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWeatherObservation.Humidity">
+            <summary>
+            Gets the reported humidity.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWeatherObservation.StationName">
+            <summary>
+            Gets the weather station name that provides this weather report.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWeatherObservation.Timestamp">
+            <summary>
+            Gets the date and time of this weather report.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWeatherObservation.HectoPascAltimeter">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoFeatureClass">
+            <summary>
+            Defines the GeoNames feature classes.
+            </summary>
+        </member>
+        <member name="F:Myren.GeoNames.Client.GeoFeatureClass.A">
+            <summary>
+            Administrative Boundary Features.
+            </summary>
+        </member>
+        <member name="F:Myren.GeoNames.Client.GeoFeatureClass.H">
+            <summary>
+            Hydrographic Features.
+            </summary>
+        </member>
+        <member name="F:Myren.GeoNames.Client.GeoFeatureClass.L">
+            <summary>
+            Area Features.
+            </summary>
+        </member>
+        <member name="F:Myren.GeoNames.Client.GeoFeatureClass.P">
+            <summary>
+            Populated Place Features.
+            </summary>
+        </member>
+        <member name="F:Myren.GeoNames.Client.GeoFeatureClass.R">
+            <summary>
+            Road / Railroad Features.
+            </summary>
+        </member>
+        <member name="F:Myren.GeoNames.Client.GeoFeatureClass.S">
+            <summary>
+            Spot Features.
+            </summary>
+        </member>
+        <member name="F:Myren.GeoNames.Client.GeoFeatureClass.T">
+            <summary>
+            Hypsographic Features.
+            </summary>
+        </member>
+        <member name="F:Myren.GeoNames.Client.GeoFeatureClass.U">
+            <summary>
+            Undersea Features.
+            </summary>
+        </member>
+        <member name="F:Myren.GeoNames.Client.GeoFeatureClass.V">
+            <summary>
+            Vegetation Features.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoToponym">
+            <summary>
+            The GeoNames Toponym; a name of a locality, region, or some other part of Earth's surface,
+            including natural features (such as streams) and artificial ones (such as cities).
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoToponym.#ctor">
+            <summary>
+            Creates a new instance of GeoToponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.GeoNameID">
+            <summary>
+            Gets the geoNameId of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.Name">
+            <summary>
+            Gets the name of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.AlternateNames">
+            <summary>
+            Gets the alternate names of this toponym, as expressed in different languages.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.CountryCode">
+            <summary>
+            Identififes the country where the toponym is located.
+            This value is expressed in the ISO 3166-1 alpha-2 format.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.CountryName">
+            <summary>
+            Gets the name of the country where the toponym is located.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.Population">
+            <summary>
+            Gets the population of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.Elevation">
+            <summary>
+            Gets the toponym's elevation.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.TimeZone">
+            <summary>
+            Gets the time zone of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.FeatureClass">
+            <summary>
+            Gets the GeoNames feature class of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.FeatureClassName">
+            <summary>
+            Gets the name of the GeoNames feature class of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.FeatureCode">
+            <summary>
+            Gets the GeoNames feature code class of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.FeatureCodeName">
+            <summary>
+            Gets the name of the GeoNames feature code class of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.Latitude">
+            <summary>
+            Gets the latitude of this division.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.Longitude">
+            <summary>
+            Gets the longitude of this division.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.AdminCode1">
+            <summary>
+            Gets the first-order toponym of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.AdminName1">
+            <summary>
+            Gets the name of the first-order toponym of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.AdminCode2">
+            <summary>
+            Gets the second-order toponym of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.AdminName2">
+            <summary>
+            Gets the name of the second-order toponym of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.AdminCode3">
+            <summary>
+            Gets the third-order toponym of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.AdminName3">
+            <summary>
+            Gets the name of the third-order toponym of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.AdminCode4">
+            <summary>
+            Gets the fourth-order toponym of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.AdminName4">
+            <summary>
+            Gets the name of the fourth-order toponym of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.ChildrenCount">
+            <summary>
+            Gets the number of children of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponym.Distance">
+            <summary>
+            Gets the distance to the toponym's location, expressed as a string based on the current culture.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoSubdivision">
+            <summary>
+            Defines a GeoNames administrative subdivison.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoSubdivision.#ctor">
+            <summary>
+            Creates a new instance of GeoSubdivision.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoSubdivision.Codes">
+            <summary>
+            Gets a list of associated codes.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoCountryCode">
+            <summary>
+            Defines a GeoNames country code data contract.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoCountryCode.#ctor">
+            <summary>
+            Creates a new instance of GeoCountryCode.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCountryCode.CountryCode">
+            <summary>
+            Gets the country code.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCountryCode.CountryName">
+            <summary>
+            Gets the country name.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCountryCode.Distance">
+            <summary>
+            Gets the distance.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoStreetSegmentListResponse">
+            <summary>
+            Represents any GeoNames response.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoStreetSegmentListResponse.#ctor">
+            <summary>
+            Creates a new instance of GeoStreetSegmentListResponse.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoStreetSegmentListResponse.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the divisions in the GeoStreetSegmentListResponse.
+            </summary>
+            <returns>
+            A enumerator for the GeoStreetSegmentListResponse.
+            </returns>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetSegmentListResponse.StreetSegments">
+            <summary>
+            Contains the list of data in the GeoNames response.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoCountryPostalCodeInfo">
+            <summary>
+            Represents a GeoNames country postal code information provider.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoCountryPostalCodeInfo.#ctor">
+            <summary>
+            Creates a new instance of GeoCountryPostalCodeInfo.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCountryPostalCodeInfo.CountryCode">
+            <summary>
+            Gets the country code.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCountryPostalCodeInfo.CountryName">
+            <summary>
+            Gets the country name.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCountryPostalCodeInfo.PostalCodesCount">
+            <summary>
+            The number of postal codes available for this country.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCountryPostalCodeInfo.MinPostalCode">
+            <summary>
+            The "minimum" postal code according to the range of systematically arranged postal codes.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCountryPostalCodeInfo.MaxPostalCode">
+            <summary>
+            The "maximum" postal code according to the range of systematically arranged postal codes.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoPostalCodeSearchCriteria">
+            <summary>
+            Provides the criteria for a postal code search operation.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoPostalCodeSearchCriteria.#ctor">
+            <summary>
+            Creates a new instance of GeoPostalCodeSearchCriteria.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCodeSearchCriteria.PostalCode">
+            <summary>
+            A postal code.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCodeSearchCriteria.PostalCodeStartsWith">
+            <summary>
+            The first characters or letters of a postal code.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCodeSearchCriteria.PlaceName">
+            <summary>
+            A place name.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCodeSearchCriteria.PlaceNameStartsWith">
+            <summary>
+            The first characters of a place name.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCodeSearchCriteria.Country">
+            <summary>
+            A country. Default is all countries.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCodeSearchCriteria.CountryBias">
+            <summary>
+            Records from the countryBias are listed first.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCodeSearchCriteria.MaxRows">
+            <summary>
+            The maximal number of rows in the document returned by the service. Default is 10.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCodeSearchCriteria.Style">
+            <summary>
+            Response verbosity; short, medium, long or full.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoTimeZone">
+            <summary>
+            A GeoNames time zone data contract.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoTimeZone.#ctor">
+            <summary>
+            Creates a new instance of GeoTimeZone.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoTimeZone.TimeZoneID">
+            <summary>
+            Gets the time zone ID.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoTimeZone.DstOffset">
+            <summary>
+            Gets the time zone offset as of first of July of current year.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoTimeZone.GmtOffset">
+            <summary>
+            Gets the time zone offset as of first of January of current year.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoStreetSegment">
+            <summary>
+            A GeoNames street line segment. Includes house number information for the beginning
+            and end of the line as well as right and left hand side of the line.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoPostalCode">
+            <summary>
+            Defines a GeoNames postal code data contract.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoPostalCode.#ctor">
+            <summary>
+            Creates a new instance of GeoPostalCode.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCode.PostalCode">
+            <summary>
+            Gets the postal code.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCode.PlaceName">
+            <summary>
+            Gets the place name.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCode.CountryCode">
+            <summary>
+            Gets the country code.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCode.Latitude">
+            <summary>
+            Gets the latitude.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCode.Longitude">
+            <summary>
+            Gets the longitude.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCode.AdminCode1">
+            <summary>
+            Gets the first-order toponym of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCode.AdminName1">
+            <summary>
+            Gets the name of the first-order toponym of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCode.AdminCode2">
+            <summary>
+            Gets the second-order toponym of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCode.AdminName2">
+            <summary>
+            Gets the name of the second-order toponym of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCode.AdminCode3">
+            <summary>
+            Gets the third-order toponym of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCode.AdminName3">
+            <summary>
+            Gets the name of the third-order toponym of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCode.AdminCode4">
+            <summary>
+            Gets the fourth-order toponym of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCode.AdminName4">
+            <summary>
+            Gets the name of the fourth-order toponym of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCode.Distance">
+            <summary>
+            Gets the distance to the toponym's location, if this information is available in the current context.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoStreetSegment.#ctor">
+            <summary>
+            Creates a new instance of GeoStreetSegment.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetSegment.Name">
+            <summary>
+            Gets the name of the street.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetSegment.FeatureClasses">
+            <summary>
+            Gets the MAF/TIGER feature class codes.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetSegment.End1Left">
+            <summary>
+            Gets the From address, left.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetSegment.End2Left">
+            <summary>
+            Gets the To address, left.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetSegment.End1Right">
+            <summary>
+            Gets the From address, right.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetSegment.End2Right">
+            <summary>
+            Gets the To address, right.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetSegment.Line">
+            <summary>
+            Gets a line string with latitude/longitude points, points are comma separated.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoPostalCodeListResponse">
+            <summary>
+            Represents any GeoNames response.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoPostalCodeListResponse.#ctor">
+            <summary>
+            Creates a new instance of GeoPostalCodeListResponse.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoPostalCodeListResponse.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the divisions in the GeoPostalCodeListResponse.
+            </summary>
+            <returns>
+            A enumerator for the GeoPostalCodeListResponse.
+            </returns>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoPostalCodeListResponse.PostalCodes">
+            <summary>
+            Contains the list of data in the GeoNames response.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoNamesClient">
+            <summary>
+            A GeoNames services client.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.IGeoNamesClient">
+            <summary>
+            Supports the GeoNames service contract.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetChildren(System.Int32,System.String,Myren.GeoNames.Client.GeoStyle,System.Int32)">
+            <summary>
+            Returns the children for the given geonameId.
+            The children are the administrative divisions within an other administrative division.
+            Like the counties (ADM2) in a state (ADM1) or also the countries in a continent. 
+            </summary>
+            <param name="geoNameID">
+            The geonameId of the parent.
+            </param>
+            <param name="culture">
+            Language used for names and text, localized Wikipedia URLs, etc.
+            </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <param name="maxRows">
+            Max number of records returned.
+            </param>
+            <returns>
+            Returns a list of GeoName records.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetChildren(System.Int32,System.String,Myren.GeoNames.Client.GeoStyle)">
+            <summary>
+            Returns the children for the given geonameId.
+            The children are the administrative divisions within an other administrative division.
+            Like the counties (ADM2) in a state (ADM1) or also the countries in a continent. 
+            </summary>
+            <param name="geoNameID">
+            The geonameId of the parent.
+            </param>
+            <param name="culture">
+            Language used for names and text, localized Wikipedia URLs, etc.
+            </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <returns>
+            Returns a list of GeoName records.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetChildren(System.Int32)">
+            <summary>
+            Returns the children for the given geonameId, using <see cref="F:Myren.GeoNames.Client.GeoStyle.Full"/> and the default culture.
+            The children are the administrative divisions within an other administrative division.
+            Like the counties (ADM2) in a state (ADM1) or also the countries in a continent. 
+            </summary>
+            <param name="geoNameID">
+            The geonameId of the parent.
+            </param>
+            <returns>
+            Returns a list of GeoName records.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetCities(System.Double,System.Double,System.Double,System.Double,System.String,Myren.GeoNames.Client.GeoStyle,System.Int32)">
+            <summary>
+            Gets a list of cities and placenames in the specified bounding box.
+            </summary>
+            <param name="north"> Northern coordinates of bounding box. </param>
+            <param name="south"> Southern coordinates of bounding box. </param>
+            <param name="east"> Eastern coordinates of bounding box. </param>
+            <param name="west"> Western coordinates of bounding box. </param>
+            <param name="culture">
+            Language used for names and text, localized Wikipedia URLs, etc.
+            </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <param name="maxRows">
+            Max number of records returned.
+            </param>
+            <returns>
+            A list of cities and placenames in the bounding box, ordered by relevancy.
+            Placenames close together are filterered out and only the larger name is included in the resulting list.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetCities(System.Double,System.Double,System.Double,System.Double,System.String,Myren.GeoNames.Client.GeoStyle)">
+            <summary>
+            Gets a list of cities and placenames in the specified bounding box, using <see cref="F:Myren.GeoNames.Client.GeoStyle.Full"/>.
+            </summary>
+            <param name="north"> Northern coordinates of bounding box. </param>
+            <param name="south"> Southern coordinates of bounding box. </param>
+            <param name="east"> Eastern coordinates of bounding box. </param>
+            <param name="west"> Western coordinates of bounding box. </param>
+            <param name="culture">
+            Language used for names and text, localized Wikipedia URLs, etc.
+            </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <returns>
+            A list of cities and placenames in the bounding box, ordered by relevancy.
+            Placenames close together are filterered out and only the larger name is included in the resulting list.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetCities(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Gets a list of cities and placenames in the specified bounding box, using <see cref="F:Myren.GeoNames.Client.GeoStyle.Full"/> and the default culture.
+            </summary>
+            <param name="north"> Northern coordinates of bounding box. </param>
+            <param name="south"> Southern coordinates of bounding box. </param>
+            <param name="east"> Eastern coordinates of bounding box. </param>
+            <param name="west"> Western coordinates of bounding box. </param>
+            <returns>
+            A list of cities and placenames in the bounding box, ordered by relevancy.
+            Placenames close together are filterered out and only the larger name is included in the resulting list.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetCountryCode(System.Double,System.Double,System.Double,System.String,Myren.GeoNames.Client.GeoStyle)">
+            <summary>
+            Returns the ISO country code of any given point. 
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="radius"> Buffer in km for closest country in coastal areas. </param>
+            <param name="culture"> Language of country name (default = en). </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <returns>
+            The ISO country code of the specified point.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetCountryCode(System.Double,System.Double)">
+            <summary>
+            Returns the ISO country code of any given point. 
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <returns>
+            The ISO country code of the specified point.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetCountry(System.String,System.String,Myren.GeoNames.Client.GeoStyle)">
+            <summary>
+            Returns information about any given country.
+            </summary>
+            <param name="country"> An ISO country code. </param>
+            <param name="culture"> Language of names, etc. (default = en). </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <returns>
+            Country information; Capital, Population, Area in square km, Bounding Box of mainland.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetCountry(System.String)">
+            <summary>
+            Returns information about any given country.
+            </summary>
+            <param name="country"> An ISO country code. </param>
+            <returns>
+            Country information; Capital, Population, Area in square km, Bounding Box of mainland.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetCountries(System.String,Myren.GeoNames.Client.GeoStyle)">
+            <summary>
+            Returns information for all countries.
+            </summary>
+            <param name="culture"> Language of names, etc. (default = en). </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <returns>
+            Country information for all countries; Capital, Population, Area in square km, Bounding Box of mainland.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetCountries">
+            <summary>
+            Returns information for all countries.
+            </summary>
+            <returns>
+            Country information for all countries; Capital, Population, Area in square km, Bounding Box of mainland.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetSubdivision(System.Double,System.Double,System.Double,System.String,Myren.GeoNames.Client.GeoStyle)">
+            <summary>
+            Returns the iso country code and the administrative subdivision of any given point. 
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="radius"> Buffer in km for closest country in coastal areas. </param>
+            <param name="culture"> Language of names, etc. (default = en). </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <returns>
+            The country and the administrative subdivison (state, province,...) for the given latitude/longitude.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetSubdivision(System.Double,System.Double,System.String,Myren.GeoNames.Client.GeoStyle)">
+            <summary>
+            Returns the iso country code and the administrative subdivision of any given point. 
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="culture"> Language of names, etc. (default = en). </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <returns>
+            The country and the administrative subdivison (state, province,...) for the given latitude/longitude.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetSubdivision(System.Double,System.Double)">
+            <summary>
+            Returns the iso country code and the administrative subdivision of any given point. 
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <returns>
+            The country and the administrative subdivison (state, province,...) for the given latitude/longitude.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetEarthquakes(System.Double,System.Double,System.Double,System.Double,System.Double,Myren.GeoNames.Client.GeoStyle,System.Int32)">
+            <summary>
+            Returns a list of earthquakes in a geographical bounding box.
+            </summary>
+            <param name="north"> Northern coordinates of bounding box. </param>
+            <param name="south"> Southern coordinates of bounding box. </param>
+            <param name="east"> Eastern coordinates of bounding box. </param>
+            <param name="west"> Western coordinates of bounding box. </param>
+            <param name="minMagnitude"> Minimal magnitude. </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <param name="maxRows">
+            Max number of records returned (default=10).
+            </param>
+            <returns>
+            A list of earthquakes, ordered by magnitude.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetEarthquakes(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Returns a list of earthquakes in a geographical bounding box.
+            </summary>
+            <param name="north"> Northern coordinates of bounding box. </param>
+            <param name="south"> Southern coordinates of bounding box. </param>
+            <param name="east"> Eastern coordinates of bounding box. </param>
+            <param name="west"> Western coordinates of bounding box. </param>
+            <returns>
+            A list of earthquakes, ordered by magnitude.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.FindNearbyToponym(System.Double,System.Double,System.Double,Myren.GeoNames.Client.GeoFeatureClass,System.String,Myren.GeoNames.Client.GeoStyle,System.Int32)">
+            <summary>
+            Finds all nearby toponyms.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <param name="featureClass"> Feature class. </param>
+            <param name="culture"> Language of names, etc. (default = en). </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <param name="maxRows">
+            Max number of records returned (default=10).
+            </param>
+            <returns>
+            All nearby toponyms.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.FindNearbyToponym(System.Double,System.Double,System.Double,Myren.GeoNames.Client.GeoFeatureClass)">
+            <summary>
+            Finds all nearby toponyms.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <param name="featureClass"> Feature class. </param>
+            <returns>
+            All nearby toponyms.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.FindNearbyToponym(System.Double,System.Double,Myren.GeoNames.Client.GeoFeatureClass)">
+            <summary>
+            Finds all nearby toponyms.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="featureClass"> Feature class. </param>
+            <returns>
+            All nearby toponyms.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.FindNearbyPlaceName(System.Double,System.Double,System.Double,System.String,Myren.GeoNames.Client.GeoStyle,System.Int32)">
+            <summary>
+            Finds all nearby populated places.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <param name="culture"> Language of names, etc. (default = en). </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <param name="maxRows">
+            Max number of records returned (default=10).
+            </param>
+            <returns>
+            All nearby places.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.FindNearbyPlaceName(System.Double,System.Double,System.Double)">
+            <summary>
+            Finds all nearby populated places.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <returns>
+            All nearby places.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.FindNearbyPlaceName(System.Double,System.Double)">
+            <summary>
+            Finds all nearby populated places.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <returns>
+            All nearby places.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.FindNearbyPostalCodes(System.Double,System.Double,System.Double,Myren.GeoNames.Client.GeoStyle,System.Int32)">
+            <summary>
+            Finds nearby postal codes.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <param name="maxRows"> Max number of rows returned (default = 5). </param>
+            <returns>
+            A list of nearby postalcodes.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.FindNearbyPostalCodes(System.Double,System.Double,System.Double)">
+            <summary>
+            Finds nearby postal codes.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <returns>
+            A list of nearby postalcodes.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.FindNearbyPostalCodes(System.String,System.String,System.Double,Myren.GeoNames.Client.GeoStyle,System.Int32)">
+            <summary>
+            Finds nearby postal codes.
+            </summary>
+            <param name="postalCode"> A postal code. </param>
+            <param name="country"> A country. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <param name="maxRows"> Max number of rows returned (default = 5). </param>
+            <returns>
+            A list of nearby postalcodes.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.FindNearbyPostalCodes(System.String,System.String,System.Double)">
+            <summary>
+            Finds nearby postal codes.
+            </summary>
+            <param name="postalCode"> A postal code. </param>
+            <param name="country"> A country. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <returns>
+            A list of nearby postalcodes.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.FindNearbyStreets(System.Double,System.Double,Myren.GeoNames.Client.GeoStyle,System.Int32)">
+            <summary>
+            Finds the nearest street for a given latitude and longitude. 
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <param name="maxRows">
+            Max number of records returned.
+            </param>
+            <returns>
+            The nearest street segments for the given latitude/longitude.
+            </returns>
+            <remarks>
+            This webservice is only available for the US.
+            </remarks>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.FindNearbyStreets(System.Double,System.Double)">
+            <summary>
+            Finds the nearest street for a given latitude and longitude. 
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <returns>
+            The nearest street segments for the given latitude/longitude.
+            </returns>
+            <remarks>
+            This webservice is only available for the US.
+            </remarks>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.FindNearbyWeather(System.Double,System.Double)">
+            <summary>
+            Returns the most recent weather observation for a given location.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <returns>
+            The most recent weather observation.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.FindNearbyWikipedia(System.Double,System.Double,System.Double,System.String,System.Int32)">
+            <summary>
+            Finds Wikipedia articles for a nearby place.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <param name="culture"> Language code (around 180 languages) (default = en). </param>
+            <param name="maxRows"> Max number of rows returned (default = 5). </param>
+            <returns>
+            A list of Wikipedia entries.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.FindNearbyWikipedia(System.Double,System.Double,System.Double)">
+            <summary>
+            Finds Wikipedia articles for a nearby place.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <returns>
+            A list of Wikipedia entries.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.FindNearbyWikipedia(System.Double,System.Double)">
+            <summary>
+            Finds Wikipedia articles for a nearby place.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <returns>
+            A list of Wikipedia entries.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.FindNearbyWikipedia(System.String,System.String,System.Double,System.String,System.Int32)">
+            <summary>
+            Finds Wikipedia articles for a nearby place.
+            </summary>
+            <param name="postalCode"> A postal code. </param>
+            <param name="country"> A country. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <param name="culture"> Language code (around 180 languages) (default = en). </param>
+            <param name="maxRows"> Maximal number of rows returned (default = 5). </param>
+            <returns>
+            A list of Wikipedia entries.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.FindNearbyWikipedia(System.String,System.String,System.Double)">
+            <summary>
+            Finds Wikipedia articles for a nearby place.
+            </summary>
+            <param name="postalCode"> A postal code. </param>
+            <param name="country"> A country. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <returns>
+            A list of Wikipedia entries.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.FindNearbyWikipedia(System.String,System.String)">
+            <summary>
+            Finds Wikipedia articles for a nearby place.
+            </summary>
+            <param name="postalCode"> A postal code. </param>
+            <param name="country"> A country. </param>
+            <returns>
+            A list of Wikipedia entries.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.FindNearestAddress(System.Double,System.Double)">
+            <summary>
+            Finds the nearest street and address for a given latitude/longitude pair.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <returns>
+            The nearest address for the given latitude/longitude, the street number is an 'educated guess'
+            using an interpolation of street number at the end of a street segment.
+            </returns>
+            <remarks>
+            This webservice is only available for the US.
+            </remarks>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.FindNearestIntersection(System.Double,System.Double)">
+            <summary>
+            Finds the nearest street and the next crossing street for a given latitude/longitude pair.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <returns>
+            The nearest intersection for the given latitude/longitude.
+            </returns>
+            <remarks>
+            This webservice is only available for the US.
+            </remarks>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetToponym(System.Int32)">
+            <summary>
+            Returns a GeoNames toponym.
+            </summary>
+            <param name="geoNameID">
+            GeoNames object ID.
+            </param>
+            <returns>
+            A toponym.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetElevation(System.Double,System.Double)">
+            <summary>
+            Returns the elevation in meters of the specified location, according to GTOPO30.
+            GTOPO30 is a global digital elevation model (DEM) with a horizontal grid
+            spacing of 30 arc seconds (approximately 1 kilometer). GTOPO30 was derived
+            from several raster and vector sources of topographic information.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <returns>
+            The elevation in meters according to GTOPO30.
+            Ocean areas have been masked as "no data" and have been assigned a value of -9999.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetHierarchy(System.Int32,Myren.GeoNames.Client.GeoStyle)">
+            <summary>
+            Returns all GeoNames higher up in the hierarchy of a place name. 
+            </summary>
+            <param name="geoNameID">
+            The geonameId for the hierarchy.
+            </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <returns>
+            A list of GeoName records, ordered by hierarchy level.
+            The top hierarchy (continent) is the first element in the list.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetHierarchy(System.Int32)">
+            <summary>
+            Returns all GeoNames higher up in the hierarchy of a place name. 
+            </summary>
+            <param name="geoNameID">
+            The geonameId for the hierarchy.
+            </param>
+            <returns>
+            A list of GeoName records, ordered by hierarchy level.
+            The top hierarchy (continent) is the first element in the list.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetNeighbours(System.Int64,Myren.GeoNames.Client.GeoStyle)">
+            <summary>
+            Returns all neighbours for a place name (currently only available for countries).
+            </summary>
+            <param name="geoNameID">
+            The geonameId for the neighbours.
+            </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <returns>
+            The neighbours of a toponym, currently only implemented for countries.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetNeighbours(System.Int64)">
+            <summary>
+            Returns all neighbours for a place name (currently only available for countries).
+            </summary>
+            <param name="geoNameID">
+            The geonameId for the neighbours.
+            </param>
+            <returns>
+            The neighbours of a toponym, currently only implemented for countries.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetPostalCodeCountries">
+            <summary>
+            Returns a list of countries for which postal code geocoding is available.
+            </summary>
+            <returns>
+            Countries for which postal code geocoding is available.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.LookupPostalCode(System.String,System.String,System.Int32)">
+            <summary>
+            Returns postal code information for the specified postal code and country.
+            </summary>
+            <param name="postalCode"> A postal code. </param>
+            <param name="country"> A country. </param>
+            <param name="maxRows"> Max number of rows returned (default=20). </param>
+            <returns> Postal code information for the specified postal code and country. </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.LookupPostalCode(System.String,System.String)">
+            <summary>
+            Returns postal code information for the specified postal code and country.
+            </summary>
+            <param name="postalCode"> A postal code. </param>
+            <param name="country"> A country. </param>
+            <returns> Postal code information for the specified postal code and country. </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.SearchPostalCodes(System.String,System.String,System.String,System.String,System.String,System.String,Myren.GeoNames.Client.GeoStyle,System.Int32)">
+            <summary>
+            Returns a list of postal codes and places for the placename/postalcode query.
+            </summary>
+            <param name="postalCode"> Postal code. </param>
+            <param name="postalCodeStartsWith"> The first characters or letters of a postal code. </param>
+            <param name="placeName"> Place name. </param>
+            <param name="placeNameStartsWith"> The first characters of a place name. </param>
+            <param name="country"> A country. Default is all countries. </param>
+            <param name="countryBias"> Records from the countryBias are listed first. </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <param name="maxRows">
+            The maximal number of rows in the document returned by the service. Default is 10.
+            </param>
+            <returns>
+            A list of postal codes and places.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.SearchToponyms(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,Myren.GeoNames.Client.GeoStyle,System.Int32)">
+            <summary>
+            Returns the names found for the searchterm. The search is using an AND operator.
+            </summary>
+            <param name="query">
+            Search over all attributes of a place:
+            place name, country name, continent, admin codes, ...
+            </param>
+            <param name="name"> Place name. </param>
+            <param name="nameEquals"> Exact place name. </param>
+            <param name="nameStartsWith"> The first characters of a place name. </param>
+            <param name="country"> The country. Default is all countries. </param>
+            <param name="featureCode"> The GeoNames feature code class. </param>
+            <param name="featureClass"> The name of the GeoNames feature code class. </param>
+            <param name="adminCode1"> The first-order toponym. </param>
+            <param name="adminCode2"> The second-order toponym. </param>
+            <param name="adminCode3"> The third-order toponym. </param>
+            <param name="adminCode4"> The fourth-order toponym. </param>
+            <param name="tag"> Search toponyms tagged with this specific tag. </param>
+            <param name="startIndex">
+            Used for paging results. If you want to get results 30 to 40, use startRow=30 and maxRows=10. Default is 0.
+            </param>
+            <param name="culture">
+            Place name and country name will be returned in the specified language. Default is English.
+            Feature classes and codes are only available in English and Bulgarian.
+            </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <param name="maxRows">
+            The maximal number of rows in the document returned by the service. Default is 10.
+            </param>
+            <returns>
+            A list of toponyms.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetSiblings(System.Int32,Myren.GeoNames.Client.GeoStyle)">
+            <summary>
+            Returns all siblings of a GeoNames toponym.
+            </summary>
+            <param name="geoNameID">
+            The geonameId for the siblings.
+            </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <returns>
+            A list of GeoNames records that have the same administrative level and the same father.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetSiblings(System.Int32)">
+            <summary>
+            Returns all siblings of a GeoNames toponym.
+            </summary>
+            <param name="geoNameID">
+            The geonameId for the siblings.
+            </param>
+            <returns>
+            A list of GeoNames records that have the same administrative level and the same father.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetTimeZone(System.Double,System.Double)">
+            <summary>
+            Gets the timezone at the given latitude/longitude.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <returns>
+            The timezone at the given latitude/longitude with GMT offset (1. January) and DST offset (1. July).
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetWeather(System.Double,System.Double,System.Double,System.Double,Myren.GeoNames.Client.GeoStyle,System.Int32)">
+            <summary>
+            Returns weather stations with most recent weather observation.
+            </summary>
+            <param name="north"> Northern coordinates of bounding box. </param>
+            <param name="south"> Southern coordinates of bounding box. </param>
+            <param name="east"> Eastern coordinates of bounding box. </param>
+            <param name="west"> Western coordinates of bounding box. </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <param name="maxRows">
+            Max number of records returned (default = 10).
+            </param>
+            <returns>
+            A list of weather stations with the most recent weather observation.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetWeather(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Returns weather stations with most recent weather observation.
+            </summary>
+            <param name="north"> Northern coordinates of bounding box. </param>
+            <param name="south"> Southern coordinates of bounding box. </param>
+            <param name="east"> Eastern coordinates of bounding box. </param>
+            <param name="west"> Western coordinates of bounding box. </param>
+            <returns>
+            A list of weather stations with the most recent weather observation.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.GetWeatherFromIcao(System.String)">
+            <summary>
+            Gets the weather station with most recent weather observation for the specified ICAO code.
+            </summary>
+            <param name="icao">
+            International Civil Aviation Organization (ICAO) code.
+            </param>
+            <returns>
+            The weather station and the most recent weather observation for the ICAO code.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.WikipediaArticlesInBoundingBox(System.Double,System.Double,System.Double,System.Double,System.String,System.Int32)">
+            <summary>
+            Returns the Wikipedia entries within the specified bounding box.
+            </summary>
+            <param name="north"> Northern coordinates of bounding box. </param>
+            <param name="south"> Southern coordinates of bounding box. </param>
+            <param name="east"> Eastern coordinates of bounding box. </param>
+            <param name="west"> Western coordinates of bounding box. </param>
+            <param name="culture"> Language, either 'de' or 'en' (default = en). </param>
+            <param name="maxRows">
+            Max number of records returned (default = 10).
+            </param>
+            <returns>
+            A list of Wikipedia articles.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.WikipediaArticlesInBoundingBox(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Returns the Wikipedia entries within the specified bounding box.
+            </summary>
+            <param name="north"> Northern coordinates of bounding box. </param>
+            <param name="south"> Southern coordinates of bounding box. </param>
+            <param name="east"> Eastern coordinates of bounding box. </param>
+            <param name="west"> Western coordinates of bounding box. </param>
+            <returns>
+            A list of Wikipedia articles.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.SearchWikipedia(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Performs a full text search on geolocated Wikipedia articles.
+            </summary>
+            <param name="placeNameQuery">
+            Place name query.
+            </param>
+            <param name="titleQuery">
+            A title query.
+            </param>
+            <param name="culture"> Language, either 'de' or 'en' (default = en). </param>
+            <param name="maxRows">
+            Max number of records returned (default = 10).
+            </param>
+            <returns>
+            The Wikipedia entries found for the given query.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeoNamesClient.SearchWikipedia(System.String)">
+            <summary>
+            Performs a full text search on geolocated Wikipedia articles.
+            </summary>
+            <param name="placeNameQuery">
+            Place name query.
+            </param>
+            <returns>
+            The Wikipedia entries found for the given query.
+            </returns>
+        </member>
+        <member name="T:Myren.GeoNames.Client.IGeocoder">
+            <summary>
+            Supports geocoding an address into a spatial coordinate.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.IGeocoder.TryGeocode(System.String,System.Double@,System.Double@)">
+            <summary>
+            Geocodes an address into a spatial coordinate.
+            </summary>
+            <param name="address"> An address to geocode. </param>
+            <param name="latitude"> [out] Recieves the determined latitude. </param>
+            <param name="longitude"> [out] Recieves the determined longitude. </param>
+            <returns>
+            true if the address was successfully geocoded; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.#ctor(System.ServiceModel.WebHttpBinding)">
+            <summary>
+            Creates a new instance of the GeoNamesClient class, with the specified binding.
+            </summary>
+            <param name="binding">
+            A HTTP binding configuration.
+            </param>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.#ctor">
+            <summary>
+            Creates a new instance of the GeoNamesClient class, using the default binding.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetChildren(System.Int32,System.String,Myren.GeoNames.Client.GeoStyle,System.Int32)">
+            <summary>
+            Returns the children for the given geonameId.
+            The children are the administrative divisions within an other administrative division.
+            Like the counties (ADM2) in a state (ADM1) or also the countries in a continent. 
+            </summary>
+            <param name="geoNameID">
+            The geonameId of the parent.
+            </param>
+            <param name="culture">
+            Language used for names and text, localized Wikipedia URLs, etc.
+            </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <param name="maxRows">
+            Max number of records returned.
+            </param>
+            <returns>
+            Returns a list of GeoName records.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetChildren(System.Int32,System.String,Myren.GeoNames.Client.GeoStyle)">
+            <summary>
+            Returns the children for the given geonameId.
+            The children are the administrative divisions within an other administrative division.
+            Like the counties (ADM2) in a state (ADM1) or also the countries in a continent. 
+            </summary>
+            <param name="geoNameID">
+            The geonameId of the parent.
+            </param>
+            <param name="culture">
+            Language used for names and text, localized Wikipedia URLs, etc.
+            </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <returns>
+            Returns a list of GeoName records.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetChildren(System.Int32)">
+            <summary>
+            Returns the children for the given geonameId, using <see cref="F:Myren.GeoNames.Client.GeoStyle.Full"/> and the default culture.
+            The children are the administrative divisions within an other administrative division.
+            Like the counties (ADM2) in a state (ADM1) or also the countries in a continent. 
+            </summary>
+            <param name="geoNameID">
+            The geonameId of the parent.
+            </param>
+            <returns>
+            Returns a list of GeoName records.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetCities(System.Double,System.Double,System.Double,System.Double,System.String,Myren.GeoNames.Client.GeoStyle,System.Int32)">
+            <summary>
+            Gets a list of cities and placenames in the specified bounding box.
+            </summary>
+            <param name="north"> Northern coordinates of bounding box. </param>
+            <param name="south"> Southern coordinates of bounding box. </param>
+            <param name="east"> Eastern coordinates of bounding box. </param>
+            <param name="west"> Western coordinates of bounding box. </param>
+            <param name="culture">
+            Language used for names and text, localized Wikipedia URLs, etc.
+            </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <param name="maxRows">
+            Max number of records returned.
+            </param>
+            <returns>
+            A list of cities and placenames in the bounding box, ordered by relevancy.
+            Placenames close together are filterered out and only the larger name is included in the resulting list.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetCities(System.Double,System.Double,System.Double,System.Double,System.String,Myren.GeoNames.Client.GeoStyle)">
+            <summary>
+            Gets a list of cities and placenames in the specified bounding box, using <see cref="F:Myren.GeoNames.Client.GeoStyle.Full"/>.
+            </summary>
+            <param name="north"> Northern coordinates of bounding box. </param>
+            <param name="south"> Southern coordinates of bounding box. </param>
+            <param name="east"> Eastern coordinates of bounding box. </param>
+            <param name="west"> Western coordinates of bounding box. </param>
+            <param name="culture">
+            Language used for names and text, localized Wikipedia URLs, etc.
+            </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <returns>
+            A list of cities and placenames in the bounding box, ordered by relevancy.
+            Placenames close together are filterered out and only the larger name is included in the resulting list.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetCities(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Gets a list of cities and placenames in the specified bounding box, using <see cref="F:Myren.GeoNames.Client.GeoStyle.Full"/> and the default culture.
+            </summary>
+            <param name="north"> Northern coordinates of bounding box. </param>
+            <param name="south"> Southern coordinates of bounding box. </param>
+            <param name="east"> Eastern coordinates of bounding box. </param>
+            <param name="west"> Western coordinates of bounding box. </param>
+            <returns>
+            A list of cities and placenames in the bounding box, ordered by relevancy.
+            Placenames close together are filterered out and only the larger name is included in the resulting list.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetCountryCode(System.Double,System.Double,System.Double,System.String,Myren.GeoNames.Client.GeoStyle)">
+            <summary>
+            Returns the ISO country code of any given point. 
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="radius"> Buffer in km for closest country in coastal areas. </param>
+            <param name="culture"> Language of country name (default = en). </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <returns>
+            The ISO country code of the specified point.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetCountryCode(System.Double,System.Double)">
+            <summary>
+            Returns the ISO country code of any given point. 
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <returns>
+            The ISO country code of the specified point.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetCountry(System.String,System.String,Myren.GeoNames.Client.GeoStyle)">
+            <summary>
+            Returns information about any given country.
+            </summary>
+            <param name="country"> An ISO country code. </param>
+            <param name="culture"> Language of names, etc. (default = en). </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <returns>
+            Country information; Capital, Population, Area in square km, Bounding Box of mainland.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetCountry(System.String)">
+            <summary>
+            Returns information about any given country.
+            </summary>
+            <param name="country"> An ISO country code. </param>
+            <returns>
+            Country information; Capital, Population, Area in square km, Bounding Box of mainland.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetCountries(System.String,Myren.GeoNames.Client.GeoStyle)">
+            <summary>
+            Returns information for all countries.
+            </summary>
+            <param name="culture"> Language of names, etc. (default = en). </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <returns>
+            Country information for all countries; Capital, Population, Area in square km, Bounding Box of mainland.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetCountries">
+            <summary>
+            Returns information for all countries.
+            </summary>
+            <returns>
+            Country information for all countries; Capital, Population, Area in square km, Bounding Box of mainland.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetSubdivision(System.Double,System.Double,System.Double,System.String,Myren.GeoNames.Client.GeoStyle)">
+            <summary>
+            Returns the iso country code and the administrative subdivision of any given point. 
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="radius"> Buffer in km for closest country in coastal areas. </param>
+            <param name="culture"> Language of names, etc. (default = en). </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <returns>
+            The country and the administrative subdivison (state, province,...) for the given latitude/longitude.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetSubdivision(System.Double,System.Double,System.String,Myren.GeoNames.Client.GeoStyle)">
+            <summary>
+            Returns the iso country code and the administrative subdivision of any given point. 
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="culture"> Language of names, etc. (default = en). </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <returns>
+            The country and the administrative subdivison (state, province,...) for the given latitude/longitude.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetSubdivision(System.Double,System.Double)">
+            <summary>
+            Returns the iso country code and the administrative subdivision of any given point. 
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <returns>
+            The country and the administrative subdivison (state, province,...) for the given latitude/longitude.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetEarthquakes(System.Double,System.Double,System.Double,System.Double,System.Double,Myren.GeoNames.Client.GeoStyle,System.Int32)">
+            <summary>
+            Returns a list of earthquakes in a geographical bounding box.
+            </summary>
+            <param name="north"> Northern coordinates of bounding box. </param>
+            <param name="south"> Southern coordinates of bounding box. </param>
+            <param name="east"> Eastern coordinates of bounding box. </param>
+            <param name="west"> Western coordinates of bounding box. </param>
+            <param name="minMagnitude"> Minimal magnitude. </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <param name="maxRows">
+            Max number of records returned (default=10).
+            </param>
+            <returns>
+            A list of earthquakes, ordered by magnitude.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetEarthquakes(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Returns a list of earthquakes in a geographical bounding box.
+            </summary>
+            <param name="north"> Northern coordinates of bounding box. </param>
+            <param name="south"> Southern coordinates of bounding box. </param>
+            <param name="east"> Eastern coordinates of bounding box. </param>
+            <param name="west"> Western coordinates of bounding box. </param>
+            <returns>
+            A list of earthquakes, ordered by magnitude.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.FindNearbyToponym(System.Double,System.Double,System.Double,Myren.GeoNames.Client.GeoFeatureClass,System.String,Myren.GeoNames.Client.GeoStyle,System.Int32)">
+            <summary>
+            Finds all nearby toponyms.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <param name="featureClass"> Feature class. </param>
+            <param name="culture"> Language of names, etc. (default = en). </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <param name="maxRows">
+            Max number of records returned (default=10).
+            </param>
+            <returns>
+            All nearby toponyms.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.FindNearbyToponym(System.Double,System.Double,System.Double,Myren.GeoNames.Client.GeoFeatureClass)">
+            <summary>
+            Finds all nearby toponyms.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <param name="featureClass"> Feature class. </param>
+            <returns>
+            All nearby toponyms.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.FindNearbyToponym(System.Double,System.Double,Myren.GeoNames.Client.GeoFeatureClass)">
+            <summary>
+            Finds all nearby toponyms.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="featureClass"> Feature class. </param>
+            <returns>
+            All nearby toponyms.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.FindNearbyPlaceName(System.Double,System.Double,System.Double,System.String,Myren.GeoNames.Client.GeoStyle,System.Int32)">
+            <summary>
+            Finds all nearby populated places.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <param name="culture"> Language of names, etc. (default = en). </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <param name="maxRows">
+            Max number of records returned (default=10).
+            </param>
+            <returns>
+            All nearby places.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.FindNearbyPlaceName(System.Double,System.Double,System.Double)">
+            <summary>
+            Finds all nearby populated places.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <returns>
+            All nearby places.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.FindNearbyPlaceName(System.Double,System.Double)">
+            <summary>
+            Finds all nearby populated places.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <returns>
+            All nearby places.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.FindNearbyPostalCodes(System.Double,System.Double,System.Double,Myren.GeoNames.Client.GeoStyle,System.Int32)">
+            <summary>
+            Finds nearby postal codes.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <param name="maxRows"> Max number of rows returned (default = 5). </param>
+            <returns>
+            A list of nearby postalcodes.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.FindNearbyPostalCodes(System.Double,System.Double,System.Double)">
+            <summary>
+            Finds nearby postal codes.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <returns>
+            A list of nearby postalcodes.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.FindNearbyPostalCodes(System.String,System.String,System.Double,Myren.GeoNames.Client.GeoStyle,System.Int32)">
+            <summary>
+            Finds nearby postal codes.
+            </summary>
+            <param name="postalCode"> A postal code. </param>
+            <param name="country"> A country. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <param name="maxRows"> Max number of rows returned (default = 5). </param>
+            <returns>
+            A list of nearby postalcodes.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.FindNearbyPostalCodes(System.String,System.String,System.Double)">
+            <summary>
+            Finds nearby postal codes.
+            </summary>
+            <param name="postalCode"> A postal code. </param>
+            <param name="country"> A country. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <returns>
+            A list of nearby postalcodes.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.FindNearbyStreets(System.Double,System.Double,Myren.GeoNames.Client.GeoStyle,System.Int32)">
+            <summary>
+            Finds the nearest street for a given latitude and longitude. 
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <param name="maxRows">
+            Max number of records returned.
+            </param>
+            <returns>
+            The nearest street segments for the given latitude/longitude.
+            </returns>
+            <remarks>
+            This webservice is only available for the US.
+            </remarks>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.FindNearbyStreets(System.Double,System.Double)">
+            <summary>
+            Finds the nearest street for a given latitude and longitude. 
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <returns>
+            The nearest street segments for the given latitude/longitude.
+            </returns>
+            <remarks>
+            This webservice is only available for the US.
+            </remarks>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.FindNearbyWeather(System.Double,System.Double)">
+            <summary>
+            Returns the most recent weather observation for a given location.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <returns>
+            The most recent weather observation.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.FindNearbyWikipedia(System.Double,System.Double,System.Double,System.String,System.Int32)">
+            <summary>
+            Finds Wikipedia articles for a nearby place.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <param name="culture"> Language code (around 180 languages) (default = en). </param>
+            <param name="maxRows"> Max number of rows returned (default = 5). </param>
+            <returns>
+            A list of Wikipedia entries.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.FindNearbyWikipedia(System.Double,System.Double,System.Double)">
+            <summary>
+            Finds Wikipedia articles for a nearby place.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <returns>
+            A list of Wikipedia entries.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.FindNearbyWikipedia(System.Double,System.Double)">
+            <summary>
+            Finds Wikipedia articles for a nearby place.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <returns>
+            A list of Wikipedia entries.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.FindNearbyWikipedia(System.String,System.String,System.Double,System.String,System.Int32)">
+            <summary>
+            Finds Wikipedia articles for a nearby place.
+            </summary>
+            <param name="postalCode"> A postal code. </param>
+            <param name="country"> A country. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <param name="culture"> Language code (around 180 languages) (default = en). </param>
+            <param name="maxRows"> Maximal number of rows returned (default = 5). </param>
+            <returns>
+            A list of Wikipedia entries.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.FindNearbyWikipedia(System.String,System.String,System.Double)">
+            <summary>
+            Finds Wikipedia articles for a nearby place.
+            </summary>
+            <param name="postalCode"> A postal code. </param>
+            <param name="country"> A country. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <returns>
+            A list of Wikipedia entries.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.FindNearbyWikipedia(System.String,System.String)">
+            <summary>
+            Finds Wikipedia articles for a nearby place.
+            </summary>
+            <param name="postalCode"> A postal code. </param>
+            <param name="country"> A country. </param>
+            <returns>
+            A list of Wikipedia entries.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.FindNearestAddress(System.Double,System.Double)">
+            <summary>
+            Finds the nearest street and address for a given latitude/longitude pair.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <returns>
+            The nearest address for the given latitude/longitude, the street number is an 'educated guess'
+            using an interpolation of street number at the end of a street segment.
+            </returns>
+            <remarks>
+            This webservice is only available for the US.
+            </remarks>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.FindNearestIntersection(System.Double,System.Double)">
+            <summary>
+            Finds the nearest street and the next crossing street for a given latitude/longitude pair.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <returns>
+            The nearest intersection for the given latitude/longitude.
+            </returns>
+            <remarks>
+            This webservice is only available for the US.
+            </remarks>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetToponym(System.Int32)">
+            <summary>
+            Returns a GeoNames toponym.
+            </summary>
+            <param name="geoNameID">
+            GeoNames object ID.
+            </param>
+            <returns>
+            A toponym.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetElevation(System.Double,System.Double)">
+            <summary>
+            Returns the elevation in meters of the specified location, according to GTOPO30.
+            GTOPO30 is a global digital elevation model (DEM) with a horizontal grid
+            spacing of 30 arc seconds (approximately 1 kilometer). GTOPO30 was derived
+            from several raster and vector sources of topographic information.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <returns>
+            The elevation in meters according to GTOPO30.
+            Ocean areas have been masked as "no data" and have been assigned a value of -9999.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetHierarchy(System.Int32,Myren.GeoNames.Client.GeoStyle)">
+            <summary>
+            Returns all GeoNames higher up in the hierarchy of a place name. 
+            </summary>
+            <param name="geoNameID">
+            The geonameId for the hierarchy.
+            </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <returns>
+            A list of GeoName records, ordered by hierarchy level.
+            The top hierarchy (continent) is the first element in the list.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetHierarchy(System.Int32)">
+            <summary>
+            Returns all GeoNames higher up in the hierarchy of a place name. 
+            </summary>
+            <param name="geoNameID">
+            The geonameId for the hierarchy.
+            </param>
+            <returns>
+            A list of GeoName records, ordered by hierarchy level.
+            The top hierarchy (continent) is the first element in the list.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetNeighbours(System.Int64,Myren.GeoNames.Client.GeoStyle)">
+            <summary>
+            Returns all neighbours for a place name (currently only available for countries).
+            </summary>
+            <param name="geoNameID">
+            The geonameId for the neighbours.
+            </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <returns>
+            The neighbours of a toponym, currently only implemented for countries.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetNeighbours(System.Int64)">
+            <summary>
+            Returns all neighbours for a place name (currently only available for countries).
+            </summary>
+            <param name="geoNameID">
+            The geonameId for the neighbours.
+            </param>
+            <returns>
+            The neighbours of a toponym, currently only implemented for countries.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetPostalCodeCountries">
+            <summary>
+            Returns a list of countries for which postal code geocoding is available.
+            </summary>
+            <returns>
+            Countries for which postal code geocoding is available.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.LookupPostalCode(System.String,System.String,System.Int32)">
+            <summary>
+            Returns postal code information for the specified postal code and country.
+            </summary>
+            <param name="postalCode"> A postal code. </param>
+            <param name="country"> A country. </param>
+            <param name="maxRows"> Max number of rows returned (default=20). </param>
+            <returns> Postal code information for the specified postal code and country. </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.LookupPostalCode(System.String,System.String)">
+            <summary>
+            Returns postal code information for the specified postal code and country.
+            </summary>
+            <param name="postalCode"> A postal code. </param>
+            <param name="country"> A country. </param>
+            <returns> Postal code information for the specified postal code and country. </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.SearchPostalCodes(Myren.GeoNames.Client.GeoPostalCodeSearchCriteria)">
+            <summary>
+            Returns a list of postal codes and places for the placename/postalcode query.
+            </summary>
+            <param name="criteria"> Postal code search criteria. </param>
+            <returns>
+            A list of postal codes and places.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.SearchToponyms(Myren.GeoNames.Client.GeoToponymSearchCriteria)">
+            <summary>
+            Returns the names found for the searchterm.
+            </summary>
+            <param name="criteria"> Toponym search criteria. </param>
+            <returns>
+            A list of toponyms.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetSiblings(System.Int32,Myren.GeoNames.Client.GeoStyle)">
+            <summary>
+            Returns all siblings of a GeoNames toponym.
+            </summary>
+            <param name="geoNameID">
+            The geonameId for the siblings.
+            </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <returns>
+            A list of GeoNames records that have the same administrative level and the same father.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetSiblings(System.Int32)">
+            <summary>
+            Returns all siblings of a GeoNames toponym.
+            </summary>
+            <param name="geoNameID">
+            The geonameId for the siblings.
+            </param>
+            <returns>
+            A list of GeoNames records that have the same administrative level and the same father.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetTimeZone(System.Double,System.Double)">
+            <summary>
+            Gets the timezone at the given latitude/longitude.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <returns>
+            The timezone at the given latitude/longitude with GMT offset (1. January) and DST offset (1. July).
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetWeather(System.Double,System.Double,System.Double,System.Double,Myren.GeoNames.Client.GeoStyle,System.Int32)">
+            <summary>
+            Returns weather stations with most recent weather observation.
+            </summary>
+            <param name="north"> Northern coordinates of bounding box. </param>
+            <param name="south"> Southern coordinates of bounding box. </param>
+            <param name="east"> Eastern coordinates of bounding box. </param>
+            <param name="west"> Western coordinates of bounding box. </param>
+            <param name="style">
+            Response verbosity; short, medium, long or full.
+            </param>
+            <param name="maxRows">
+            Max number of records returned (default = 10).
+            </param>
+            <returns>
+            A list of weather stations with the most recent weather observation.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetWeather(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Returns weather stations with most recent weather observation.
+            </summary>
+            <param name="north"> Northern coordinates of bounding box. </param>
+            <param name="south"> Southern coordinates of bounding box. </param>
+            <param name="east"> Eastern coordinates of bounding box. </param>
+            <param name="west"> Western coordinates of bounding box. </param>
+            <returns>
+            A list of weather stations with the most recent weather observation.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetWeatherFromIcao(System.String)">
+            <summary>
+            Gets the weather station with most recent weather observation for the specified ICAO code.
+            </summary>
+            <param name="icao">
+            International Civil Aviation Organization (ICAO) code.
+            </param>
+            <returns>
+            The weather station and the most recent weather observation for the ICAO code.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.WikipediaArticlesInBoundingBox(System.Double,System.Double,System.Double,System.Double,System.String,System.Int32)">
+            <summary>
+            Returns the Wikipedia entries within the specified bounding box.
+            </summary>
+            <param name="north"> Northern coordinates of bounding box. </param>
+            <param name="south"> Southern coordinates of bounding box. </param>
+            <param name="east"> Eastern coordinates of bounding box. </param>
+            <param name="west"> Western coordinates of bounding box. </param>
+            <param name="culture"> Language, either 'de' or 'en' (default = en). </param>
+            <param name="maxRows">
+            Max number of records returned (default = 10).
+            </param>
+            <returns>
+            A list of Wikipedia articles.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.WikipediaArticlesInBoundingBox(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Returns the Wikipedia entries within the specified bounding box.
+            </summary>
+            <param name="north"> Northern coordinates of bounding box. </param>
+            <param name="south"> Southern coordinates of bounding box. </param>
+            <param name="east"> Eastern coordinates of bounding box. </param>
+            <param name="west"> Western coordinates of bounding box. </param>
+            <returns>
+            A list of Wikipedia articles.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.SearchWikipedia(Myren.GeoNames.Client.GeoWikipediaSearchCriteria)">
+            <summary>
+            Performs a full text search on geolocated Wikipedia articles.
+            </summary>
+            <param name="criteria">
+            Search criteria.
+            </param>
+            <returns>
+            The Wikipedia entries found for the given query.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.SearchWikipedia(System.String)">
+            <summary>
+            Performs a full text search on geolocated Wikipedia articles.
+            </summary>
+            <param name="placeNameQuery">
+            Name of a place for which to find articles.
+            </param>
+            <returns>
+            The Wikipedia entries found for the given query.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.TryGeocode(System.String,System.Double@,System.Double@)">
+            <summary>
+            Geocodes an address into a spatial coordinate.
+            </summary>
+            <param name="address"> An address to geocode. </param>
+            <param name="latitude"> [out] Recieves the determined latitude. </param>
+            <param name="longitude"> [out] Recieves the determined longitude. </param>
+            <returns>
+            true if the address was successfully geocoded; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoNamesClient.GetBoundingBox(System.Double,System.Double,System.Double,System.Double@,System.Double@,System.Double@,System.Double@)">
+            <summary>
+            Approximates the bounding box for the given latitude/longitude pair and radius,
+            based on the WGS84 formula, the latest revision of the World Geodetic System.
+            </summary>
+            <param name="latitude"> Latitude. </param>
+            <param name="longitude"> Longitude. </param>
+            <param name="radius"> Radius in kilometers. </param>
+            <param name="north"> [out] Northern coordinates of bounding box. </param>
+            <param name="south"> [out] Southern coordinates of bounding box. </param>
+            <param name="east"> [out] Eastern coordinates of bounding box. </param>
+            <param name="west"> [out] Western coordinates of bounding box. </param>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoListResponse`1">
+            <summary>
+            Represents any GeoNames response.
+            </summary>
+            <typeparam name="TItemData">
+            Data contained in this response.
+            </typeparam>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoListResponse`1.#ctor">
+            <summary>
+            Creates a new instance of GeoListResponse.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoListResponse`1.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the divisions in the GeoListResponse.
+            </summary>
+            <returns>
+            A enumerator for the GeoListResponse.
+            </returns>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoListResponse`1.Items">
+            <summary>
+            Contains the list of data in the GeoNames response.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoEarthquake">
+            <summary>
+            A GeoNames earthquake data contract.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoEarthquake.#ctor">
+            <summary>
+            Creates a new instance of GeoEarthquake.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoEarthquake.EarthquakeID">
+            <summary>
+            Gets the earthquake unique identifier.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoEarthquake.Magnitude">
+            <summary>
+            Gets the magnitude of the earthquake.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoEarthquake.Depth">
+            <summary>
+            Gets the depth.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoEarthquake.Latitude">
+            <summary>
+            Gets the latitude of the earthquake.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoEarthquake.Longitude">
+            <summary>
+            Gets the longitude of the earthquake.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoEarthquake.Source">
+            <summary>
+            Gets the source.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoEarthquake.Time">
+            <summary>
+            Gets the date and time this earthquake occurred.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoCountry">
+            <summary>
+            Defines a GeoNames country information data contract.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoCountry.#ctor">
+            <summary>
+            Creates a new instance of GeoCountry.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCountry.BBoxNorth">
+            <summary>
+            Northern coordinates of country bounding box.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCountry.BBoxSouth">
+            <summary>
+            Southern coordinates of country bounding box.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCountry.BBoxEast">
+            <summary>
+            Eastern coordinates of country bounding box.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCountry.BBoxWest">
+            <summary>
+            Western coordinates of country bounding box.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCountry.Capital">
+            <summary>
+            The capital of this country.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCountry.CurrencyCode">
+            <summary>
+            Currency code used in this country.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCountry.Continent">
+            <summary>
+            The continent where this country is located.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCountry.Alpha3Code">
+            <summary>
+            The ISO 3166-1 Alpha 3 identification code for this country.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCountry.Numeric3Code">
+            <summary>
+            The ISO 3166-1 3-digit numeric identification code for this country.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCountry.FipsCode">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCountry.Languages">
+            <summary>
+            Languages spoken in this country.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCountry.Size">
+            <summary>
+            Size in square kilometers.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoWikipediaSearchCriteria">
+            <summary>
+            Provides the criteria for a Wikipedia geolocated articles search operation.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoWikipediaSearchCriteria.#ctor">
+            <summary>
+            Creates a new instance of GeoWikipediaSearchCriteria.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWikipediaSearchCriteria.PlaceName">
+            <summary>
+            Name of a place to find articles for.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWikipediaSearchCriteria.Title">
+            <summary>
+            Title of the article.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWikipediaSearchCriteria.Culture">
+            <summary>
+            Language of the article (default = en).
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWikipediaSearchCriteria.MaxRows">
+            <summary>
+            Max number of rows returned (default = 10).
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.Internal.SR">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.Internal.SR.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.Internal.SR.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.Internal.SR.InvalidStyle">
+            <summary>
+              Looks up a localized string similar to Invalid style. Must be Short, Medium, Long or Full..
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoWeatherObservationListResponse">
+            <summary>
+            Represents any GeoNames response.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoWeatherObservationListResponse.#ctor">
+            <summary>
+            Creates a new instance of GeoWeatherObservationListResponse.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoWeatherObservationListResponse.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the divisions in the GeoWeatherObservationListResponse.
+            </summary>
+            <returns>
+            A enumerator for the GeoWeatherObservationListResponse.
+            </returns>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWeatherObservationListResponse.WeatherObservations">
+            <summary>
+            Contains the list of data in the GeoNames response.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoElevation">
+            <summary>
+            Specified the elevation of a specific location.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoElevation.#ctor">
+            <summary>
+            Creates a new instance of GeoElevation.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoElevation.Elevation">
+            <summary>
+            Gets the elevation in meters according to gtopo30.
+            </summary>
+            <remarks>
+            Ocean areas have been masked as "no data" and have been assigned a value of -9999.
+            </remarks>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoElevation.Latitude">
+            <summary>
+            Gets the latitude.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoElevation.Longitude">
+            <summary>
+            Gets the longitude.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoStyle">
+            <summary>
+            Specifies the verbosity of GeoNames web services.
+            </summary>
+        </member>
+        <member name="F:Myren.GeoNames.Client.GeoStyle.Short">
+            <summary>
+            Short style verbosity.
+            </summary>
+        </member>
+        <member name="F:Myren.GeoNames.Client.GeoStyle.Medium">
+            <summary>
+            Medium style verbosity.
+            </summary>
+        </member>
+        <member name="F:Myren.GeoNames.Client.GeoStyle.Long">
+            <summary>
+            Long style verbosity.
+            </summary>
+        </member>
+        <member name="F:Myren.GeoNames.Client.GeoStyle.Full">
+            <summary>
+            Full style verbosity.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoCode">
+            <summary>
+            Defines a GeoNames code/type pair data contract.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoCode.#ctor">
+            <summary>
+            Creates a new instance of GeoCode.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCode.Code">
+            <summary>
+            The code.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCode.Type">
+            <summary>
+            The type.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoStreetIntersectionResponse">
+            <summary>
+            Represents a GeoNames nearest intersection response.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoStreetIntersectionResponse.#ctor">
+            <summary>
+            Creates a new instance of GeoStreetIntersectionResponse.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetIntersectionResponse.Intersection">
+            <summary>
+            Contains a street intersection.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoStreetAddress">
+            <summary>
+            Represents a GeoNames street address.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoStreetAddress.#ctor">
+            <summary>
+            Creates a new instance of GeoStreetAddress.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetAddress.Street">
+            <summary>
+            Gets the street name.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetAddress.StreetNumber">
+            <summary>
+            Gets the street number.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoWeatherObservationResponse">
+            <summary>
+            Defines a GeoNames weather observation response data contract.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoWeatherObservationResponse.#ctor">
+            <summary>
+            Creates a new instance of GeoWeatherObservationResponse.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWeatherObservationResponse.WeatherObservation">
+            <summary>
+            Contains weather information.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoCity">
+            <summary>
+            Represents a GeoNames city.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoCity.#ctor">
+            <summary>
+            Creates a new instance of GeoCity.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoCity.WikipediaUrl">
+            <summary>
+            Reference to a Wikipedia resource that provides more information about this city.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoEarthquakeListResponse">
+            <summary>
+            Represents any GeoNames response.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoEarthquakeListResponse.#ctor">
+            <summary>
+            Creates a new instance of GeoEarthquakeListResponse.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoEarthquakeListResponse.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the divisions in the GeoEarthquakeListResponse.
+            </summary>
+            <returns>
+            A enumerator for the GeoEarthquakeListResponse.
+            </returns>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoEarthquakeListResponse.Earthquakes">
+            <summary>
+            Contains the list of data in the GeoNames response.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoToponymSearchCriteria">
+            <summary>
+            Provides the criteria for a toponym search operation.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoToponymSearchCriteria.#ctor">
+            <summary>
+            Creates a new instance of GeoToponymSearchCriteria.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponymSearchCriteria.Query">
+            <summary>
+            Search over all attributes of a place:
+            place name, country name, continent, admin codes, ...
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponymSearchCriteria.Name">
+            <summary>
+            Place name.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponymSearchCriteria.NameEquals">
+            <summary>
+            Exact place name.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponymSearchCriteria.NameStartsWith">
+            <summary>
+            The first characters of a place name.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponymSearchCriteria.Country">
+            <summary>
+            The country. Default is all countries.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponymSearchCriteria.FeatureCode">
+            <summary>
+            The GeoNames feature code class.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponymSearchCriteria.FeatureClass">
+            <summary>
+            The name of the GeoNames feature code class.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponymSearchCriteria.AdminCode1">
+            <summary>
+            The first-order toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponymSearchCriteria.AdminCode2">
+            <summary>
+            The second-order toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponymSearchCriteria.AdminCode3">
+            <summary>
+            The third-order toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponymSearchCriteria.AdminCode4">
+            <summary>
+            The fourth-order toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponymSearchCriteria.Tag">
+            <summary>
+            Toponyms tagged with this specific tag.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponymSearchCriteria.StartIndex">
+            <summary>
+            Used for paging results. If you want to get results 30 to 40, use startRow=30 and maxRows=10. Default is 0.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponymSearchCriteria.Culture">
+            <summary>
+            Place name and country name will be returned in the specified language. Default is English.
+            Feature classes and codes are only available in English and Bulgarian.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponymSearchCriteria.MaxRows">
+            <summary>
+            The maximal number of rows in the document returned by the service. Default is 10.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoToponymSearchCriteria.Style">
+            <summary>
+            Response verbosity; short, medium, long or full.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoLocalizedName">
+            <summary>
+            Defines a GeoNames localized name; a name/culture pair.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoLocalizedName.#ctor">
+            <summary>
+            Creates a new instance of GeoLocalizedName.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoLocalizedName.Name">
+            <summary>
+            Gets the name, as expressed in the current language.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoLocalizedName.Culture">
+            <summary>
+            Gets the language in which this name is written.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoStreetAddressResponse">
+            <summary>
+            Defines a GeoNames street address response data contract.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoStreetAddressResponse.#ctor">
+            <summary>
+            Creates a new instance of GeoStreetAddressResponse.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetAddressResponse.Address">
+            <summary>
+            Contains a street address.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoStreetIntersection">
+            <summary>
+            Defines a GeoNames street intersection data contract.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoStreetIntersection.#ctor">
+            <summary>
+            Creates a new instance of GeoStreetIntersection.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetIntersection.Street1">
+            <summary>
+            Gets the first end street of the intersection.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetIntersection.Street2">
+            <summary>
+            Gets the second end street of the intersection.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetIntersection.PostalCode">
+            <summary>
+            Gets the postal code.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetIntersection.PlaceName">
+            <summary>
+            Gets the place name.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetIntersection.CountryCode">
+            <summary>
+            Gets the country code.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetIntersection.Distance">
+            <summary>
+            Gets the distance to this location.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetIntersection.Latitude">
+            <summary>
+            Gets the latitude of this intersection.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetIntersection.Longitude">
+            <summary>
+            Gets the longitude of this intersection.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetIntersection.AdminCode1">
+            <summary>
+            Gets the first-order toponym of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetIntersection.AdminName1">
+            <summary>
+            Gets the name of the first-order toponym of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetIntersection.AdminCode2">
+            <summary>
+            Gets the second-order toponym of this toponym.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoStreetIntersection.AdminName2">
+            <summary>
+            Gets the name of the second-order toponym of this toponym.
+            </summary>
+        </member>
+        <member name="T:Myren.GeoNames.Client.GeoWikipediaArticle">
+            <summary>
+            Defines a GeoNames Wikipedia article data contract.
+            </summary>
+        </member>
+        <member name="M:Myren.GeoNames.Client.GeoWikipediaArticle.#ctor">
+            <summary>
+            Creates a new instance of GeoWikipediaArticle.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWikipediaArticle.Culture">
+            <summary>
+            Gets the language used in this Wikipedia article.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWikipediaArticle.CountryCode">
+            <summary>
+            Gets a code that identifies the country.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWikipediaArticle.Title">
+            <summary>
+            Gets the title of the article.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWikipediaArticle.Summary">
+            <summary>
+            Gets the Wikipedia summary.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWikipediaArticle.WikipediaUrl">
+            <summary>
+            Gets the Wikipedia URL.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWikipediaArticle.ThumbnailImageUrl">
+            <summary>
+            Gets an URL to a thumbnail image associated with this article.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWikipediaArticle.Feature">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWikipediaArticle.Population">
+            <summary>
+            Gets the population information for this place.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWikipediaArticle.Elevation">
+            <summary>
+            Gets the elevation.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWikipediaArticle.Latitude">
+            <summary>
+            Gets the latitude.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWikipediaArticle.Longitude">
+            <summary>
+            Gets the longitude.
+            </summary>
+        </member>
+        <member name="P:Myren.GeoNames.Client.GeoWikipediaArticle.Distance">
+            <summary>
+            Gets the distance.
+            </summary>
+        </member>
+    </members>
+</doc>

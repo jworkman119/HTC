@@ -1,0 +1,77 @@
+      * STRUCTURE NAME = STR:FSEMPM.CST
+      * F.S. EMPLOYEE MASTER UPDATE FILE - SWD:FSEMPM.mmmdd  - LRECL=120
+      * KEY1 - FSAUTH-KEY.  SSN - SOCIAL SECURITY NUMBER.
+      *-----------------------[ FIELD EXPLANATION ]------------------------
+      * FSAUTH-DRESS-EDATE,  DRESS UNIFORM - EFFECTIVE DATE 6.0 MMDDYY
+      * FSAUTH-FIELD-EDATE,  FIELD UNIFORM - EFFECTIVE DATE 6.0 MMDDYY
+      * FSAUTH-MATERN-EDATE, MATERNITY SUP. - EFFECTIVE DATE 6.0 MMDDYY
+      * FSAUTH-EDATE, EFFECTIVE DATE - YYYYMMDD
+      * FSAUTH-ETIME, EFFECTIVE TIME - HHMM
+      *-----------------------[ NOTE ]-------------------------------------
+      * UNIFORM CATAGORIES FOR EMPLOYEE
+      * WILL HAVE A "X" IF AUTHORIZED,
+      * " " IF NOT AUTHORIZED
+      *---------------------------------------------------------------------------
+       01  FSEMPM-REC.
+           05 FSEMPM-MODE                   PIC X.
+           05 FSEMPM-FSAUTH-DATA.
+              10 FSEMPM-SSN                 PIC X(9).
+              10 FSEMPM-EMP-NAME            PIC X(30).
+              10 FSEMPM-REGION              PIC XX.
+              10 FSEMPM-UNIT                PIC XX.
+              10 FSEMPM-SUBUNIT             PIC XX.
+              10 FSEMPM-EMP-STATUS          PIC X.
+                 88 IS-ACTIVE                         VALUE "A".
+                 88 IS-INACTIVE                       VALUE "I".
+              10 FSEMPM-SEX                 PIC X.
+              10 FSEMPM-EMP-TYPE            PIC X.
+                 88 IS-VOLUNTEER                      VALUE "V".
+                 88 IS-PERMANENT                      VALUE "P".
+                 88 IS-HOUR-EMP                       VALUE "E".
+                 88 IS-TEMPORARY                      VALUE "T".
+                 88 IS-CONTRACTOR                     VALUE "C".
+                 88 IS-RETIREE                        VALUE "R".
+              10 FSEMPM-ALLOC-ALLOW         PIC 9(3)V99.
+              10 FSEMPM-DRESS-EXT-INIT      PIC X.
+              10 FSEMPM-DRESS-EXT-REPL      PIC X.
+              10 FSEMPM-DRESS-MOD-INIT      PIC X.
+              10 FSEMPM-DRESS-MOD-REPL      PIC X.
+              10 FSEMPM-DRESS-EDATE         PIC 9(6).
+              10 FSEMPM-FIELD-EXT-INIT      PIC X.
+              10 FSEMPM-FIELD-EXT-REPL      PIC X.
+              10 FSEMPM-FIELD-MOD-INIT      PIC X.
+              10 FSEMPM-FIELD-MOD-REPL      PIC X.
+              10 FSEMPM-FIELD-EDATE         PIC 9(6).
+              10 FSEMPM-MATERN-INIT         PIC X.
+              10 FILLER                     PIC X.
+              10 FSEMPM-MATERN-EDATE        PIC 9(6).
+              10 FSEMPM-BLAZER              PIC X.
+              10 FSEMPM-VEST                PIC X.
+              10 FSEMPM-WOOL-COAT           PIC X.
+              10 FSEMPM-COTTON-COAT         PIC X.
+              10 FSEMPM-PARKA               PIC X.
+              10 FSEMPM-WOOL-PANTS          PIC X.
+              10 FSEMPM-SHELL               PIC X.
+              10 FSEMPM-WIND-PANTS          PIC X.
+              10 FSEMPM-SKI-JACKET          PIC X.
+              10 FSEMPM-SKI-BIB-PANTS       PIC X.
+              10 FSEMPM-SNOW-SUIT           PIC X.
+              10 FSEMPM-GAITERS             PIC X.
+              10 FSMAIN-FIELD-VEST          PIC X.
+              10 FSMAIN-FLEECE-TOP          PIC X.
+              10 FSMAIN-FLEECE-BOTTOM       PIC X.
+              10 FSMAIN-LAW-EXT-REPL        PIC X.
+              10 FSMAIN-LAW-EXT-INI         PIC X.
+              10 FSMAIN-LAW-MOD-REPL        PIC X.
+              10 FSMAIN-LAW-MOD-INI         PIC X.
+              10 FSMAIN-LAW-JACKET          PIC X.
+              10 FILLER                     PIC X(6).
+*     *       10 FILLER                     PIC X(11).
+              10 FSEMPM-PDATE               PIC 9(8).
+              10 FSEMPM-PTIME               PIC 9(4).
+
+       01  FSEMPM-TRAILER.
+           05 FSEMPM-TMODE                  PIC X.
+           05 FSEMPM-COUNTER                PIC 9(6).
+           05 FILLER                        PIC X(113).
+

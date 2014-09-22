@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<fo:root xmlns:fox="http://xmlgraphics.apache.org/fop/extensions" xmlns:cms="http://www.pulitzer.ch/2007/CMSFormat" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" >
+ <fo:layout-master-set>
+  <fo:simple-page-master page-height="297mm" master-name="A4_210_x_297_mm" page-width="210mm" >
+   <fo:region-body margin-left="25mm" background-color="white" region-name="xsl-region-body" margin-bottom="25mm" margin-top="25mm" margin-right="15mm" />
+  </fo:simple-page-master>
+ </fo:layout-master-set>
+ <fo:bookmark-tree/>
+ <fo:page-sequence master-reference="A4_210_x_297_mm" >
+  <fo:title>MiniScribus v.2.0.2 - Untitled Document</fo:title>
+  <fo:flow flow-name="xsl-region-body" >
+   <fo:block color="rgb(0,0,0,255)" font-size="8pt" >
+    <fo:external-graphic width="85px" scaling="non-uniform" height="90px" content-width="85px" content-height="90px" src="./Pictures/hitechLogo.png" />
+    <fo:inline font-weight="bold" font-size="14pt" >
+Packing List</fo:inline>
+   </fo:block>
+  </fo:flow>
+ </fo:page-sequence>
+</fo:root>

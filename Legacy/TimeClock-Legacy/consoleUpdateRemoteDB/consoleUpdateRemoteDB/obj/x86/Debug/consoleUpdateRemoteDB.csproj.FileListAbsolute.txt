@@ -1,0 +1,10 @@
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\consoleUpdateRemoteDB\consoleUpdateRemoteDB\bin\Debug\consoleUpdateRemoteDB.exe
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\consoleUpdateRemoteDB\consoleUpdateRemoteDB\bin\Debug\consoleUpdateRemoteDB.pdb
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\consoleUpdateRemoteDB\consoleUpdateRemoteDB\bin\Debug\System.Data.SQLite.dll
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\consoleUpdateRemoteDB\consoleUpdateRemoteDB\bin\Debug\System.Data.SQLite.pdb
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\consoleUpdateRemoteDB\consoleUpdateRemoteDB\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\consoleUpdateRemoteDB\consoleUpdateRemoteDB\obj\x86\Debug\consoleUpdateRemoteDB.resStaticData.resources
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\consoleUpdateRemoteDB\consoleUpdateRemoteDB\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\consoleUpdateRemoteDB\consoleUpdateRemoteDB\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\consoleUpdateRemoteDB\consoleUpdateRemoteDB\obj\x86\Debug\consoleUpdateRemoteDB.exe
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\consoleUpdateRemoteDB\consoleUpdateRemoteDB\obj\x86\Debug\consoleUpdateRemoteDB.pdb

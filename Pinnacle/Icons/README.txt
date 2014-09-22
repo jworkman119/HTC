@@ -1,0 +1,1 @@
+This directory contains the icons that are used in the application.

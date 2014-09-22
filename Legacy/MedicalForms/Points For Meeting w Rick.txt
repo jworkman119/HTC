@@ -1,0 +1,28 @@
+1. Currently receiving data from 3 sources:
+	a. Barb O'Connor, who runs a script against a legacy database (easiest data to receive).
+	b. Chris Malta - runs a report against ADP database, she informed me that she has to prioritize her work at times and I may have to wait.
+	c. Renee Betti - collects data on hand written forms, and creates a spreadsheet and sends it to me when requested. Has to wait for all doctors to submit the data before she can hand it off to me.
+
+2. Date, data was received from Barb O'Connor last 3 months:
+	a.	6/3	
+	b.	7/2
+	c.	8/2
+	
+3. Was told to have the reports ready by 5th of every month.
+	- asking for it on the 3rd was not unrealistic, given the timeline.
+	
+4. How am I going to receive physician data?
+	a. Currently receiving it from Renee Betti, who is getting it in hand-written forms from physicians.
+	b. You stated in your email, that I will be receiving it from new director.
+		- I would have had no idea that I was supposed to be receiving it from the new director. 
+		- I had no knowledge that a new director was hired and was supposed to be giving me physician data.
+	
+5. I currently receive the worker data from Chris Malta, in a report that has to be translated to fit my database.
+	a. I wrote her an email last Friday asking me for the data, she said during payroll week, she has to prioritize payroll and it could force a delay (like it did last week).
+	b. I have talked to Mike. We have discussed me using the ADP database and circumventing Chris Malta, to get the data I need. If we can successfully do this we will be able to get the reports in a more timely fashion.
+	
+6. Next couple months, I still may have to rely on Chris, so we may have some delays until I successfully find a way to integrate the ADP database with my code.
+
+7. I would like:
+	a.	a realistic timeline to complete the integration of the ADP database (asking 2 months).
+	b.	I would like a confirmation when you actually want me to get the reports to you, if the 5th of the month is too late.

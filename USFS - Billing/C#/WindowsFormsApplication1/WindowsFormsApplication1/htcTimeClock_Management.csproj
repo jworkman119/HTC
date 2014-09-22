@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{566DCC24-A7FC-4FA4-BB70-1B4D630A5B35}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>\\iomega-nas\public1\IT Department\Jeremy\StateFair\TimeClockManagement\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <WebPage>publish.htm</WebPage>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>27</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>AB888FDAAEB6ED3B31C413643DF9D568A5F20299</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>htcTimeClock_Management_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>clock.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=14.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=14.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=14.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=x86">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=14.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=x86">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=14.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=14.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=14.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmChangeTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangeTime.Designer.cs">
+      <DependentUpon>frmChangeTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportViewer.Designer.cs">
+      <DependentUpon>frmReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="objDatabase.cs" />
+    <Compile Include="frmTimeClock_Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTimeClock_Management.Designer.cs">
+      <DependentUpon>frmTimeClock_Management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="objMain.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="objTimeClock.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="objTimeClock.Designer.cs">
+      <DependentUpon>objTimeClock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="objAddPerson.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="objAddPerson.Designer.cs">
+      <DependentUpon>objAddPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="objCreateShift.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="objCreateShift.Designer.cs">
+      <DependentUpon>objCreateShift.cs</DependentUpon>
+    </Compile>
+    <Compile Include="objCreateSchedule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="objCreateSchedule.Designer.cs">
+      <DependentUpon>objCreateSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="objFindPerson.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="objFindPerson.Designer.cs">
+      <DependentUpon>objFindPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="objAddSupervisor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="objAddSupervisor.Designer.cs">
+      <DependentUpon>objAddSupervisor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="objUpdatePicture.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="objUpdatePicture.Designer.cs">
+      <DependentUpon>objUpdatePicture.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmChangeTime.resx">
+      <DependentUpon>frmChangeTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportViewer.resx">
+      <DependentUpon>frmReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTimeClock_Management.resx">
+      <DependentUpon>frmTimeClock_Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="objCreateShift.resx">
+      <DependentUpon>objCreateShift.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="objTimeClock.resx">
+      <DependentUpon>objTimeClock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="objAddPerson.resx">
+      <DependentUpon>objAddPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="objCreateSchedule.resx">
+      <DependentUpon>objCreateSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="objFindPerson.resx">
+      <DependentUpon>objFindPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="objAddSupervisor.resx">
+      <DependentUpon>objAddSupervisor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="objUpdatePicture.resx">
+      <DependentUpon>objUpdatePicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="htcTimeClock_Management_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{B691E011-1797-432E-907A-4D8C69339129}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="SAP.CrystalReports14.NET.2.0">
+      <Visible>False</Visible>
+      <ProductName>SAP Crystal Reports for Visual Studio 2010</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="clock.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

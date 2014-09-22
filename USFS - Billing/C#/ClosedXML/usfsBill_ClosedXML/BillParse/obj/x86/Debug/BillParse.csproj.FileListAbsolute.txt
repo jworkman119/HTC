@@ -1,0 +1,15 @@
+C:\Users\jeremyp.HTC\Documents\Development\USFS - Billing\C#\ClosedXML\usfsBill_ClosedXML\BillParse\obj\x86\Debug\BillParse.frmParse.resources
+C:\Users\jeremyp.HTC\Documents\Development\USFS - Billing\C#\ClosedXML\usfsBill_ClosedXML\BillParse\obj\x86\Debug\BillParse.Properties.Resources.resources
+C:\Users\jeremyp.HTC\Documents\Development\USFS - Billing\C#\ClosedXML\usfsBill_ClosedXML\BillParse\bin\Debug\BillParse.exe
+C:\Users\jeremyp.HTC\Documents\Development\USFS - Billing\C#\ClosedXML\usfsBill_ClosedXML\BillParse\bin\Debug\BillParse.pdb
+C:\Users\jeremyp.HTC\Documents\Development\USFS - Billing\C#\ClosedXML\usfsBill_ClosedXML\BillParse\obj\x86\Debug\BillParse.exe
+C:\Users\jeremyp.HTC\Documents\Development\USFS - Billing\C#\ClosedXML\usfsBill_ClosedXML\BillParse\obj\x86\Debug\BillParse.pdb
+C:\Users\jeremyp.HTC\Documents\Development\USFS - Billing\C#\ClosedXML\usfsBill_ClosedXML\BillParse\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\jeremyp.HTC\Documents\Development\USFS - Billing\C#\ClosedXML\usfsBill_ClosedXML\BillParse\bin\Debug\ClosedXML.dll
+C:\Users\jeremyp.HTC\Documents\Development\USFS - Billing\C#\ClosedXML\usfsBill_ClosedXML\BillParse\bin\Debug\ClosedXML.xml
+C:\Users\jeremyp.HTC\Documents\Development\USFS - Billing\C#\ClosedXML\usfsBill_ClosedXML\BillParse\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\jeremyp.HTC\Documents\Development\USFS - Billing\C#\ClosedXML\usfsBill_ClosedXML\BillParse\bin\Debug\usfsFields.xml
+C:\Users\jeremyp.HTC\Documents\Development\USFS - Billing\C#\ClosedXML\usfsBill_ClosedXML\BillParse\obj\x86\Debug\BillParse.staticVariables.resources
+C:\Users\jeremyp.HTC\Documents\Development\USFS - Billing\C#\ClosedXML\usfsBill_ClosedXML\BillParse\bin\Debug\Settings.xml
+C:\Users\jeremyp.HTC\Documents\Development\USFS - Billing\C#\ClosedXML\usfsBill_ClosedXML\BillParse\obj\x86\Debug\BillParse.csprojResolveAssemblyReference.cache
+C:\Users\jeremyp.HTC\Documents\Development\USFS - Billing\C#\ClosedXML\usfsBill_ClosedXML\BillParse\obj\x86\Debug\BillParse.csproj.GenerateResource.Cache

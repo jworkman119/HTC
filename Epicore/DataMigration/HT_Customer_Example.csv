@@ -1,0 +1,13 @@
+Company ,Customer ID,Customer Name,Address Line 1,Address Line 2,Address Line 3,City,State/Province,Postal Code,Country,Phone ,Fax,E-mail address,Currency Code,Group Code,Tax ID,Tax Exempt,Ship Via Code,Terms
+EPIC06,NOL11,NOL11,Main Av,Second AV,Kearny Mesa,Sam Diego,CA,90210,10-algo,9088345,23456034,sales@puchu.com,,AERO,myTaxID,123,AIR,CC
+EPIC06,NOL11,NOL11,Main Av,Second AV,Kearny Mesa,Sam Diego,CA,90210,10-algo,9088345,23456034,sales@puchu.com,,AERO,myTaxID2,12,AIR,CC
+EPIC06,NOL5,NOL5,Main Av,Second AV,Kearny Mesa,Sam Diego,CA,90210,11-algo,9088345,23456034,sales@puchu.com,,AERO,myTaxID,12,AIR,CC
+EPIC06,NOL1,Chidos,Main Av,Second AV,Kearny Mesa,Sam Diego,CA,90210,10-algo,9088345,23456034,sales@puchu.com,,AERO,myTaxID2,12,AIR,CC
+EPIC06,NOL6,NOL6,Main Av,Second AV,Kearny Mesa,Sam Diego,CA,90210,21-algo,9088345,23456034,sales@puchu.com,,AERO,myTaxID,12,AIR,CC
+,NOL,Chidos,Main Av,Second AV,Kearny Mesa,Sam Diego,CA,90210,10-algo,9088345,23456034,sales@puchu.com,,AERO,myTaxID2,12,AIR,CC
+xxx,NOL2,LaLaLa,Main Av,Second AV,Kearny Mesa,Sam Diego,CA,90210,21-algo,9088345,23456034,sales@puchu.com,,AERO,myTaxID,12,AIR,CC
+EPIC06,NOL7,NOL7,Main Av,Second AV,Kearny Mesa,Sam Diego,CA,90210,10-algo,9088345,23456034,sales@puchu.com,,xx,myTaxID,12,AIR,CC
+EPIC06,NOL8,NOL8,Main Av,Second AV,Kearny Mesa,Sam Diego,CA,90210,10-algo,9088345,23456034,sales@puchu.com,,AERO,myTaxID1,asdff,AIR,CC
+EPIC06,NOL9,NOL9,Main Av,Second AV,Kearny Mesa,Sam Diego,CA,90210,10-algo,9088345,23456034,sales@puchu.com,,AERO,Mytax,23,Shippppppp,CC
+EPIC06,NOL10,NOL10,Main Av,Second AV,Kearny Mesa,Sam Diego,CA,90210,10-algo,9088345,23456034,sales@puchu.com,,AERO,Mytax,23,AIR,laloa
+EPIC06,NOL10,NOL10,Main Av,Second AV,Kearny Mesa,Sam Diego,CA,90210,10-algo,9088345,23456034,sales@puchu.com,,AERO,Mytax1222222222221223eddddddddds,23,AIR,CC

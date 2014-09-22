@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DailyOrders_XLS" xml:space="preserve">
+    <value>\\iomega-nas\Public1\IT Department\HiTechnic\DailyFinal.xls</value>
+    <comment>The spreadsheet that HiTechnic sends us with their Daily Orders.</comment>
+  </data>
+  <data name="DB" xml:space="preserve">
+    <value>\\iomega-nas\Public1\IT Department\HiTechnic\Database\HiTechnic.sqlite</value>
+    <comment>main database used to store orders that HiTechnic sends over.</comment>
+  </data>
+  <data name="FOP_Directory" xml:space="preserve">
+    <value>C:\Program Files\HTC\HiTechnic\PackingList\fop</value>
+    <comment>Directory for FOP (application that performs xml -&gt; pdf transformation)</comment>
+  </data>
+  <data name="FoxIt_Directory" xml:space="preserve">
+    <value>C:\Program Files\Foxit Software\Foxit Reader</value>
+    <comment>directory where FoxIt Readers is</comment>
+  </data>
+  <data name="USPS_XLS" xml:space="preserve">
+    <value>\\FedEx01Dwyer\fedex\epostage.xls</value>
+    <comment>Directory where you query the USPS data to be sent to HiTechnic</comment>
+  </data>
+  <data name="FedExExpress" xml:space="preserve">
+    <value>\\fedex01dwyer\fedex\fedexE.csv</value>
+    <comment>FedEx Express file that gets emailed to Nancy at end of day</comment>
+  </data>
+  <data name="FedExGround" xml:space="preserve">
+    <value>\\fedex01dwyer\fedex\fedexG.csv</value>
+    <comment>FedEx Ground file that gets emailed to Nancy at end of day.</comment>
+  </data>
+  <data name="HiTec_Email" xml:space="preserve">
+    <value>nancy@hitechnic.com</value>
+    <comment>Email that is sent to HiTechnic, FedEx &amp; USPS end of day reports.</comment>
+  </data>
+  <data name="HTC_Email" xml:space="preserve">
+    <value>shippingconfirmation@htcorp.net</value>
+    <comment>Mailbox we are going to send email from.</comment>
+  </data>
+  <data name="PackingList_PrintString" xml:space="preserve">
+    <value>@/t "%Temp%\PackingList.pdf"</value>
+    <comment>Path needed by FoxIt Reader to output the pdf.</comment>
+  </data>
+  <data name="HTC_EndOfDay" xml:space="preserve">
+    <value>susanm@htcorp.net</value>
+    <comment>Will cc htc rep (Susan Malinowski) end of day reports.</comment>
+  </data>
+  <data name="testDB" xml:space="preserve">
+    <value>C:\Users\jeremyp.HTC\Documents\Development\Lego\SqLite\Test\HiTechnic_Test.sqlite</value>
+    <comment>*Test DB*</comment>
+  </data>
+  <data name="testEmail" xml:space="preserve">
+    <value>jeremyp@htcorp.net</value>
+    <comment>*TESTING*</comment>
+  </data>
+  <data name="testDailyOrders_XLS" xml:space="preserve">
+    <value>C:\Users\jeremyp.HTC\Documents\Development\Lego\SqLite\Test\DailyFinal.xls</value>
+  </data>
+</root>

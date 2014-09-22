@@ -1,0 +1,14 @@
+C:\Users\jeremyp.HTC\Documents\Development\HealthCenter\C#\htcHealthCenter_TPDates\htcHealthCenter_TPDates\bin\Debug\htcHealthCenter_TPDates.exe
+C:\Users\jeremyp.HTC\Documents\Development\HealthCenter\C#\htcHealthCenter_TPDates\htcHealthCenter_TPDates\bin\Debug\htcHealthCenter_TPDates.pdb
+C:\Users\jeremyp.HTC\Documents\Development\HealthCenter\C#\htcHealthCenter_TPDates\htcHealthCenter_TPDates\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jeremyp.HTC\Documents\Development\HealthCenter\C#\htcHealthCenter_TPDates\htcHealthCenter_TPDates\obj\x86\Debug\htcHealthCenter_TPDates.frmMain.resources
+C:\Users\jeremyp.HTC\Documents\Development\HealthCenter\C#\htcHealthCenter_TPDates\htcHealthCenter_TPDates\obj\x86\Debug\htcHealthCenter_TPDates.frmPerson.resources
+C:\Users\jeremyp.HTC\Documents\Development\HealthCenter\C#\htcHealthCenter_TPDates\htcHealthCenter_TPDates\obj\x86\Debug\htcHealthCenter_TPDates.Properties.Resources.resources
+C:\Users\jeremyp.HTC\Documents\Development\HealthCenter\C#\htcHealthCenter_TPDates\htcHealthCenter_TPDates\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\jeremyp.HTC\Documents\Development\HealthCenter\C#\htcHealthCenter_TPDates\htcHealthCenter_TPDates\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\jeremyp.HTC\Documents\Development\HealthCenter\C#\htcHealthCenter_TPDates\htcHealthCenter_TPDates\obj\x86\Debug\htcHealthCenter_TPDates.exe
+C:\Users\jeremyp.HTC\Documents\Development\HealthCenter\C#\htcHealthCenter_TPDates\htcHealthCenter_TPDates\obj\x86\Debug\htcHealthCenter_TPDates.pdb
+C:\Users\jeremyp.HTC\Documents\Development\HealthCenter\C#\htcHealthCenter_TPDates\htcHealthCenter_TPDates\bin\Debug\System.Data.SQLite.dll
+C:\Users\jeremyp.HTC\Documents\Development\HealthCenter\C#\htcHealthCenter_TPDates\htcHealthCenter_TPDates\bin\Debug\System.Data.SQLite.pdb
+C:\Users\jeremyp.HTC\Documents\Development\HealthCenter\C#\htcHealthCenter_TPDates\htcHealthCenter_TPDates\obj\x86\Debug\htcHealthCenter_TPDates.StaticValues.resources
+C:\Users\jeremyp.HTC\Documents\Development\HealthCenter\C#\htcHealthCenter_TPDates\htcHealthCenter_TPDates\obj\x86\Debug\htcHealthCenter_TPDates.frmReports.resources

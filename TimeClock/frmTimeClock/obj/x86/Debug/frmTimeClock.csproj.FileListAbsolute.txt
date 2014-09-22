@@ -1,0 +1,12 @@
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\frmTimeClock\bin\Debug\frmTimeClock.exe
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\frmTimeClock\bin\Debug\frmTimeClock.pdb
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\frmTimeClock\obj\x86\Debug\frmTimeClock.Properties.Resources.resources
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\frmTimeClock\obj\x86\Debug\frmTimeClock.exe
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\frmTimeClock\obj\x86\Debug\frmTimeClock.pdb
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\frmTimeClock\bin\Debug\System.Data.SQLite.dll
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\frmTimeClock\bin\Debug\System.Data.SQLite.pdb
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\frmTimeClock\obj\x86\Debug\frmTimeClock.frmTimeClock.resources
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\frmTimeClock\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\frmTimeClock\bin\Debug\System.Data.SQLite.Linq.pdb
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\frmTimeClock\obj\x86\Debug\frmTimeClock.csprojResolveAssemblyReference.cache
+C:\Users\jeremyp.HTC\Documents\Development\TimeClock\frmTimeClock\obj\x86\Debug\frmTimeClock.csproj.GenerateResource.Cache

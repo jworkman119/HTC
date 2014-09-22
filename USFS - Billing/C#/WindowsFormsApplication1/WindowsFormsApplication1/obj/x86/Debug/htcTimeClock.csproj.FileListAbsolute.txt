@@ -1,0 +1,16 @@
+C:\Users\jeremyp\Documents\Development\USFS - Billing\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jeremyp\Documents\Development\USFS - Billing\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\jeremyp\Documents\Development\USFS - Billing\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\htcTimeClock.csproj.ResolveComReference.cache
+C:\Users\jeremyp\Documents\Development\USFS - Billing\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\jeremyp\Documents\Development\USFS - Billing\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.objCreateShift.resources
+C:\Users\jeremyp\Documents\Development\USFS - Billing\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\jeremyp\Documents\Development\USFS - Billing\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.objTimeClock.resources
+C:\Users\jeremyp\Documents\Development\USFS - Billing\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.objAddPerson.resources
+C:\Users\jeremyp\Documents\Development\USFS - Billing\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.objCreateSchedule.resources
+C:\Users\jeremyp\Documents\Development\USFS - Billing\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\jeremyp\Documents\Development\USFS - Billing\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\jeremyp\Documents\Development\USFS - Billing\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\jeremyp\Documents\Development\USFS - Billing\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\jeremyp\Documents\Development\USFS - Billing\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\jeremyp\Documents\Development\USFS - Billing\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\jeremyp\Documents\Development\USFS - Billing\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.objFindPerson.resources

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/projMedicalForms">
+        <file>projMedicalForms/Questions.ui</file>
+        <file>projMedicalForms/Forms.ui</file>
+    </qresource>
+</RCC>

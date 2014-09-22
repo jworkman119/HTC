@@ -1,0 +1,42 @@
+Pinnacle to HTC HR time tracking migration
+1. Get all 339 HTC employees from ADP
+	a. HR - to verify all the employees
+	b. I compare the list to the people we have, to prevent duplicates in upload.
+	c. HR - to look at all the people in the system, and verify the ones that need to be made inactive.
+	d. HR - verify that we have all paperwork, and the data in the system will not be needed for historical purposes.
+		- If we need this data, what is best way to keep it.
+		
+2. Administrative Screen Needed?
+	a. Give Administrator can create reviews.
+	b. If administrator screen not needed, should everyone have the ability to add a consumer.
+3. Every user will have to see all consumers and changes are allowed to be made for all consumers. (Now it can only be used for people that are assigned to a user).
+4. Fields to be removed from DB
+	a. Consumer.Voucher_ID
+	b. Consumer.Service_ID
+	c. Consumer.VESID
+	d. Consumer.Units
+	e. Consumer.Referral
+5. Removed assigned logic from DB
+6. Add consumer screen
+	a. Remove
+		AV#
+		VESID
+		Service
+		Units
+		Referral
+	b. Remove Assigned to tab
+    c. Voucher not needed migrate tab to Release 
+		- will contain two fields Date, and text.
+		- will need trigger to delete all items over a year old.
+	d. Add following fields:
+		Department
+		Supervisor
+		Hire Date
+		Termination Date
+		
+7. Report changes
+	1. remove Pinnacle from header
+	2. To be determined by HR.
+	3. Need to keep Oneida County report and add to system.
+	4. will want a .csv with all staff (Review - Date, Person, Time, Hours, Funding Source, Notes) filter by date
+8. Will want administrative screen, that merges staff screen with extended report ability of administrative.

@@ -1,0 +1,12 @@
+drop trigger updateRemoteTime_Out
+
+CREATE TRIGGER updateRemoteTime_Out
+
+After Insert ON localTime
+	When(New.Status='Out')
+	BEGIN
+		UPDATE remoteTime
+		SET TimeOut = New.Time
+			, localTimeOut_ID = New.ID
+		Where localTimeIn_ID = New.InID;
+	End;

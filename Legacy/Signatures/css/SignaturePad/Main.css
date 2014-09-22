@@ -1,0 +1,23 @@
+			body{
+				width: 612;
+				height: 792;
+			}
+			 
+			 
+			 h1{
+				font-family: 'Arial';
+				font-size: 20;
+				text-align: center;
+			 }
+			 
+			 h2{
+				font-family: 'Arial';
+				font-size: 16;
+				text-align: center;
+			 }
+						
+			hr.banner{
+				color: #368196;
+				height: 1px;
+				width: 100%
+			}

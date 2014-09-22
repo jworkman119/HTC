@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ActivityLog>
+  <Consumer>Alex Grandmaboy</Consumer>
+  <Month>September</Month>
+  <Year>2012</Year>
+  <SSN>123-22-4200</SSN>
+  <Reviews>
+    <Review>
+      <Date>09/10/2012</Date>
+      <Employer>Brainasium</Employer>
+      <MeetingType>Face to Face</MeetingType>
+      <Notes>Alex is very upset JP has stolen the code for the game "Demonic" that Alex had written.</Notes>
+      <Barriers>JP has stolen the code to his video game and claimed it as his own.</Barriers>
+    </Review>
+    <Review>
+      <Date>09/31/2012</Date>
+      <Employer>Brainasium</Employer>
+      <MeetingType>Phone</MeetingType>
+      <Notes>Alex's grandmother dueled JP in a game of "Demonic", coming out victorious. Proving that Alex had indeed written the code for "Demonic".</Notes>
+      <Barriers></Barriers>
+    </Review>
+  </Reviews>
+</ActivityLog>

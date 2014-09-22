@@ -1,0 +1,10 @@
+C:\Users\jeremyp.HTC\Documents\Development\FrontDesk\C#\FrontDesk\bin\Debug\FrontDesk.exe
+C:\Users\jeremyp.HTC\Documents\Development\FrontDesk\C#\FrontDesk\bin\Debug\FrontDesk.pdb
+C:\Users\jeremyp.HTC\Documents\Development\FrontDesk\C#\FrontDesk\obj\x86\Debug\FrontDesk.frmFrontDesk.resources
+C:\Users\jeremyp.HTC\Documents\Development\FrontDesk\C#\FrontDesk\obj\x86\Debug\FrontDesk.Properties.Resources.resources
+C:\Users\jeremyp.HTC\Documents\Development\FrontDesk\C#\FrontDesk\obj\x86\Debug\FrontDesk.csproj.GenerateResource.Cache
+C:\Users\jeremyp.HTC\Documents\Development\FrontDesk\C#\FrontDesk\obj\x86\Debug\FrontDesk.exe
+C:\Users\jeremyp.HTC\Documents\Development\FrontDesk\C#\FrontDesk\obj\x86\Debug\FrontDesk.pdb
+C:\Users\jeremyp.HTC\Documents\Development\FrontDesk\C#\FrontDesk\obj\x86\Debug\FrontDesk.csprojResolveAssemblyReference.cache
+C:\Users\jeremyp.HTC\Documents\Development\FrontDesk\C#\FrontDesk\bin\Debug\System.Data.SQLite.dll
+C:\Users\jeremyp.HTC\Documents\Development\FrontDesk\C#\FrontDesk\bin\Debug\System.Data.SQLite.pdb

@@ -1,0 +1,57 @@
+Proc     Units (15 minute increments) Weight 
+
+SC - staff cancel        0          0
+
+RV - regular visit        3          1
+
+PM - medication monitoring short      1          0.34999999999999998
+
+PE - psychological evaluation       3          1
+
+PASNS - pre admission screening no show 0          0
+
+PASC  - pre admission screening cancel  0          0
+
+PAS  - pre admission screening    3          1
+
+NS - no show        0          0
+
+ML - medication monitoring long        2          0.5
+
+GV - group visit       4          0.34999999999999998
+
+FVWP - family visit with patient  3          1
+
+FVOP   - family visit without patient 3          1
+
+CV - crisis visit        3          1
+
+C - cancelation         0          0
+
+BV - brief visit       2          0.5
+
+---------------------------------------------------
+Appt – 
+
+BA – 
+
+BS –
+
+LCSW – licensed clinical social worker
+
+LCSW-R – licensed clinical social worker - r
+
+MD – medical doctor
+
+MSW – master of social work
+
+NPP – nurse practitioner psychiatric
+
+NPP-C – 
+
+PA – physician assistant
+
+RN – registered nurse
+
+RNC -  
+

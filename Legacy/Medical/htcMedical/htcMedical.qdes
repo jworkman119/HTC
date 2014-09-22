@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Design version="1" datasource="htcMedical" kind="MS SQL Server" root="htcMedical">
+	<Table left="770" top="50" right="1002" bottom="179" id="1" expanded="1">
+		<ColumnWidths col0="22.000000" col1="79.000000" col2="67.000000" col3="44.000000" col4="20.000000"/>
+		<CollapsedCompartments Indexes="1" Keys="2" CheckConstraints="3"/>
+		<ObjectPath>
+			<PathElement Name="dbo" Kind="Schema"/>
+			<PathElement Name="Service" Kind="Table"/>
+		</ObjectPath>
+	</Table>
+	<Table left="-10" top="20" right="210" bottom="213" id="2" expanded="1">
+		<ColumnWidths col0="22.000000" col1="67.000000" col2="67.000000" col3="44.000000" col4="20.000000"/>
+		<CollapsedCompartments Indexes="1" Keys="2"/>
+		<ObjectPath>
+			<PathElement Name="dbo" Kind="Schema"/>
+			<PathElement Name="Facility" Kind="Table"/>
+		</ObjectPath>
+	</Table>
+	<Table left="-110" top="690" right="116" bottom="803" id="3" expanded="1">
+		<ColumnWidths col0="22.000000" col1="73.000000" col2="67.000000" col3="44.000000" col4="20.000000"/>
+		<CollapsedCompartments Indexes="1" Keys="2" CheckConstraints="3"/>
+		<ObjectPath>
+			<PathElement Name="dbo" Kind="Schema"/>
+			<PathElement Name="Provider_Type" Kind="Table"/>
+		</ObjectPath>
+	</Table>
+	<Table left="820" top="560" right="1024" bottom="753" id="4" expanded="1">
+		<ColumnWidths col0="22.000000" col1="51.000000" col2="67.000000" col3="44.000000" col4="20.000000"/>
+		<CollapsedCompartments Indexes="1" Keys="2" CheckConstraints="3"/>
+		<ObjectPath>
+			<PathElement Name="dbo" Kind="Schema"/>
+			<PathElement Name="Insurance" Kind="Table"/>
+		</ObjectPath>
+	</Table>
+	<Table left="340" top="280" right="632" bottom="522" id="5" expanded="1">
+		<ColumnWidths col0="22.000000" col1="124.000000" col2="82.000000" col3="44.000000" col4="20.000000"/>
+		<CollapsedCompartments Keys="2" CheckConstraints="3"/>
+		<ObjectPath>
+			<PathElement Name="dbo" Kind="Schema"/>
+			<PathElement Name="Visit" Kind="Table"/>
+		</ObjectPath>
+	</Table>
+	<Table left="-70" top="330" right="158" bottom="491" id="6" expanded="1">
+		<ColumnWidths col0="22.000000" col1="60.000000" col2="82.000000" col3="44.000000" col4="20.000000"/>
+		<CollapsedCompartments Indexes="1" Keys="2" CheckConstraints="3"/>
+		<ObjectPath>
+			<PathElement Name="dbo" Kind="Schema"/>
+			<PathElement Name="Patient" Kind="Table"/>
+		</ObjectPath>
+	</Table>
+	<Line left="121" top="759" right="234" bottom="781" fromObj="7" toObj="3" XPos="143" labelX="-86">
+		<ObjectPathFrom>
+			<PathElement Name="dbo" Kind="Schema"/>
+			<PathElement Name="Provider" Kind="Table"/>
+			<PathElement Name="FK__Provider__Provid__1D4655FB" Kind="ForeignKey"/>
+		</ObjectPathFrom>
+		<ObjectPathFrom_VirtualParent/>
+		<ObjectPathTo>
+			<PathElement Name="dbo" Kind="Schema"/>
+			<PathElement Name="Provider_Type" Kind="Table"/>
+			<PathElement Name="PK__Provider_Type__1A69E950" Kind="PrimaryKey"/>
+		</ObjectPathTo>
+	</Line>
+	<Line left="638" top="157" right="764" bottom="500" fromObj="5" toObj="1" XPos="701" labelX="-112">
+		<ObjectPathFrom>
+			<PathElement Name="dbo" Kind="Schema"/>
+			<PathElement Name="Visit" Kind="Table"/>
+			<PathElement Name="FK__Visit__Service_I__26CFC035" Kind="ForeignKey"/>
+		</ObjectPathFrom>
+		<ObjectPathFrom_VirtualParent/>
+		<ObjectPathTo>
+			<PathElement Name="dbo" Kind="Schema"/>
+			<PathElement Name="Service" Kind="Table"/>
+			<PathElement Name="PK__Service__1F2E9E6D" Kind="PrimaryKey"/>
+		</ObjectPathTo>
+	</Line>
+	<Line left="215" top="191" right="334" bottom="500" fromObj="5" toObj="2" XPos="275" labelX="-110">
+		<ObjectPathFrom>
+			<PathElement Name="dbo" Kind="Schema"/>
+			<PathElement Name="Visit" Kind="Table"/>
+			<PathElement Name="FK__Visit__Facility___27C3E46E" Kind="ForeignKey"/>
+		</ObjectPathFrom>
+		<ObjectPathFrom_VirtualParent/>
+		<ObjectPathTo>
+			<PathElement Name="dbo" Kind="Schema"/>
+			<PathElement Name="Facility" Kind="Table"/>
+			<PathElement Name="PK__Facility__1881A0DE" Kind="PrimaryKey"/>
+		</ObjectPathTo>
+	</Line>
+	<Line left="234" top="500" right="334" bottom="759" fromObj="5" toObj="7" XPos="274" labelX="-116">
+		<ObjectPathFrom>
+			<PathElement Name="dbo" Kind="Schema"/>
+			<PathElement Name="Visit" Kind="Table"/>
+			<PathElement Name="FK__Visit__Provider___25DB9BFC" Kind="ForeignKey"/>
+		</ObjectPathFrom>
+		<ObjectPathFrom_VirtualParent/>
+		<ObjectPathTo>
+			<PathElement Name="dbo" Kind="Schema"/>
+			<PathElement Name="Provider" Kind="Table"/>
+			<PathElement Name="PK__Provider__1C5231C2" Kind="PrimaryKey"/>
+		</ObjectPathTo>
+	</Line>
+	<Line left="638" top="500" right="814" bottom="731" fromObj="5" toObj="4" XPos="726" labelX="-114">
+		<ObjectPathFrom>
+			<PathElement Name="dbo" Kind="Schema"/>
+			<PathElement Name="Visit" Kind="Table"/>
+			<PathElement Name="FK__Visit__Insurance__24E777C3" Kind="ForeignKey"/>
+		</ObjectPathFrom>
+		<ObjectPathFrom_VirtualParent/>
+		<ObjectPathTo>
+			<PathElement Name="dbo" Kind="Schema"/>
+			<PathElement Name="Insurance" Kind="Table"/>
+			<PathElement Name="PK__Insurance__2116E6DF" Kind="PrimaryKey"/>
+		</ObjectPathTo>
+	</Line>
+	<Line left="163" top="469" right="334" bottom="500" fromObj="5" toObj="6" XPos="249" labelX="-111">
+		<ObjectPathFrom>
+			<PathElement Name="dbo" Kind="Schema"/>
+			<PathElement Name="Visit" Kind="Table"/>
+			<PathElement Name="FK__Visit__Patient_A__23F3538A" Kind="ForeignKey"/>
+		</ObjectPathFrom>
+		<ObjectPathFrom_VirtualParent/>
+		<ObjectPathTo>
+			<PathElement Name="dbo" Kind="Schema"/>
+			<PathElement Name="Patient" Kind="Table"/>
+			<PathElement Name="PK__Patient__1699586C" Kind="PrimaryKey"/>
+		</ObjectPathTo>
+	</Line>
+	<Table left="240" top="620" right="500" bottom="781" id="7" expanded="1">
+		<ColumnWidths col0="22.000000" col1="107.000000" col2="67.000000" col3="44.000000" col4="20.000000"/>
+		<CollapsedCompartments Indexes="1" Keys="2" CheckConstraints="3"/>
+		<ObjectPath>
+			<PathElement Name="dbo" Kind="Schema"/>
+			<PathElement Name="Provider" Kind="Table"/>
+		</ObjectPath>
+	</Table>
+</Design>

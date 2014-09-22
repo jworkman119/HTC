@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  DatabaseSpy Project File  -->
+<Project Version="3" Expanded="Yes" Type="Root" Title="HiTechnic_SQLite">
+	<Folder FolderName="Data Sources" Expanded="Yes" Type="DataSourceFolder">
+		<datasource import_kind="ODBC" version="3.7.7.1" name="HiTechnic_SQLite" active="Yes" Type="DataSourceItem">
+			<properties>
+				<property name="Database Kind" value="Unknown"/>
+				<property name="Import Kind" value="ODBC"/>
+				<property name="Root Object" value="X:\HiTechnic\Database\HiTechnic.sqlite"/>
+				<property name="FileDsn"/>
+				<property name="Dsn" value="HiTechnic_SQLite"/>
+				<property name="Driver"/>
+				<property name="Trusted_Connection"/>
+				<property name="App"/>
+				<property name="Server"/>
+				<property name="Database" value="X:\HiTechnic\Database\HiTechnic.sqlite"/>
+				<property name="Regional"/>
+				<property name="Languages"/>
+				<property name="Wsid"/>
+				<property name="Uid"/>
+				<property name="Pwd"/>
+				<property name="Port"/>
+				<property name="Option"/>
+				<property name="Stmt"/>
+				<property name="Driver Name" value="SQLite3 ODBC Driver"/>
+				<property name="Driver Version" value="0.91"/>
+				<property name="Driver Company" value="Christian Werner Software &amp; Consulting"/>
+				<property name="Driver File Name" value="C:\Windows\system32\sqlite3odbc.dll"/>
+				<property name="Driver Full Path" value="C:\Windows\system32\sqlite3odbc.dll"/>
+				<property name="Driver Date" value="7/11/2011"/>
+			</properties>
+			<LocalViewStorage/>
+			<LocalRelationsStorage/>
+		</datasource>
+	</Folder>
+	<Folder FolderName="SQL" Type="SQLRootFolder" database_kind="Unknown" datasource="Offline" description="Store and organize SQL files for this project." blockingstrategy="semi"/>
+	<Folder FolderName="Design" Type="DesignRootFolder" database_kind="Unknown" datasource="Offline" description="Store and organize Design files for this project."/>
+	<Folder FolderName="Data Diff" Type="DataDiffRootFolder"/>
+	<Folder FolderName="Schema Diff" Type="SchemaDiffRootFolder"/>
+	<Folder FolderName="Favorites" Type="FavoriteFolder"/>
+</Project>

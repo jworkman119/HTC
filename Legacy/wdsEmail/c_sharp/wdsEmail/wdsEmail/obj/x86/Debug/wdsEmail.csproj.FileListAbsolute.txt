@@ -1,0 +1,7 @@
+C:\Users\jeremyp.HTC\Documents\Development\Email\c_sharp\wdsEmail\wdsEmail\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jeremyp.HTC\Documents\Development\Email\c_sharp\wdsEmail\wdsEmail\bin\Debug\wdsEmail.exe
+C:\Users\jeremyp.HTC\Documents\Development\Email\c_sharp\wdsEmail\wdsEmail\bin\Debug\wdsEmail.pdb
+C:\Users\jeremyp.HTC\Documents\Development\Email\c_sharp\wdsEmail\wdsEmail\obj\x86\Debug\wdsEmail.exe
+C:\Users\jeremyp.HTC\Documents\Development\Email\c_sharp\wdsEmail\wdsEmail\obj\x86\Debug\wdsEmail.pdb
+C:\Users\jeremyp.HTC\Documents\Development\wdsEmail\c_sharp\wdsEmail\wdsEmail\obj\x86\Debug\wdsEmail.exe
+C:\Users\jeremyp.HTC\Documents\Development\wdsEmail\c_sharp\wdsEmail\wdsEmail\obj\x86\Debug\wdsEmail.pdb

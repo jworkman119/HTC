@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emailTotalHours", "emailTotalHours\emailTotalHours.csproj", "{E2F1B05B-F2BD-4C43-8D8C-66EE5FAAB969}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "setupEmailTotalHours", "..\Setup\setupEmailTotalHours\setupEmailTotalHours.vdproj", "{6C23A1A1-2471-4BBB-B5D7-7CDC39E7E0F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2F1B05B-F2BD-4C43-8D8C-66EE5FAAB969}.Debug|x86.ActiveCfg = Debug|x86
+		{E2F1B05B-F2BD-4C43-8D8C-66EE5FAAB969}.Debug|x86.Build.0 = Debug|x86
+		{E2F1B05B-F2BD-4C43-8D8C-66EE5FAAB969}.Release|x86.ActiveCfg = Release|x86
+		{E2F1B05B-F2BD-4C43-8D8C-66EE5FAAB969}.Release|x86.Build.0 = Release|x86
+		{6C23A1A1-2471-4BBB-B5D7-7CDC39E7E0F3}.Debug|x86.ActiveCfg = Debug
+		{6C23A1A1-2471-4BBB-B5D7-7CDC39E7E0F3}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

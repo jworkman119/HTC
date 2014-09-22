@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>HTC Visitor List</title>
+    <link type="text/css" href="css/jquery-ui/css/smoothness/jquery-ui-1.8.11.custom.css" rel="stylesheet" />
+    <link type="text/css" href="javascript/jqGrid/css/ui.jqgrid.css" rel="stylesheet" />
+   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.js"></script>	
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.2/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="javascript/jqGrid/js/i18n/grid.locale-en.js"></script>
+    <script type="text/javascript" src="javascript/jqGrid/js/jquery.jqGrid.min.js"></script>
+    <script type="text/javascript">    
+      $(function() {
+          $("#treegrid").jqGrid({
+              url: 'viewVisitorsDB.php?XDEBUG_SESSION_START=session_name'
+              , datatype: 'json'
+              , mtype: 'POST'
+              , colNames: ["ID", "Company","Visitor", "VisitorID", "Date", "Location", "VisitID"]
+              ,colModel: [{
+                  name: 'id',
+                  index: 'id',
+                  hidden: true,
+                  key: true
+				}
+				, {
+					 name: 'Company'
+					 , index: 'Company'
+					 , hidden: false
+					 , sortable: true
+					 , width: 200
+				}
+				,{
+					 name: 'Visitor'
+					 , index: 'Visitor'
+					 , hidden: false
+					 , sortable: true
+					 , width: 200
+				}
+				,{
+					 name: 'VisitorID'
+					 , index: 'VisitorID'
+					 , hidden: true
+					 , sortable: true
+					 
+				}
+				,{
+					 name: 'Date'
+					 , index: 'VDate'
+					 , hidden: false
+					 , sortable: true
+					 , width:150
+				}
+				,{
+					 name: 'Location'
+					 , index: 'Location'
+					 , hidden: false
+					 , sortable: true
+					 , width: 255
+				}
+				,{
+					 name: 'VisitID'
+					 , index: 'VisitID'
+					 , hidden: true
+					 , sortable: true
+				}
+			  ]
+			  , treeGridModel: 'adjacency'
+			  , height: 'auto'
+			  , shrinkToFit: true
+			  , pager: "#ptreegrid"
+			  , treeGrid: true
+			  , ExpandColumn: 'Company'
+			  , ExpandColClick: true
+			  , caption: ''
+			  
+			})
+      });
+    </script>
+    <style type="text/css">
+        body {
+          font: 62.5% "Trebuchet MS", sans-serif;
+          margin: 50px;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>HTC - Visitors</h1>
+    <table id="treegrid"></table>
+    <div id="ptreegrid"></div>
+  </body>
+</html>

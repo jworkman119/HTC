@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BillFields>
+  <Field Length="30" Start="22" Type="String">Employee</Field>
+  <Field Length="2" Start="52" Type="Integer">Region</Field>
+  <Field Length="2" Start="54" Type="Integer">Unit</Field>
+  <Field Length="8" Start="56" Type="Date">Order Date</Field>
+  <Field Length="8" Start="64" Type="Date">Credit Date</Field>
+  <Field Length="1" Start="72" Type="String">Credit/Debit</Field>
+  <Field Length="9" Start="73" Type="Currency">Allowance Purchase</Field>
+  <Field Length="9" Start="82" Type="Currency">Unit Purchase - Ship</Field>
+  <Field Length="9" Start="91" Type="Currency">Unit Purchase</Field>
+  <Field Length="9" Start="100" Type="Currency">Personal Purchases</Field>
+  <Field Length="7" Start="109" Type="Integer">Order#</Field>
+  <Field Length="4" Start="124" Type="Integer">Year</Field>
+</BillFields>

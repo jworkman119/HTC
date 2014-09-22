@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReviewCosts>
+  <Header>
+    <Month>December</Month>
+    <Year>2012</Year>
+  </Header>
+  <Body>
+    <Table>
+      <Headers>
+        <Column>
+          <Header>ADM</Header>
+        </Column>
+        <Column>
+          <Header>AVR</Header>
+        </Column>
+        <Column>
+          <Header>OMH - ACE</Header>
+        </Column>
+        <Column>
+          <Header>OMH - OISE</Header>
+        </Column>
+        <Column>
+          <Header>OPWDD</Header>
+        </Column>
+      </Headers>
+      <TableBody>
+        <Staff Name="Brandy Battease">
+          <Funds>
+            <Fund Name="ADM">
+              <Hours />
+              <Cost />
+            </Fund>
+            <Fund Name="AVR">
+              <Hours />
+              <Cost />
+            </Fund>
+            <Fund Name="OMH - ACE">
+              <Hours />
+              <Cost />
+            </Fund>
+            <Fund Name="OMH - OISE">
+              <Hours>1</Hours>
+              <Cost>$18.00</Cost>
+            </Fund>
+            <Fund Name="OPWDD">
+              <Hours />
+              <Cost />
+            </Fund>
+          </Funds>
+        </Staff>
+        <Staff Name="Jeremy Patterson">
+          <Funds>
+            <Fund Name="ADM">
+              <Hours>3.25</Hours>
+              <Cost>$60.75</Cost>
+            </Fund>
+            <Fund Name="AVR">
+              <Hours />
+              <Cost />
+            </Fund>
+            <Fund Name="OMH - ACE">
+              <Hours>3.58</Hours>
+              <Cost>$64.50</Cost>
+            </Fund>
+            <Fund Name="OMH - OISE">
+              <Hours />
+              <Cost />
+            </Fund>
+            <Fund Name="OPWDD">
+              <Hours />
+              <Cost />
+            </Fund>
+          </Funds>
+        </Staff>
+        <Staff Name="Kim Dunker">
+          <Funds>
+            <Fund Name="ADM">
+              <Hours />
+              <Cost />
+            </Fund>
+            <Fund Name="AVR">
+              <Hours />
+              <Cost />
+            </Fund>
+            <Fund Name="OMH - ACE">
+              <Hours />
+              <Cost />
+            </Fund>
+            <Fund Name="OMH - OISE">
+              <Hours />
+              <Cost />
+            </Fund>
+            <Fund Name="OPWDD">
+              <Hours />
+              <Cost />
+            </Fund>
+          </Funds>
+        </Staff>
+        <Staff Name="Peggy Metot">
+          <Funds>
+            <Fund Name="ADM">
+              <Hours />
+              <Cost />
+            </Fund>
+            <Fund Name="AVR">
+              <Hours />
+              <Cost />
+            </Fund>
+            <Fund Name="OMH - ACE">
+              <Hours />
+              <Cost />
+            </Fund>
+            <Fund Name="OMH - OISE">
+              <Hours />
+              <Cost />
+            </Fund>
+            <Fund Name="OPWDD">
+              <Hours />
+              <Cost />
+            </Fund>
+          </Funds>
+        </Staff>
+        <Staff Name="Teresa Cucchiara">
+          <Funds>
+            <Fund Name="ADM">
+              <Hours />
+              <Cost />
+            </Fund>
+            <Fund Name="AVR">
+              <Hours />
+              <Cost />
+            </Fund>
+            <Fund Name="OMH - ACE">
+              <Hours />
+              <Cost />
+            </Fund>
+            <Fund Name="OMH - OISE">
+              <Hours />
+              <Cost />
+            </Fund>
+            <Fund Name="OPWDD">
+              <Hours />
+              <Cost />
+            </Fund>
+          </Funds>
+        </Staff>
+      </TableBody>
+    </Table>
+  </Body>
+</ReviewCosts>

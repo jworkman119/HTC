@@ -1,0 +1,14 @@
+C:\Users\jeremyp.HTC\Documents\Development\Lego\C#\HiTechnic\Hitechnic_Billing\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jeremyp.HTC\Documents\Development\Lego\C#\HiTechnic\Hitechnic_Billing\bin\Debug\Hitechnic_Billing.exe
+C:\Users\jeremyp.HTC\Documents\Development\Lego\C#\HiTechnic\Hitechnic_Billing\bin\Debug\Hitechnic_Billing.pdb
+C:\Users\jeremyp.HTC\Documents\Development\Lego\C#\HiTechnic\Hitechnic_Billing\obj\x86\Debug\Hitechnic_Billing.exe
+C:\Users\jeremyp.HTC\Documents\Development\Lego\C#\HiTechnic\Hitechnic_Billing\obj\x86\Debug\Hitechnic_Billing.pdb
+C:\Users\jeremyp.HTC\Documents\Development\Lego\C#\HiTechnic\Hitechnic_Billing\obj\x86\Debug\Hitechnic_Billing.HiTecBilling.resources
+C:\Users\jeremyp.HTC\Documents\Development\Lego\C#\HiTechnic\Hitechnic_Billing\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\jeremyp.HTC\Documents\Development\Lego\C#\HiTechnic\Hitechnic_Billing\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\jeremyp.HTC\Documents\Development\Lego\C#\HiTechnic\Hitechnic_Billing\bin\Debug\ExcelLibrary.dll
+C:\Users\jeremyp.HTC\Documents\Development\Lego\C#\HiTechnic\Hitechnic_Billing\bin\Debug\System.Data.SQLite.dll
+C:\Users\jeremyp.HTC\Documents\Development\Lego\C#\HiTechnic\Hitechnic_Billing\bin\Debug\System.Data.SQLite.pdb
+C:\Users\jeremyp.HTC\Documents\Development\Lego\C#\HiTechnic\Hitechnic_Billing\bin\Debug\ClosedXML.dll
+C:\Users\jeremyp.HTC\Documents\Development\Lego\C#\HiTechnic\Hitechnic_Billing\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\jeremyp.HTC\Documents\Development\Lego\C#\HiTechnic\Hitechnic_Billing\bin\Debug\ClosedXML.xml

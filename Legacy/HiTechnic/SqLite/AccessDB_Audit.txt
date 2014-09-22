@@ -1,0 +1,19 @@
+
+
+Daily Final 3
+1.	Ship to Line1
+2.	Ship to Line2
+3.	Ship to Line3
+4.	Ship to City
+5.	First of Country Code
+6.	Telephone Nbr
+7.	Ship to State
+8.	Mast of FedEx Acc
+9.	Bill To
+10. RefNumber
+11.	SectionB_Code
+12.	Ship Method
+13.	Description 
+14.	Qty
+15.	Qty Amt
+16.	AES Number

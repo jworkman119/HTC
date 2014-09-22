@@ -1,0 +1,54 @@
+Pick Ticket
+1.  RefNumber
+2.  OrderDate
+3.  BillTo1
+4.  BillTo2
+5.  BillTo3
+6.  BillToCity
+7.  BillToZip
+8.  BillToState
+9.  BillToCountry
+10. ShipTo1
+11. ShipTo2
+12. ShipTo3
+13. ShipToCity
+14. ShipToZip
+15. ShipToState
+16. ShipToCountry
+17. ShipMethod
+18. AES
+19. Email
+20. Telephone
+21. Item#
+22. ItemDescription
+23. Qty
+24. PricePerUnit
+
+
+
+Daily Final 3
+1. RefNumber
+2. Ship To Company
+3. Ship To Contact
+4. Ship To Line 1
+5. Ship To Line 2
+6. Ship To Line 3
+7. Ship To City
+8. Ship To State
+9. First Of Country Code
+10. Telephone Number
+11. Master Of FedEx Account
+12. BillTo
+13. Section B Code
+14. Ship Method
+15. Description
+16. Qty
+17. Cust Email Address
+18. SectionB 
+19. SectionB_Description
+20. Qty
+21. Qty Amount
+22. AES Number
+
+
+ 

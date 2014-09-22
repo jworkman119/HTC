@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{28357756-DFF2-4F38-8FC5-5FFEEAAB3A3F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>frmPinnacle</RootNamespace>
+    <AssemblyName>frmPinnacle</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>\\iomega-nas\Public1\IT Department\Pinnacle\Deploy\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>PinnacleDB</ProductName>
+    <PublisherName>HTC</PublisherName>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>PinnacleIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>0532FE87CE409E6F127AFC32A72BDE560D6862B0</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>frmPinnacle_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\System.Data.SQLite\2010\bin\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddUser.Designer.cs">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adoActivityLog.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>adoActivityLog.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="assignJob.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="assignJob.Designer.cs">
+      <DependentUpon>assignJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clsDateTimePicker_Utils.cs" />
+    <Compile Include="clsDB.cs" />
+    <Compile Include="clsEmail.cs" />
+    <Compile Include="clsFormat.cs" />
+    <Compile Include="clsGridUtils.cs" />
+    <Compile Include="clsReports.cs" />
+    <Compile Include="ConsumerList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsumerList.Designer.cs">
+      <DependentUpon>ConsumerList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctlTabs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlTabs.Designer.cs">
+      <DependentUpon>ctlTabs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPinnacle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPinnacle.Designer.cs">
+      <DependentUpon>frmPinnacle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReports.Designer.cs">
+      <DependentUpon>frmReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="resPinnacle.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>resPinnacle.resx</DependentUpon>
+    </Compile>
+    <Compile Include="staffActivityLog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="staffActivityLog.Designer.cs">
+      <DependentUpon>staffActivityLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="staffAddReview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="staffAddReview.Designer.cs">
+      <DependentUpon>staffAddReview.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddUser.resx">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="assignJob.resx">
+      <DependentUpon>assignJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsumerList.resx">
+      <DependentUpon>ConsumerList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlTabs.resx">
+      <DependentUpon>ctlTabs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPinnacle.resx">
+      <DependentUpon>frmPinnacle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReports.resx">
+      <DependentUpon>frmReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="resPinnacle.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>resPinnacle.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="staffActivityLog.resx">
+      <DependentUpon>staffActivityLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="staffAddReview.resx">
+      <DependentUpon>staffAddReview.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ActivityLog.mht" />
+    <None Include="adoActivityLog.xsc">
+      <DependentUpon>adoActivityLog.xsd</DependentUpon>
+    </None>
+    <None Include="adoActivityLog.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>adoActivityLog.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="adoActivityLog.xss">
+      <DependentUpon>adoActivityLog.xsd</DependentUpon>
+    </None>
+    <None Include="frmPinnacle_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PinnacleIcon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

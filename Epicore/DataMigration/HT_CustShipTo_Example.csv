@@ -1,0 +1,13 @@
+Company,Customer ID,Ship To Num,Ship To Name,Address Line 1,Address Line 2,Address Line 3,City,State/Province,Postal Code,Country,Phone,Fax,E-mail address,Tax ID,Tax Exempt
+EPIC06,NOL1,5,CC1,Main Av,Second AV,Kearny Mesa,San Diego,CA,67889,10-algo,876666,54556555644,sales@puchu.com,TB1,222
+EPIC06,aja,1,E3,Main Av,Second AV,Kearny Mesa,San Diego,CA,70909,10-algo,876666,54556555644,sales@puchu.com,TB1,111
+EPIC06,NOL1,56,BB1,Main Av,Second AV,Kearny Mesa,San Diego,CA,70909,22-algo,876666,54556555644,sales@puchu.com,TB1,111
+EPIC06,NOL1,7,CC2,Main Av,Second AV,Kearny Mesa,San Diego,CA,99889,10-algo,876666,54556555644,sales@puchu.com,TB112345678987654321234,333
+EPIC06,NOL1,8,CC2,Main Av,Second AV,Kearny Mesa,San Diego,CA,99889,10-algo,876666,54556555644,sales@puchu.com,TB1,4321
+,NOL1,9,CC2,Main Av,Second AV,Kearny Mesa,San Diego,CA,99889,10-algo,876666,54556555644,sales@puchu.com,TB1,4321
+xxx,NOL1,10,CC2,Main Av,Second AV,Kearny Mesa,San Diego,CA,99889,10-algo,876666,54556555644,sales@puchu.com,TB1,4321
+EPIC06,,11,CC2,Main Av,Second AV,Kearny Mesa,San Diego,CA,99889,10-algo,876666,54556555644,sales@puchu.com,TB1,4321
+EPIC06,NOL1,,CC2,Main Av,Second AV,Kearny Mesa,San Diego,CA,99889,10-algo,876666,54556555644,sales@puchu.com,TB1,4321
+EPIC06,NOL1,12,,Main Av,Second AV,Kearny Mesa,San Diego,CA,99889,10-algo,876666,54556555644,sales@puchu.com,TB1,4321
+EPIC06,NOL1,13,CC2,Main Av,Second AV,Kearny Mesa,San Diego,CA,99889,,876666,54556555644,sales@puchu.com,TB1,4321
+EPIC06,NOL1,5,CC1,Main Av,Second AV,Kearny Mesa,San Diego,CA,67889,10-algo,876666,54556555644,sales@puchu.com,TB1,222
