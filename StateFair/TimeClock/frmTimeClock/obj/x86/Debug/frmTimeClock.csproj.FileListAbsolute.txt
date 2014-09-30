@@ -10,3 +10,5 @@ C:\Users\jeremyp.HTC\Documents\Development\TimeClock\frmTimeClock\bin\Debug\Syst
 C:\Users\jeremyp.HTC\Documents\Development\TimeClock\frmTimeClock\bin\Debug\System.Data.SQLite.Linq.pdb
 C:\Users\jeremyp.HTC\Documents\Development\TimeClock\frmTimeClock\obj\x86\Debug\frmTimeClock.csprojResolveAssemblyReference.cache
 C:\Users\jeremyp.HTC\Documents\Development\TimeClock\frmTimeClock\obj\x86\Debug\frmTimeClock.csproj.GenerateResource.Cache
+C:\Users\jeremyp.HTC\Documents\Development\StateFair\TimeClock\frmTimeClock\obj\x86\Debug\frmTimeClock.exe
+C:\Users\jeremyp.HTC\Documents\Development\StateFair\TimeClock\frmTimeClock\obj\x86\Debug\frmTimeClock.pdb
