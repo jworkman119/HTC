@@ -1,0 +1,193 @@
+
+
+div#Search
+{
+  /* margin-left: 50px;*/
+    height: 40px;
+    width:400px;
+
+}
+
+
+label#lblWorker, button#butSubmit, #searchBox
+{
+    margin-left:15px;
+    margin-top:20px;
+}
+
+#Details
+{
+
+
+    width:760px;
+    height: 250px;
+
+
+}
+
+div#AccordianWrapper
+{
+
+    width: 800px;
+    margin-left:5em;
+}
+
+div#Schedule
+{
+    width:760px;
+    height: 600px;
+}
+
+#butSchedule
+{
+    float:left;
+}
+
+label.label
+{
+    display: inline-block;
+    width: 75px;
+    margin-bottom: 20px;
+}
+
+#Details.textbox
+{
+    type:text;
+}
+
+#BasicInfo
+{
+ /*   margin-left: 50px; */
+    height:280px;
+}
+
+#lblStatus
+{
+    margin-left: 75px;
+    height:35px;
+}
+
+#pictureBox
+{
+   margin-left: 100px;
+    height:150px;
+    width:150px;
+    margin-top:20px
+}
+
+#name, #Job
+{
+    display:inline-block;
+    margin-top: 30px;
+    width: 300px;
+    font-weight: bold;
+    margin-left:20px;
+    font-size: 12px;
+    margin-left: 125px;
+}
+
+#tblSchedule
+{
+    border-collapse: collapse;
+    border: 1px solid white;
+    width:100%;
+}
+
+.Col
+{
+    padding: 7px;
+    border: 1px solid lightgray;
+    font-size: 9px;
+    font-family: tahoma, verdana, arial, sans-serif;;
+
+}
+
+td.header
+{
+    font-family: tahoma, verdana, arial, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;;
+    font-size: 10;
+
+}
+
+td.noBorder, td.tdEdit, td.tdDelete
+{
+    border-bottom: 1px solid lightgray;
+    border-right: none;
+    border-left: none;
+    width:20px;
+}
+
+td.hdrNoBorder
+{
+    border-bottom: 1px solid lightgray;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+tr.odd
+{
+    background-color: #f5f5f5;
+}
+
+tr.even
+{
+    background-color:  white;
+}
+
+#tblForm
+{
+    border: none;
+}
+
+.tdForm
+{
+    border: none;
+    font-family: tahoma, verdana, arial, sans-serif;
+    font-size: 12;
+}
+
+td.ID, #hdrID
+{
+
+    display: none;
+
+}
+
+.ui-dialog, .ui-button-text, .ui-dialog-titlebar
+{
+    font-size: 10px;
+
+}
+
+.ui-autocomplete.ui-widget
+{
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 10px;
+}
+
+#lblTiAmPm, #lblToAmPm
+{
+    color: #ff030d;
+    border: none;
+}
+#trTiAmPm, #trToAmPm
+{
+    display:none;
+}
+
+
+.spinner {
+    position: fixed;
+    top: 65%;
+    left: 20%;
+    margin-top: -50px; /* half height of the spinner gif */
+    text-align:center;
+    z-index:1234;
+    overflow: auto;
+    width: 100px; /* width of the spinner gif */
+    height: 102px; /*hight of the spinner gif +2px to fix IE8 issue */
+}

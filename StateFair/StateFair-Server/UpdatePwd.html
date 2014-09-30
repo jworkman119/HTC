@@ -1,0 +1,229 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>HTC - State Fair - Login Page</title>
+
+
+    <!-- JQuery -->
+    <link type="text/css" href="http://code.jquery.com/ui/jquery-ui-git.css" rel="stylesheet"/>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/jquery-ui-git.js"></script>
+    <script src="./javascript/JQuery/jquery.md5.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+           $('#UserName').focus();
+
+           $('#PassWordIssue').hide();
+           $('#TechIssue').hide();
+           $('input[name="textbox"]').addClass("idleField");
+           $('input[name="textbox"]').focus(function() {
+                $(this).removeClass("idleField").addClass("focusField");
+
+                if(this.value != this.defaultValue){
+                    this.select();
+                }
+            });
+            $('input[name="textbox"]').blur(function() {
+                $(this).removeClass("focusField").addClass("idleField");
+
+            });
+
+            $('#Enter').click(function() {
+                var Pass1= $("#password").val();
+                var Pass2= $("#confirm").val();
+                var Check = checkPassWords(Pass1,Pass2);
+                if(Check==true)
+                {
+                    var SQL = returnSQL($('#UserName').val(), $('#password').val());
+                    callDatabase(SQL);
+                }
+                else
+                {
+                    $( "PasswordIssue" ).dialog({
+                        height: 140,
+                        modal: true
+                    });
+                    clearPage();
+                }
+            });
+
+        });
+
+        function returnSQL(strUserName, strPwd)
+        {
+            strPwd = $.md5(strPwd);
+            var strSQL = "SQL=call updatePassword ('" + strUserName + "', '" + strPwd + "')&Type=scalar";
+            return strSQL;
+        }
+
+        function callDatabase(strSQL)
+        {
+            var objXHR = $.ajax({
+                type: 'Post'
+                , url: "./php/Login.php"
+                , data: strSQL
+                , dataType: 'json'
+                , complete: function(objXHR)
+                {
+                    var Response = processResponse(objXHR.responseText);
+                    if(Response=='Success')
+                    {
+                        window.location='MainPage.html'
+                    }
+                    else
+                    {
+                        $("#TechIssue" ).dialog({
+                        height: 140,
+                        modal: true
+                        });
+
+                        window.location='Login.html'
+                    }
+                }
+            });
+
+        }
+
+        function processResponse(strResponse)
+        {
+            var Value = strResponse.indexOf('>');
+            strResponse = strResponse.substring(Value + 2, strResponse.length);
+            return strResponse;
+        }
+
+        function clearPage()
+        {
+            $('input[name="textbox"]').val('');
+            $('#UserName').focus();
+        }
+
+        function checkPassWords(strPass1,strPass2)
+        {
+            var Pass;
+            if(strPass1==strPass2)
+            {
+                Pass = true;
+            }
+            else
+            {
+                Pass = false;
+            }
+
+            return Pass;
+        }
+    </script>
+
+    <style type="text/css">
+        label{
+            float: left;
+            width: 10em;
+            text-align: right;
+            clear: left;
+            margin-right: 10px;
+            margin-bottom: 14px;
+            font-weight: bold;
+        }
+
+        input{
+             float: left;
+             width: 10em;
+             margin-bottom: 10px;
+        }
+
+        input:focus{
+            background-color: #e0ffff;
+
+        }
+
+        button{
+             width: 100px;
+             height: 25px;
+
+        }
+        fieldset{
+            width:  25em;
+        }
+
+        div#Header{
+            width:  25em;
+        }
+
+        div#Labels{
+            width: 10em;
+            float: left;
+        }
+
+        div#Input{
+            float: left;
+            margin-left: 2em;
+            width: 10em;
+        }
+
+        div#button{
+
+            margin-left: 13em;
+            margin-top: 5em;
+        }
+
+        .focusField{
+            border:solid 2px #73A6FF;
+            background:#EFF5FF;
+            color:#000;
+        }
+        .idleField{
+            background:#EEE;
+            color: #6F6F6F;
+            border: solid 2px #DFDFDF;
+        }
+
+
+    </style>
+
+
+</head>
+
+<body>
+
+        <div>
+            <img src="./images/HTC_logo-small.png"/>
+            <img src="./images/NYS-Fair2.jpg" width="100" height="100" />
+        </div>
+
+        <fieldset>
+            <input type='hidden' name='submitted' id='submitted' value='1'/>
+            <legend>Update Password</legend>
+
+                <div id='Labels'>
+
+                    <label for='username' >UserName:</label>
+                    <br>
+                    <label for='password' >Password:</label>
+                    <br>
+                    <label for='confirm' >Confirm:</label>
+                </div>
+                <div id='Input'>
+                    <input  type='text' name='textbox' id='UserName' class='ui-state-default ui-corner-all'  maxlength="50" />
+                    <br>
+                    <input  type='password' name='textbox' id='password' class='ui-state-default ui-corner-all' maxlength="50" />
+                    <br>
+                    <input  type='password' name='textbox' id='confirm' class='ui-state-default ui-corner-all' maxlength="50" />
+                </div>
+
+            <div id='button'>
+                <button id='Enter' name='Enter' class='ui-state-default ui-corner-all' type='submit'>Enter</button>
+            </div>
+
+        </fieldset>
+
+        <div id="PassWordIssue" name="Error">
+            <p>Your passwords don't match.</p>
+        </div>
+        <div id="TechIssue" name="Error">
+            <p>There is a technical issue. Try again, if problem persists, contact IT - (315)724-9891.</p>
+        </div>
+
+
+</body>
+</html>

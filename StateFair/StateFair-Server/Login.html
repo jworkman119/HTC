@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<!-- localhost/StateFair/Login.html?XDEBUG_SESSION_START=default -->
+<html>
+<head>
+    <title>HTC - State Fair - Login Page</title>
+
+
+    <!-- JQuery -->
+    <link type="text/css" href="http://code.jquery.com/ui/jquery-ui-git.css" rel="stylesheet"/>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/jquery-ui-git.js"></script>
+    <script src="./javascript/JQuery/jquery.md5.js"></script>
+
+    <link type="text/css" href="./css/Login.css" rel="stylesheet"/>
+    <script src="./javascript/Login.js"></script>
+</head>
+
+<body>
+
+        <div>
+            <img id='htc' src="./images/HTC_Logo.jpg"/>
+            <img id='StateFair' src="./images/StateFair_2014.png" width="100" height="100"  />
+        </div>
+
+        <fieldset>
+            <input type='hidden' name='submitted' id='submitted' value='1'/>
+            <legend>Login</legend>
+
+                <div id='Labels'>
+
+                    <label for='username' >UserName:</label>
+                    <br>
+                    <label for='password' >Password:</label>
+                </div>
+                <div id='Input'>
+                    <input  type='text' name='textbox' id='UserName' class='ui-state-default ui-corner-all'  maxlength="50" />
+                    <br>
+                    <input  type='password' name='textbox' id='password' class='ui-state-default ui-corner-all' maxlength="50" />
+
+
+                </div>
+
+            <div id='button'>
+                <button id='Enter' name='Enter' class='ui-state-default ui-corner-all' type='submit'>Enter</button>
+            </div>
+
+        </fieldset>
+
+        <div id="WrongPwd" name="Error" title="Error">
+            <p>You have entered the wrong Username or password.</p>
+        </div>
+
+        <div id="Update" name="Error" title="Error">
+            <p>You must update your password.</p>
+        </div>
+</body>
+</html>

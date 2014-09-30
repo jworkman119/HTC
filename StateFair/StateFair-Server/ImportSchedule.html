@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Download or Upload the Schedule</title>
+
+    <!-- JQuery -->
+<!--
+        <link type="text/css" href="http://code.jquery.com/ui/jquery-ui-git.css" rel="stylesheet"/>
+
+
+        <script src="http://code.jquery.com/jquery.min.js"></script>
+
+        <script src="./javascript/JQuery/jquery.min.js"></script>
+        <script src="http://code.jquery.com/ui/jquery-ui-git.js"></script>
+-->
+        <script src="./javascript/FileUpload/jquery.iframe-transport.js"></script>
+        <script src="./javascript/FileUpload/jquery.fileupload.js"></script>
+
+        <script src="./javascript/ImportSchedule.js"></script>
+    <!-- CSS -->
+    <style type="text/css">
+        div#Toggle
+        {
+            margin-left:11em;
+        }
+
+
+        label
+        {
+ /*           float: left;
+            width: 10em; */
+            text-align: right;
+    /*        clear: left; */
+            margin-right: 15px;
+        }
+
+        button#Upload
+        {
+            margin-left: 11.2em;
+            margin-top: 10px;
+        }
+/*
+        td
+        {
+            padding-left:15px;
+        }
+*/
+        table#tblUpload
+        {
+            border-collapse: collapse;
+        }
+
+        td.tblUpload
+        {
+            border: none;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+
+        <div id="Upload">
+                <label>Select Schedule: </label>
+                <input id="file_upload"class="ui-corner-all" type="file" name="files[]" accept="application/vnd.ms-excel" />
+
+        </div>
+        <div id="Parse">
+            <label>Select the days on the schedule you wish to upload:</label>
+            <table  id="tblUpload">
+                <tr>
+                    <td class="tblUpload">Start Date:</td>
+                    <td class="tblUpload"><input type="text" id="StartDay" /></td>
+                </tr>
+                <tr>
+                    <td class="tblUpload">End Date:</td>
+                    <td class="tblUpload"> <input type="text" id="EndDay" /></td>
+                </tr>
+                <tr>
+                    <td class="tblUpload">
+                        <b>
+                            <button id="butUpdate" class="ui-corner-all">Update Schedule</button>
+                        </b>
+                    </td>
+                </tr>
+            </table>
+
+
+
+        </div>
+        <div id="Finish">
+                <p id="lblWait">The system is currently uploading the schedule to the database.</p>
+
+        </div>
+
+</body>
+</html>

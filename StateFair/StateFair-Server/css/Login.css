@@ -1,0 +1,65 @@
+label{
+    float: left;
+    width: 10em;
+    text-align: right;
+    clear: left;
+    margin-right: 10px;
+    margin-bottom: 14px;
+    font-weight: bold;
+}
+
+input{
+    float: left;
+    width: 10em;
+    margin-bottom: 10px;
+}
+
+input:focus{
+    background-color: #e0ffff;
+
+}
+
+button{
+    width: 100px;
+    height: 25px;
+
+}
+fieldset{
+    width:  25em;
+}
+
+div#Header{
+    width:  25em;
+}
+
+div#Labels{
+    width: 10em;
+    float: left;
+}
+
+div#Input{
+    float: left;
+    margin-left: 2em;
+    width: 10em;
+}
+
+div#button{
+
+    margin-left: 13em;
+    margin-top: 5em;
+}
+
+.focusField{
+    border:solid 2px #73A6FF;
+    background:#EFF5FF;
+    color:#000;
+}
+.idleField{
+    background:#EEE;
+    color: #6F6F6F;
+    border: solid 2px #DFDFDF;
+}
+
+img#StateFair{
+    margin-left: 6em;
+}
