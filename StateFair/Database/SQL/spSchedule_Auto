@@ -1,0 +1,29 @@
+Create Procedure spSchedule_Auto(strName varchar(75), strDate varchar(15), strShift varchar(35), strSupervisor varchar(75), strJob varchar(15))
+Begin
+
+	Declare intSchedule int;
+	Declare strRole char(3);
+
+	select Schedule.ID
+		, Person.Role_ID
+	Into
+		intSchedule
+		, strRole
+	From Schedule
+		Join Person on Schedule.Person_ID = Person.ID
+		Join Shift on Schedule.Shift_ID = Shift.ID
+	Where concat(Firstname,' ',LastName) = strName
+		and Day = strDate;
+		
+		If (intSchedule is Not Null) Then
+			Call updateSchedule(intSchedule,strRole,strSupervisor,strJob);
+		ElseIf (intSchedule is NULL AND strRole = 'jan')  Then
+			Call addWorkerSchedule_Auto(strName, strDate, strShift, strSupervisor, strJob);
+		ElseIf (intSchedule is NULL AND strRole = 'sup') Then
+			Call addSupervisorSchedule_Auto(strName, strDate, strShift, strSupervisor, strJob);
+		End If;
+		
+End;
+
+
+

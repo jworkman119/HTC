@@ -1,0 +1,19 @@
+/*
+
+  drop view vwSupSchedule
+*/
+
+CREATE VIEW vwSupSchedule 
+
+AS 
+
+Select concat(Person.FirstName,' ',Person.LastName) AS Supervisor
+  ,Person.ID AS Worker_ID
+  ,Schedule.ID AS Schedule_Id
+  ,Schedule.Day AS Day
+  ,Schedule.TimeIn AS TimeIn,Schedule.TimeOut AS TimeOut
+  ,Schedule.Zone_ID AS Zone_ID
+  ,Schedule.Hours AS Hours 
+From Schedule 
+  Join Person on Schedule.Person_ID = Person.ID
+Where Person.Role_ID = 'sup'

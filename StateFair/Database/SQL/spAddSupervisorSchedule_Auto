@@ -1,0 +1,26 @@
+CREATE PROCEDURE addSupervisorSchedule_Auto( strName varchar(75), strDate varchar(15), strShift varchar(35), strSupervisor varchar(75), strJob varchar(15))
+Begin
+	Insert into Schedule(Person_ID,Day,Shift_ID, Supervisor_ID, Job_ID)		
+	Select Person.ID 
+		, strDate 
+		, Shift.ID as Shift_ID
+		, Supervisor.ID
+		, Job.ID 
+	From Person
+		, Shift
+		, Job
+	Where	concat(Person.FirstName, ' ', Person.LastName) = strName
+		and Person.Role_ID = 'sup'
+		and Shift.Name = strShift
+		and Job.Name = strJob
+		and Job.Role_ID = 'sup';
+End;
+
+
+
+	
+
+
+
+
+

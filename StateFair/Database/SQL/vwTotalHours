@@ -1,0 +1,13 @@
+Create View vwTotalHours
+
+as
+
+		select Person_Id
+			, Sec_To_Time(Sum(Time_To_Sec(TimeDiff(TimeOut, TimeIn)))) as TotalHours
+		From Time
+		Group by person_id
+		Order by Person_ID
+		
+		
+		
+		

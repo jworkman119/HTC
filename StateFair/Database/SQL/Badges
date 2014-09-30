@@ -1,0 +1,25 @@
+Select Person.ID 
+	, concat(Person.FirstName, ' ', Person.LastName) as person
+	, Role.Description as Role
+	, concat('x:\\', Person.FirstName, ' ', Person.LastName, '.jpg') as PicPath
+From Person
+	Join Role on Person.Role_ID = Role.ID
+Where Person.ID in
+(
+3613
+, 7799
+,10359
+, 3930
+, 10359
+, 3825
+)
+
+select *
+from Person
+where lastname in
+('Evans'
+, 'Ranieri'
+, 'Battle'
+, 'Barclay'
+, 'Owens'
+)

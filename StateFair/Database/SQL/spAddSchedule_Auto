@@ -1,0 +1,50 @@
+Drop Procedure addSchedule_Auto
+
+CREATE PROCEDURE addSchedule_Auto( strName varchar(75), strDate varchar(15), intShift int, strSupervisor varchar(75), strJob varchar(20))
+Begin
+	if (strSupervisor is Null) then
+		Insert into Schedule(Person_ID,Day,Shift_ID,  Job_ID, Hours)		
+		Select Person.ID 
+			, strDate 
+			, Shift.ID
+			, Job.ID 
+			, Shift.Hours
+		From Person
+			, Job
+			, Shift
+		Where	concat(Person.FirstName, ' ', Person.LastName) = strName
+			and Person.Role_ID = 'sup'
+			and Job.Job = strJob
+			and Job.Role_ID = 'sup'
+			and Shift.ID = intShift;
+	else
+		Insert into Schedule(Person_ID,Day,Shift_ID, Supervisor_ID, Job_ID, Hours)		
+		Select Person.ID 
+			, strDate 
+			, Shift.ID
+			, Supervisor.ID
+			, Job.ID 
+			, Shift.Hours
+		From Person
+			, Shift
+			, Person as Supervisor
+			, Job
+		Where	concat(Person.FirstName, ' ', Person.LastName) = strName
+			and Person.Role_ID = 'jan'
+			and concat(Supervisor.FirstName, ' ', Supervisor.LastName) = strSupervisor
+			and Job.Job = strJob
+			and Job.Role_ID = 'jan'
+			and Shift.ID = intShift;		
+	End if;		
+End;
+
+
+
+	
+call addSchedule_Auto('Roosevelt Brice','2011-08-29',5,'Arlene Barton','Bathroom')
+
+
+
+
+
+

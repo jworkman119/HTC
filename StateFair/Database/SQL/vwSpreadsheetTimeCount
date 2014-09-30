@@ -1,0 +1,44 @@
+-- Drop view vwSpreadsheetTimeCount
+Create View vwSpreadsheetTimeCount
+
+as
+
+select  Schedule.TimeIn
+	,Schedule.TimeOut
+	, Day
+	, Count(TimeIn) as Total
+	, Case 
+		When (Schedule.TimeIn>='23:00:00' or Schedule.TimeIn<'05:30:00') then
+			'Overnight'
+	When (Schedule.TimeIn>='05:30:00' and Schedule.TimeIn<'12:00:00') then
+		'Morning'
+	When (Schedule.TimeIn>='12:00:00' and Schedule.TimeIn<'23:00:00') then
+		'Night'
+	End as Shift
+	, Zone_ID
+from Schedule
+Group By Zone_ID, TimeIn,TimeOut,Day
+order by Shift,TimeIn, Day
+
+/*****/
+select TimeIn
+	, TimeOut
+	,Max(Total) as Rows
+	, Zone_ID
+	,Shift
+from vwSpreadsheetTimeCount
+Group by Zone_ID, TimeIn,TimeOut, Shift 
+Order by Shift, Zone_ID, TimeIn
+
+
+select *
+from vwSpreadsheetTimeCount
+
+select *
+from Schedule
+where Schedule.TimeIn>='12:00:00' 
+	and Schedule.TimeIn<'23:00:00'
+	
+Select *
+from Schedule
+Where Day = '2013-08-29'	
