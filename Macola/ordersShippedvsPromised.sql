@@ -9,8 +9,8 @@ Select Distinct OE.Ord_No
 from oehdrhst_sql as OE
 	join oelinhst_sql as OE2 on OE.ord_no = OE2.ord_no
 	join cicmpy as Customers on OE.cus_no = Customers.cmp_code
-Where OE.ord_dt_shipped >= '2014-08-01'
-	and OE.ord_dt_shipped <= '2014-08-31'
+Where OE.ord_dt_shipped >= '2014-09-01'
+	and OE.ord_dt_shipped <= '2014-09-30'
 order by ShipDate
 
 

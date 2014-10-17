@@ -21,8 +21,9 @@ from HD_TICKET as ticket
 				group by HD_TICKET_ID
 			) Comments on Comments.ID = ticket.ID
 WHERE 
-	Owner.FULL_NAME = 'Jeremy Patterson'
-	and Submitter.FULL_NAME = 'Rebekah Sebastian'
+	Submitter.FULL_NAME = 'Sara Nobis'
+--	Owner.FULL_NAME = 'Jeremy Patterson'
+--	and 
 	
 order by ticket.CREATED DESC
 

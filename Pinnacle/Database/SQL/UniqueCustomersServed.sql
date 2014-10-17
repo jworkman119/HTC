@@ -10,8 +10,8 @@ Select Distinct
 	, Sum(ReviewCost.Hours) as Hours
 From ReviewCost
 	Join Consumer on ReviewCost.Consumer_ID = Consumer.ID
-Where ReviewCost.Date >= '2014-04-01'
-	and ReviewCost.Date <= '2014-06-30'
+Where ReviewCost.Date >= '2014-07-01'
+	and ReviewCost.Date <= '2014-09-30'
 	and Consumer.Created < '2013-11-26'
 and rtrim(ReviewCost.Funding_ID) not in ('116','')
 and Consumer_ID not in (460,461)
@@ -31,8 +31,8 @@ Select Distinct
 	, Sum(ReviewCost.Hours) as Hours
 From ReviewCost
 	Join Consumer on ReviewCost.Consumer_ID = Consumer.ID
-Where ReviewCost.Date >= '2014-04-01'
-	and ReviewCost.Date <= '2014-06-30'
+Where ReviewCost.Date >= '2014-07-01'
+	and ReviewCost.Date <= '2014-09-30'
 	and Consumer.Created < '2013-11-26'
 and rtrim(ReviewCost.Funding_ID) not in ('116','')
 and Consumer_ID not in (460,461)
@@ -70,8 +70,8 @@ Select  Consumer.FirstName || ' ' || Consumer.LastName as Consumer
 From ReviewCost
 	Join Consumer on ReviewCost.Consumer_ID = Consumer.ID
 	Join Staff on ReviewCost.Staff_ID = Staff.ID
-Where ReviewCost.Date >= '2014-04-01'
-	and ReviewCost.Date <= '2014-06-30'
+Where ReviewCost.Date >= '2014-07-01'
+	and ReviewCost.Date <= '2014-09-30'
 	and Consumer.Created < '2013-11-26'
 and rtrim(ReviewCost.Funding_ID) not in ('116','')
 and Consumer_ID not in (460,461)

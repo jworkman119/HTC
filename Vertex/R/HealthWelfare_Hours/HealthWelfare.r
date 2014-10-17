@@ -1,5 +1,5 @@
-StartDay="3-16-2014"
-EndDay="6-21-2014"
+StartDay="6-22-2014"
+EndDay="9-13-2014"
 
 # Retrieving sql
 library(stringr)

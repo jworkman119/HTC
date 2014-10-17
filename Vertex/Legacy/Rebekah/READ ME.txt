@@ -1,0 +1,15 @@
+In order to generate this report, you must export the data from Vertex and import the data into SQLite. Vertex is an Interbase database
+dating back to 1998 and it doesn't support many of the functions and formatting in the SQL 96 spec. It is particularly slow when trying to 
+join tables.
+
+1. Query Vertex database using Queries_Vertex.sql, substitute the dates, with the dates requested in the email.
+	a. You will get two result sets: Earnings, HealthWelfare
+	b. Save both result sets to csv files (Earnings.csv, HealthWelfare)
+2. Import *.csv files into SQLite database
+	a. drop the two pre-existing tables tables in the db: Earnings, HealthWelfare (you may want to do a select * on each to get a feel for the layout and check the datatypes).
+	b. Create two tables: Earnings, HealthWelfare.
+	c. make sure you set the field data types or else you won't be able to apply the aggregate functions (sum, avg, etc).
+	d. I like the SQLite Manager - Firefox plugin to import the data.
+3. Query the sqlite database you just created, using the two queries in the Queries_sqlLite.sql
+	a. Export the results from each query to an excel file, name them accordingly: Earnings.xls, HealthWelfare.xls.
+4. Email to the person requesting the data (most likely Rebekah).	

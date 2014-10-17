@@ -1,1 +1,0 @@
-"c:\Program Files\R\R-2.15.2\bin\Rscript.exe" "C:\Users\jeremyp.HTC\Documents\Development\Vertex\R\HealthWelfare\HealthWelfare.r"

@@ -1,0 +1,11 @@
+Two SQL Server odbc connections are needed:
+
+1. VertexCloud - sqlServer DB
+IP = vcloudreports.vertexsystems.com   
+username = 1403reports
+pwd = 2260@Dwyer!!
+
+2. EpicorHCM - sqlServer DB
+Integrated Windows authentication = htc\epicadmin
+password = 1YcYrwzr
+default db = HCM27543

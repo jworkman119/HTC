@@ -1,0 +1,19 @@
+select Wages.Employee
+		, Wages.EmpNo
+		, Wages.Department
+		, Wages.JobNo
+		, Wages.Job
+		, Round(sum(Wages.Earnings), 2) as Earnings
+		, Round(sum(Wages.Hours), 2) as Hours
+		, HW.HW
+from HW
+	Join Wages on HW.EmpNo = Wages.EmpNo
+	and HW.JobNo = Wages.JobNo
+group by
+		Wages.Employee
+		, Wages.EmpNo
+		, Wages.Department
+		, Wages.JobNo
+		, Wages.Job
+		, HW.HW 
+		

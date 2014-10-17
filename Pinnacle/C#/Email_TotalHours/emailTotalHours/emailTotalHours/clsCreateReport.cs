@@ -17,6 +17,7 @@ namespace emailTotalHours
         {
             string strMonth = System.DateTime.Now.Month.ToString();
             int Month = returnMonth(strMonth);
+            Month = 8;
             string Year = returnYear(Month.ToString());
             List<string> Files = new List<string>();
             clsDB objDB = new clsDB(staticVariables.dbPath);
